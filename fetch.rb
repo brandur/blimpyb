@@ -18,6 +18,9 @@ def download_file(source_url, target_file)
   end
 
   status, body, _final_url = get_url(source_url, raise_error: false)
+  if status != 200 && status != 404
+    raise("bad status: #{status}")
+  end
   if status == 404
     puts "URL not found: #{source_url} / #{target_file}"
     return false
