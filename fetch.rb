@@ -67,7 +67,8 @@ end
 def replace_images(content, slug_with_date)
   images = []
 
-  content.gsub!(%r{^\[!\[\]\((.*) "(.*)"\)\]\((.*)\)$\n\n^(.*)$}) do |match|
+  content.gsub!(%r{^\[!\[\]\((.*?) "(.*)"\)\]\((.*)\)$\n\n^(.*)$}) do |match|
+    # puts "FULL: #{match}"
     thumbnail_url = $1
     alt_text = $2
     full_url = $3
@@ -146,7 +147,14 @@ def process_entry(entry_url, title)
 
   puts "\n\n---\n#{title} (#{slug})\n---\n\n"
 
-  _status, entry_body, final_entry_url = get_url(entry_url)
+  status, entry_body, final_entry_url = get_url(entry_url, raise_error: false)
+  if status == 404
+    puts "ENTRY IS GONE: #{title} / #{entry_url}"
+    return
+  end
+  if status != 200
+    raise("bad status: #{resp.status}")
+  end
 
   entry_html = Nokogiri::HTML(entry_body)
 
@@ -163,13 +171,6 @@ def process_entry(entry_url, title)
   entry_content = entry_html.css('.entry').to_html
   entry_content = sanitize_content(entry_content)
   entry_content = replace_images(entry_content, slug_with_date)
-
-=begin
-  entry_html.css('.entry').each do |entry_element|
-    puts "found entry"
-    i = 0
-  end
-=end
 
   toml_data = TOML::Generator.new({
     "title" => title,
@@ -212,8 +213,8 @@ def main
       entry_num += 1
 
       # used to ratchet what we're looking at right now for speed
-      next if entry_num < 8
-      (done = true) && break if entry_num > 9
+      next if entry_num < 14
+      (done = true) && break if entry_num > 20
 
       entry_url = element.attributes["href"]
       title = element.text
