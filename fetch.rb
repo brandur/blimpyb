@@ -100,12 +100,21 @@ def sanitize_content(content)
 
   content.gsub!(/^Popularity:.*$/, '')
 
-  # content.gsub!("\r", "\n")
+  content.gsub!(%r{_ \*\*([^\*]+)\*\* _}, '_**\1**_')
 
   # kill double spacing in sentences
   content.gsub!(/&nbsp; /, ' ')
 
   content = Sanitize.fragment(content, Sanitize::Config::RESTRICTED)
+
+  # fix blockquotes mauled by Sanitiz
+  content.gsub!(%r{^&gt; }, '> ')
+
+  # fix lists inside of blockquotes
+  content.gsub!(%r{> -}, '> * ')
+
+  # get rid of blockquotes with empty space after them
+  content.gsub!(%r{>\s+$}, '>')
 
   # collapse multiple newlines
   content.gsub!(%r{(\s*\n\s*){2,}}, "\n\n")
