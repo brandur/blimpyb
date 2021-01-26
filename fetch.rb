@@ -128,72 +128,87 @@ def sanitize_content(content)
   content
 end
 
-# inclusive
-for i in 1..MAX_PAGE do
-  url = if i == 1
-    BASE_URL
-  else
-    BASE_URL + "page/#{i}/"
+def process_entry(entry_url, title)
+  path_segments = entry_url.value.split("/")
+  slug = path_segments[path_segments.count - 2]
+
+  puts "\n\n---\n#{title} (#{slug})\n---\n\n"
+
+  _status, entry_body, final_entry_url = get_url(entry_url)
+
+  entry_html = Nokogiri::HTML(entry_body)
+
+  published_at = nil
+  entry_html.css('#content .post .clock').each do |clock_element|
+    #  e.g. " On February - 2 - 2012"
+    published_at = Time.strptime(clock_element.text, " On %B - %d - %Y")
   end
 
-  _status, body, _final_url = get_url(url)
+  raise "no published_at for #{slug}!" if published_at.nil?
 
-  html = Nokogiri::HTML(body)
-  html.css('.boxpost h2 a').each_with_index do |element, j|
-    entry_url = element.attributes["href"]
-    path_segments = entry_url.value.split("/")
-    slug = path_segments[path_segments.count - 2]
-    title = element.text
+  slug_with_date = "#{published_at.strftime("%Y-%m-%d")}-#{slug}"
 
-    puts "\n\n---\n#{title} (#{slug})\n---\n\n"
-
-    _status, entry_body, final_entry_url = get_url(entry_url)
-
-    entry_html = Nokogiri::HTML(entry_body)
-
-    published_at = nil
-    entry_html.css('#content .post .clock').each do |clock_element|
-      #  e.g. " On February - 2 - 2012"
-      published_at = Time.strptime(clock_element.text, " On %B - %d - %Y")
-    end
-
-    raise "no published_at for #{slug}!" if published_at.nil?
-
-    slug_with_date = "#{published_at.strftime("%Y-%m-%d")}-#{slug}"
-
-    entry_content = entry_html.css('.entry').to_html
-    entry_content = sanitize_content(entry_content)
-    entry_content = replace_images(entry_content, slug_with_date)
+  entry_content = entry_html.css('.entry').to_html
+  entry_content = sanitize_content(entry_content)
+  entry_content = replace_images(entry_content, slug_with_date)
 
 =begin
-    entry_html.css('.entry').each do |entry_element|
-      puts "found entry"
-      i = 0
-    end
+  entry_html.css('.entry').each do |entry_element|
+    puts "found entry"
+    i = 0
+  end
 =end
 
-    toml_data = TOML::Generator.new({
-      "title" => title,
-      "published_at" => published_at.to_datetime.rfc3339,
-      "wayback_machine_url" => final_entry_url,
-    }).body
+  toml_data = TOML::Generator.new({
+    "title" => title,
+    "published_at" => published_at.to_datetime.rfc3339,
+    "wayback_machine_url" => final_entry_url,
+  }).body
 
-    filename = "#{ARTICLES_PATH}/#{slug_with_date}.md"
-    puts "writing: #{filename}"
+  filename = "#{ARTICLES_PATH}/#{slug_with_date}.md"
+  puts "writing: #{filename}"
 
-    File.write(filename, <<~EOS)
-      +++
-      #{toml_data.strip}
-      +++
+  File.write(filename, <<~EOS)
+    +++
+    #{toml_data.strip}
+    +++
 
-      # #{title}
+    # #{title}
 
-      #{entry_content}
-    EOS
-
-    break if j > 1
-  end
-
-  break
-  sleep(1)
+    #{entry_content}
+  EOS
 end
+
+def main
+  entry_num = 0
+
+  # inclusive
+  for i in 1..MAX_PAGE do
+    url = if i == 1
+      BASE_URL
+    else
+      BASE_URL + "page/#{i}/"
+    end
+
+    _status, body, _final_url = get_url(url)
+
+    html = Nokogiri::HTML(body)
+    html.css('.boxpost h2 a').each do |element|
+      entry_num += 1
+
+      # used to ratchet what we're looking at right now for speed
+      next if entry_num < 5
+      break if entry_num > 5
+
+      entry_url = element.attributes["href"]
+      title = element.text
+
+      process_entry(entry_url, title)
+    end
+
+    break
+    sleep(1)
+  end
+end
+
+main
