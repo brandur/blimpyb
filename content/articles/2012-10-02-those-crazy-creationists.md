@@ -8,7 +8,7 @@ wayback_machine_url = "https://web.archive.org/web/20140110021104/http://blimpyb
 
 God differentiated hundreds of species of finches in the Galapagos because it makes him angry when we put it in the butt. If A, then B, it’s simple logic people.
 
-<p>
+<p text-align="center">
     <figure>
         <img src="../images/2012-10-02-those-crazy-creationists/IMG_7811-600x400.jpg" alt="Whatever you say, creation freaks">
         <figcaption><strong>Dinosaurs and people, together in harmony</strong></figcaption>
@@ -19,7 +19,7 @@ Of course in more recent times than the 6000 years ago when the earth was create
 
 For anyone who’s seen Religulous where Bill Maher visits and rightfully skewers the place, well, it’s exactly as he described. Man and dinosaur living together as one, the entire earth actually being covered by the great flood, plenty of goofy placards explaining why man knows nothing beyond the unquestionable word of God in the Bible, how modern society is descending into sin, all that fun stuff.
 
-<p>
+<p text-align="center">
     <figure>
         <img src="../images/2012-10-02-those-crazy-creationists/IMG_7792-600x400.jpg" alt="Because they teach facts in school...">
         <figcaption><strong>Gotta get 'em while they're young</strong></figcaption>

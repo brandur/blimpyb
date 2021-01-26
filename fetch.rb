@@ -71,7 +71,7 @@ def replace_images(content, slug_with_date)
 
     if thumbnail_exists && full_exists
       <<~EOS.strip
-        <p>
+        <p text-align="center">
             <figure>
                 <a href="../images/#{slug_with_date}/#{full_filename}">
                     <img src="../images/#{slug_with_date}/#{thumbnail_filename}" alt="#{alt_text}">
@@ -82,7 +82,7 @@ def replace_images(content, slug_with_date)
       EOS
     elsif thumbnail_exists
       <<~EOS.strip
-        <p>
+        <p text-align="center">
             <figure>
                 <img src="../images/#{slug_with_date}/#{thumbnail_filename}" alt="#{alt_text}">
                 <figcaption><strong>#{caption_text}</strong></figcaption>
