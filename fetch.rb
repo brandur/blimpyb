@@ -101,7 +101,7 @@ def replace_images(content, slug_with_date)
 end
 
 def sanitize_content(content)
-  content.gsub!(%r{<p>\*\*\*/</p>}, "\n---\n")
+  content.gsub!(%r{<p>\*\*\*</p>}, "\n---\n")
 
   content = ReverseMarkdown.convert(content)
 
@@ -200,8 +200,8 @@ def main
       entry_num += 1
 
       # used to ratchet what we're looking at right now for speed
-      next if entry_num < 5
-      break if entry_num > 5
+      next if entry_num < 6
+      break if entry_num > 9
 
       entry_url = element.attributes["href"]
       title = element.text
