@@ -17,13 +17,22 @@ def download_file(source_url, target_file)
     return true
   end
 
-  status, body, _final_url = get_url(source_url, raise_error: false)
-  if status != 200 && status != 404
-    raise("bad status: #{status}")
-  end
-  if status == 404
-    puts "URL not found: #{source_url} / #{target_file}"
-    return false
+  begin
+    status, body, _final_url = get_url(source_url, raise_error: false)
+    if status != 200 && status != 404
+      raise("bad status: #{status}")
+    end
+    if status == 404
+      puts "URL not found: #{source_url} / #{target_file}"
+      return false
+    end
+  rescue ArgumentError
+    if $!.message =~ /^Invalid URI: /
+      puts "Invalid URL: #{source_url} / #{target_file}"
+      return false
+    end
+
+    raise
   end
 
   dir = File.dirname(target_file)
@@ -186,7 +195,10 @@ def main
   entry_num = 0
 
   # inclusive
-  for i in 1..MAX_PAGE do
+  for i in 1..MAX_PAGE
+    done = false
+    puts "entering page: #{i}"
+
     url = if i == 1
       BASE_URL
     else
@@ -200,8 +212,8 @@ def main
       entry_num += 1
 
       # used to ratchet what we're looking at right now for speed
-      next if entry_num < 6
-      break if entry_num > 9
+      next if entry_num < 8
+      (done = true) && break if entry_num > 9
 
       entry_url = element.attributes["href"]
       title = element.text
@@ -209,8 +221,7 @@ def main
       process_entry(entry_url, title)
     end
 
-    break
-    sleep(1)
+    break if done
   end
 end
 
