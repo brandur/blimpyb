@@ -11,13 +11,37 @@ BASE_URL = "https://web.archive.org/web/20140228064137/http://blimpyb.com/"
 IMAGES_PATH = "./content/images/"
 MAX_PAGE = 20
 
-def get_page(url, raise_error: true, redirect: false)
+def download_file(source_url, target_file)
+  if File.exist?(target_file)
+    puts "File exists: #{target_file}; skipping"
+    return true
+  end
+
+  status, body = get_url(source_url, raise_error: false)
+  if status == 404
+    puts "URL not found: #{source_url} / #{target_file}"
+    return false
+  end
+
+  dir = File.dirname(target_file)
+  if !File.directory?(dir)
+    puts "creating: #{dir}"
+    FileUtils.mkdir_p(dir)
+  end
+
+  puts "writing: #{target_file}"
+  File.write("#{target_file}", body)
+
+  true
+end
+
+def get_url(url, raise_error: true, redirect: false)
   puts "getting: #{url}#{redirect ? " (redirect) " : ""}"
   resp = Excon.get(url)
 
   if resp.status != 200
     if resp.status == 302
-      return get_page(resp.headers["Location"], redirect: true)
+      return get_url(resp.headers["Location"], redirect: true)
     end
 
     raise("bad status: #{resp.status}") if raise_error
@@ -32,52 +56,37 @@ def replace_images(content, slug_with_date)
   images = []
 
   content.gsub!(%r{^\[!\[\]\((.*) "(.*)"\)\]\((.*)\)$\n\n^(.*)$}) do |match|
-    # p match
     thumbnail_url = $1
     alt_text = $2
     full_url = $3
     caption_text = $4
 
     path = "#{IMAGES_PATH}/#{slug_with_date}"
-    puts "creating: #{path}"
-    FileUtils.mkdir_p(path)
 
-    thumb_filename = File.basename(thumbnail_url)
-    thumbnail_status, thumbnail_body = get_page(thumbnail_url, raise_error: false)
-    if thumbnail_status != 404
-      puts "writing: #{path}/#{thumb_filename}"
-      File.write("#{path}/#{thumb_filename}", thumbnail_body)
-    else
-      puts "Thumbnail image not found: #{slug_with_date} / #{thumb_filename}"
-    end
+    thumbnail_filename = File.basename(thumbnail_url)
+    thumbnail_exists = download_file(thumbnail_url, "#{path}/#{thumbnail_filename}")
 
     full_filename = File.basename(full_url)
-    full_status, full_body = get_page(full_url, raise_error: false)
-    if full_status != 404
-      puts "writing: #{path}/#{full_filename}"
-      File.write("#{path}/#{full_filename}", thumbnail_body)
-    else
-      puts "Full image not found: #{slug_with_date} / #{full_filename}"
-    end
+    full_exists = download_file(full_url, "#{path}/#{full_filename}")
 
-    if thumbnail_status != 404 && full_status != 404
+    if thumbnail_exists && full_exists
       <<~EOS.strip
         <figure>
             <a href="../images/#{slug_with_date}/#{full_filename}">
-                <img src="../images/#{slug_with_date}/#{thumb_filename}" alt="#{alt_text}">
+                <img src="../images/#{slug_with_date}/#{thumbnail_filename}" alt="#{alt_text}">
             </a>
             <figcaption>#{caption_text}</figcaption>
         </figure>
       EOS
-    elsif thumbnail_status != 404
+    elsif thumbnail_exists
       <<~EOS.strip
         <figure>
-            <img src="../images/#{slug_with_date}/#{thumb_filename}" alt="#{alt_text}">
+            <img src="../images/#{slug_with_date}/#{thumbnail_filename}" alt="#{alt_text}">
             <figcaption>#{caption_text}</figcaption>
         </figure>
       EOS
     else
-      "_(missing image)_ (**caption:** #{caption_text})"
+      "_(missing image)_ (**caption:** #{caption_text}; **alt:** #{alt_text})"
     end
   end
 
@@ -114,7 +123,7 @@ for i in 1..MAX_PAGE do
     BASE_URL + "page/#{i}/"
   end
 
-  _status, body = get_page(url)
+  _status, body = get_url(url)
 
   html = Nokogiri::HTML(body)
   html.css('.boxpost h2 a').each_with_index do |element, j|
@@ -125,7 +134,7 @@ for i in 1..MAX_PAGE do
 
     puts "\n\n---\n#{title} (#{slug})\n---\n\n"
 
-    _status, entry_body = get_page(entry_url)
+    _status, entry_body = get_url(entry_url)
 
     entry_html = Nokogiri::HTML(entry_body)
 
