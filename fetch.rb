@@ -17,7 +17,7 @@ def download_file(source_url, target_file)
     return true
   end
 
-  status, body = get_url(source_url, raise_error: false)
+  status, body, _final_url = get_url(source_url, raise_error: false)
   if status == 404
     puts "URL not found: #{source_url} / #{target_file}"
     return false
@@ -49,7 +49,7 @@ def get_url(url, raise_error: true, redirect: false)
 
   # puts "body sample: #{resp.body[0..500]}..."
 
-  [resp.status, resp.body]
+  [resp.status, resp.body, url]
 end
 
 def replace_images(content, slug_with_date)
@@ -132,7 +132,7 @@ for i in 1..MAX_PAGE do
     BASE_URL + "page/#{i}/"
   end
 
-  _status, body = get_url(url)
+  _status, body, _final_url = get_url(url)
 
   html = Nokogiri::HTML(body)
   html.css('.boxpost h2 a').each_with_index do |element, j|
@@ -143,7 +143,7 @@ for i in 1..MAX_PAGE do
 
     puts "\n\n---\n#{title} (#{slug})\n---\n\n"
 
-    _status, entry_body = get_url(entry_url)
+    _status, entry_body, final_entry_url = get_url(entry_url)
 
     entry_html = Nokogiri::HTML(entry_body)
 
@@ -171,6 +171,7 @@ for i in 1..MAX_PAGE do
     toml_data = TOML::Generator.new({
       "title" => title,
       "published_at" => published_at.to_datetime.rfc3339,
+      "wayback_machine_url" => final_entry_url,
     }).body
 
     filename = "#{ARTICLES_PATH}/#{slug_with_date}.md"

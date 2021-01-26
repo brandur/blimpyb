@@ -1,6 +1,7 @@
 +++
 published_at = "2012-07-18T00:00:00-07:00"
 title = "Best. Comment. Ever."
+wayback_machine_url = "https://web.archive.org/web/20140110023159/http://blimpyb.com/random/best-comment-ever/4612/"
 +++
 
 # Best. Comment. Ever.

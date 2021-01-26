@@ -1,6 +1,7 @@
 +++
 published_at = "2012-10-02T00:00:00-07:00"
 title = "Those Crazy Creationists"
+wayback_machine_url = "https://web.archive.org/web/20140110021104/http://blimpyb.com/random/those-crazy-creationists/4680/"
 +++
 
 # Those Crazy Creationists

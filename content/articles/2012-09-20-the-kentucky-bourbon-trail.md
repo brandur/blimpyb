@@ -1,6 +1,7 @@
 +++
 published_at = "2012-09-20T00:00:00-07:00"
 title = "The Kentucky Bourbon Trail"
+wayback_machine_url = "https://web.archive.org/web/20130918000215/http://blimpyb.com/food-and-drink/the-kentucky-bourbon-trail/4647/"
 +++
 
 # The Kentucky Bourbon Trail
