@@ -75,23 +75,19 @@ def replace_single_image(slug_with_date, thumbnail_url:, alt_text:, full_url:, c
 
   if thumbnail_exists && full_exists
     <<~EOS.strip
-      <p text-align="center">
-          <figure>
-              <a href="../images/#{slug_with_date}/#{full_filename}">
-                  <img src="../images/#{slug_with_date}/#{thumbnail_filename}" alt="#{alt_text}">
-              </a>
-              <figcaption><strong>#{caption_text}</strong></figcaption>
-          </figure>
-      </p>
-    EOS
-  elsif thumbnail_exists
-    <<~EOS.strip
-      <p text-align="center">
-          <figure>
+      <figure>
+          <a href="../images/#{slug_with_date}/#{full_filename}">
               <img src="../images/#{slug_with_date}/#{thumbnail_filename}" alt="#{alt_text}">
-              <figcaption><strong>#{caption_text}</strong></figcaption>
-          </figure>
-      </p>
+          </a>
+          <figcaption><strong>#{caption_text}</strong></figcaption>
+      </figure>
+    EOS
+  elsif thumbnail_exists || full_exists
+    <<~EOS.strip
+      <figure>
+          <img src="../images/#{slug_with_date}/#{full_exists ? full_filename : thumbnail_filename}" alt="#{alt_text}">
+          <figcaption><strong>#{caption_text}</strong></figcaption>
+      </figure>
     EOS
   else
     "_(missing image)_ (**caption:** #{caption_text}; **alt:** #{alt_text})"
