@@ -21,7 +21,3 @@ Being $3 pint and ½ price appy happy hour, I tagged on an order of buffalo chic
 **Taste** : 3/5
 
 **Value** : 3.75/5
-
-**Taste** : 3/5
-
-**Value** : 3.5/5
