@@ -34,8 +34,8 @@ Addendum of interesting facts:
 
 _(missing image)_ (**caption:** Wild rock formations; **alt:** Arch rock (they're good at names))
 
--100 years ago it rained twice as much here as it does now. When I heard about pioneers raising cattle I scoffed at them as insane, but things change and it once actually made sense, although I can’t think of a more desolate, frightening place to live unless I had a ranch with about a dozen people on it.
+* 100 years ago it rained twice as much here as it does now. When I heard about pioneers raising cattle I scoffed at them as insane, but things change and it once actually made sense, although I can’t think of a more desolate, frightening place to live unless I had a ranch with about a dozen people on it.
 
--A process occurs in the soil here to reverse erosion caused by cryptobiotic bacteria that actually bond sand back together again into a crust.
+* A process occurs in the soil here to reverse erosion caused by cryptobiotic bacteria that actually bond sand back together again into a crust.
 
--Most of the good stuff is in the high desert at the north end of the park, but if you want free Joshua Tree camping (other than the ol’ not paying trick) there’s free BLM lands you can park an RV or pitch a tent on directly outside the south entrance within sight of sign. Backcountry tent camping is also allowed for free almost anywhere in the park as long as you’re 1 mile from the road and register your vehicle.
+* Most of the good stuff is in the high desert at the north end of the park, but if you want free Joshua Tree camping (other than the ol’ not paying trick) there’s free BLM lands you can park an RV or pitch a tent on directly outside the south entrance within sight of sign. Backcountry tent camping is also allowed for free almost anywhere in the park as long as you’re 1 mile from the road and register your vehicle.
