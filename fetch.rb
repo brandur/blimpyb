@@ -53,7 +53,7 @@ def get_url(url, raise_error: true, redirect: false)
 
   if resp.status != 200
     if resp.status == 302
-      return get_url(resp.headers["Location"], redirect: true)
+      return get_url(resp.headers["Location"], raise_error: raise_error, redirect: true)
     end
 
     raise("bad status: #{resp.status}") if raise_error
@@ -97,7 +97,7 @@ end
 def replace_images(content, slug_with_date)
   images = []
 
-  content.gsub!(%r{^\[!\[\]\((.*?) "(.*)"\)\]\((.*)\)$\n\n^(.*)$}) do |match|
+  content.gsub!(%r{^\[!\[.*?\]\((.*?) "(.*)"\)\]\((.*)\)$\n\n^(.*)$}) do |match|
     # puts "FULL: #{match}"
     thumbnail_url = $1
     alt_text = $2
@@ -117,7 +117,7 @@ def replace_images(content, slug_with_date)
     replace_single_image(slug_with_date, thumbnail_url: thumbnail_url, alt_text: alt_text, full_url: full_url, caption_text: caption_text) + text_to_put_back
   end
 
-  content.gsub!(%r{^\[!\[\]\((.*?) "(.*)"\)\]\((.*?)\)\s*$}) do |match|
+  content.gsub!(%r{^\[!\[.*?\]\((.*?) "(.*)"\)\]\((.*?)\)\s*$}) do |match|
     # puts "FULL: #{match}"
     thumbnail_url = $1
     alt_text = $2
@@ -164,7 +164,7 @@ def sanitize_content(content)
   content.gsub!(%r{\*\*\[!\[\]\((.*)\)\]\((.*)\)(.*)\*\*}, "[![](\\1)](\\2)\n\n\\3")
 
   # if we see any image, give it some breathing room, line collapse below will remove
-  content.gsub!(%r{\[!\[\]\((.*?)\)\]\((.*?)\)}, "\n\n[![](\\1)](\\2)\n\n")
+  content.gsub!(%r{\[!\[.*?\]\((.*?)\)\]\((.*?)\)}, "\n\n[![](\\1)](\\2)\n\n")
 
   # strip whitespace from end of lines
   content.gsub!(%r{ +$}, '')

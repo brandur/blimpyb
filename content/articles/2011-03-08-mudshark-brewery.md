@@ -8,9 +8,7 @@ wayback_machine_url = "https://web.archive.org/web/20110401141239/http://blimpyb
 
 After hearing that there’s really nothing to do in Lake Havasu City except drink at karaoke or look at the actual original London Bridge they shipped in from London, I decided one afternoon was enough so I may as well stop at the brewery on the way through as I had originally planned. To hear the bartender tell the early 20’s girl there with her father that she needed to get out of town and finish school because this was the worst place on earth for someone her age confirmed my feelings from walking around town earlier.
 
-[![Mudshark Brewery](https://web.archive.org/web/20110401141239im_/http://blimpyb.com/wp-content/uploads/2011/03/IMG_5279-600x400.jpg "Mudshark Brewery")](https://web.archive.org/web/20110401141239/http://blimpyb.com/wp-content/uploads/2011/03/IMG_5279.jpg)
-
-The front facade
+_(missing image)_ (**caption:** The front facade; **alt:** Mudshark Brewery)
 
 Oh, and in terms of credibility, this was no ordinary bartender, he knew what was up. Having free reign to create his own drink of the day, this Friday’s concoction was dubbed the Barley Sheen and consisted of a Blue Moon pint with a shot of vodka and a sugar lined rim. “You can guess what the sugar stands for” he said with a wry smile.
 

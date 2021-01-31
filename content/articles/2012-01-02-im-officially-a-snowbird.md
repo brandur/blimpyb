@@ -1,7 +1,7 @@
 +++
 published_at = "2012-01-02T00:00:00-08:00"
 title = "I’m Officially A Snowbird"
-wayback_machine_url = "https://web.archive.org/web/20120414200219/http://blimpyb.com/travel-stories/im-officially-a-snowbird/4430/"
+wayback_machine_url = "https://web.archive.org/web/20120201181228/http://blimpyb.com/travel-stories/im-officially-a-snowbird/4430/"
 +++
 
 # I’m Officially A Snowbird
