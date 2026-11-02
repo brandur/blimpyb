@@ -1,2 +1,6 @@
 .DS_Store
 /.ruby-version
+/.venv/
+/dist/
+__pycache__/
+*.pyc

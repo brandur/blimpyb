@@ -1,0 +1,107 @@
+[
+  {
+    "file": "arquivo.json",
+    "url": "https://arquivo.pt/textsearch?versionHistory=blimpyb.com&maxItems=50",
+    "result": "No homepage results; URL index below found images.",
+    "checked_on": "2026-11-02"
+  },
+  {
+    "file": "arquivo-cdx-response.json",
+    "url": "https://arquivo.pt/wayback/cdx?url=blimpyb.com%2F*&output=json&filter=statuscode:200&to=2016",
+    "result": "18 capture records, including duplicate URLs, from InternetMemory.",
+    "checked_on": "2026-11-02"
+  },
+  {
+    "file": "arquivo-subdomains-response.json",
+    "url": "https://arquivo.pt/wayback/cdx?url=*.blimpyb.com%2F*&output=json&to=2016",
+    "result": "Same 18 capture records; no additional subdomains.",
+    "checked_on": "2026-11-02"
+  },
+  {
+    "file": "commoncrawl-2012-response.json",
+    "url": "https://index.commoncrawl.org/CC-MAIN-2012-index?url=blimpyb.com&matchType=domain&output=json",
+    "result": "Returned an HTML 504 Gateway Time-out response; coverage is unresolved.",
+    "checked_on": "2026-11-02"
+  },
+  {
+    "file": "commoncrawl-2013-response.json",
+    "url": "https://index.commoncrawl.org/CC-MAIN-2013-48-index?url=blimpyb.com%2F*&output=json",
+    "result": "Returned an HTML 504 Gateway Time-out response; coverage is unresolved.",
+    "checked_on": "2026-11-02"
+  },
+  {
+    "file": "commoncrawl-2014-response.html",
+    "url": "https://index.commoncrawl.org/CC-MAIN-2014-52-index?url=*.blimpyb.com/*&output=json",
+    "result": "Returned an HTML 504 Gateway Time-out response; coverage is unresolved.",
+    "checked_on": "2026-11-02"
+  },
+  {
+    "file": "commoncrawl-2015-response.json",
+    "url": "https://index.commoncrawl.org/CC-MAIN-2015-11-index?url=blimpyb.com&matchType=domain&output=json",
+    "result": "Returned an HTML 504 Gateway Time-out response; coverage is unresolved.",
+    "checked_on": "2026-11-02"
+  },
+  {
+    "file": "commoncrawl-2016-response.json",
+    "url": "https://index.commoncrawl.org/CC-MAIN-2016-07-index?url=blimpyb.com&matchType=domain&output=json",
+    "result": "Returned an HTML 504 Gateway Time-out response; coverage is unresolved.",
+    "checked_on": "2026-11-02"
+  },
+  {
+    "file": "commoncrawl-exact-response.json",
+    "url": "https://index.commoncrawl.org/CC-MAIN-2014-52-index?url=blimpyb.com%2F&output=json",
+    "result": "Exact homepage query also returned an HTML 504 response.",
+    "checked_on": "2026-11-02"
+  },
+  {
+    "file": "wayback-images-all-years.json",
+    "url": "https://web.archive.org/cdx/search/cdx?url=blimpyb.com%2Fwp-content%2Fuploads%2F*&output=json&filter=statuscode:200&collapse=urlkey",
+    "checked_on": "2026-11-02",
+    "result": "842 upload URLs across all years. The 27 URLs absent from the <=2016 inventory are 26 unrelated 2017/2024 images and one 2025 HTML response at an old image URL. No additional historic photographs identified."
+  },
+  {
+    "file": "wayback-feed-captures.json",
+    "url": "https://web.archive.org/cdx/search/cdx?url=blimpyb.com%2Ffeed%2F&output=json&filter=statuscode:200&collapse=digest&to=2016",
+    "checked_on": "2026-11-02",
+    "result": "17 distinct main-feed captures; combined with 8 category feeds for full-content recovery."
+  },
+  {
+    "file": "wayback-category-feed-captures.json",
+    "url": "https://web.archive.org/cdx/search/cdx?url=blimpyb.com%2Fcategory%2F%2A&output=json&filter=statuscode%3A200&filter=urlkey%3A.%2Afeed.%2A&collapse=digest&to=2016",
+    "checked_on": "2026-11-02",
+    "result": "14 distinct category feed captures retrieved, including six beyond the primary URL inventory. Together with 17 main RSS snapshots and one Atom feed, 32 full-content feeds are preserved. Six articles missing individual-page captures recovered; the extra category/Atom captures overlapped known articles."
+  },
+  {
+    "file": "../map.json",
+    "checked_on": "2026-11-02",
+    "result": "Recovered 143 travel-map markers from archived Geo Mashup data. Six additional article IDs found. Direct archived WordPress short URLs for these six did not return the requested article bodies."
+  },
+  {
+    "checked_on": "2026-11-02",
+    "queries": [
+      "\"blimpyb.com\" \"archive.is\"",
+      "\"blimpyb.com\" site:flickr.com",
+      "\"Gainey Vineyards\" \"Blimpy\""
+    ],
+    "result": "Web searches returned no results."
+  },
+  {
+    "file": "image-followups.json",
+    "checked_on": "2026-11-02",
+    "result": "IMG_1664 has one indexed capture. Raw id_ replay returned 404, but alternate im_ replay returned a valid 600 x 400 JPEG. The original Apple CDN URL used for the Beck Midnite Vultures cover has a 2025 image capture, visually verified as that cover."
+  },
+  {
+    "file": "unavailable-image-record.json",
+    "checked_on": "2026-11-02",
+    "result": "Public CDX returned null filename/offset fields, preventing a direct WARC lookup for this record. Alternate image replay subsequently recovered it."
+  },
+  {
+    "file": "alternate-page-replays.json",
+    "checked_on": "2026-11-02",
+    "result": "Alternative if_ HTML replay mode on two missing article pages returned 404; this did not reproduce the image-mode recovery success."
+  },
+  {
+    "checked_on": "2026-11-02",
+    "result": "Final sweep: all 819 primary historic image URLs recovered. Three raw id_ 404 responses succeeded in im_ image mode. External-image retry recovered the Beck cover from its 2025 capture; three other Apple artwork URLs and one Facebook photo remained unavailable in both modes. 825 successful image URL records represent 821 distinct source binaries; reader uses 751 files."
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "query": "https://web.archive.org/cdx/search/cdx?url=http%3A%2F%2Fblimpyb.com%2Fwp-content%2Fuploads%2F2010%2F10%2F173x115xIMG_1664-600x400.jpg.pagespeed.ic.oPNmNoSimv.jpg&output=json&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength%2Coffset%2Cfilename",
+  "rows": [
+    [
+      "timestamp",
+      "original",
+      "mimetype",
+      "statuscode",
+      "digest",
+      "length",
+      "offset",
+      "filename"
+    ],
+    [
+      "20131213022246",
+      "http://blimpyb.com/wp-content/uploads/2010/10/173x115xIMG_1664-600x400.jpg.pagespeed.ic.oPNmNoSimv.jpg",
+      "image/jpeg",
+      "200",
+      "R3S6ZB6KFBC3WIHC33I3OYTXN6W7I4GD",
+      "49702",
+      null,
+      null
+    ]
+  ]
+}

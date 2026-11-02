@@ -1,0 +1,50 @@
+[
+  {
+    "original": "http://blimpyb.com/wp-content/uploads/2010/10/173x115xIMG_1664-600x400.jpg.pagespeed.ic.oPNmNoSimv.jpg",
+    "query": "https://web.archive.org/cdx/search/cdx?url=http%3A%2F%2Fblimpyb.com%2Fwp-content%2Fuploads%2F2010%2F10%2F173x115xIMG_1664-600x400.jpg.pagespeed.ic.oPNmNoSimv.jpg&output=json&filter=statuscode%3A200",
+    "rows": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,blimpyb)/wp-content/uploads/2010/10/173x115ximg_1664-600x400.jpg.pagespeed.ic.opnmnosimv.jpg",
+        "20131213022246",
+        "http://blimpyb.com/wp-content/uploads/2010/10/173x115xIMG_1664-600x400.jpg.pagespeed.ic.oPNmNoSimv.jpg",
+        "image/jpeg",
+        "200",
+        "R3S6ZB6KFBC3WIHC33I3OYTXN6W7I4GD",
+        "49702"
+      ]
+    ]
+  },
+  {
+    "original": "http://a1.phobos.apple.com/us/r1000/018/Features/b4/02/09/dj.dihmqipd.170x170-75.jpg",
+    "query": "https://web.archive.org/cdx/search/cdx?url=http%3A%2F%2Fa1.phobos.apple.com%2Fus%2Fr1000%2F018%2FFeatures%2Fb4%2F02%2F09%2Fdj.dihmqipd.170x170-75.jpg&output=json&filter=statuscode%3A200",
+    "rows": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,apple,phobos,a1)/us/r1000/018/features/b4/02/09/dj.dihmqipd.170x170-75.jpg",
+        "20250511185846",
+        "http://a1.phobos.apple.com/us/r1000/018/Features/b4/02/09/dj.dihmqipd.170x170-75.jpg",
+        "image/jpeg",
+        "200",
+        "NIETWFFSMVJA4GKWUH3M573OFOT4MYHR",
+        "18185"
+      ]
+    ]
+  }
+]

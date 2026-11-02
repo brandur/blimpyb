@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" >
+
+<channel>
+	<title>Blimpy Backgammon &#187; RV Upgrade</title>
+	<atom:link href="http://blimpyb.com/category/rv-upgrade/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blimpyb.com</link>
+	<description>Quit job.  Buy RV.  Rip society a new one.</description>
+	<lastBuildDate>Mon, 20 Sep 2010 19:08:58 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.0.1</generator>
+		<item>
+		<title>The Solar Series: Choosing Panels</title>
+		<link>http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/</link>
+		<comments>http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/#comments</comments>
+		<pubDate>Tue, 14 Sep 2010 20:38:31 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[array voltage]]></category>
+		<category><![CDATA[BP]]></category>
+		<category><![CDATA[build your own]]></category>
+		<category><![CDATA[Canadian Solar]]></category>
+		<category><![CDATA[do it yourself]]></category>
+		<category><![CDATA[efficiency]]></category>
+		<category><![CDATA[off grid]]></category>
+		<category><![CDATA[RV]]></category>
+		<category><![CDATA[Sanyo]]></category>
+		<category><![CDATA[solar]]></category>
+		<category><![CDATA[temperature coefficient]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=919</guid>
+		<description><![CDATA[After determining how much electricity we’re going to use, where we’re geographically building our off-grid system and what that translates to in terms of the size of the components (System Sizing), we’re ready to start selecting parts and manufacturers.  Because they’re the most important and satisfying part of this whole exercise, we’ll look at the [...]]]></description>
+			<content:encoded><![CDATA[<p>After determining how much electricity we’re going to use, where we’re geographically building our off-grid system and what that translates to in terms of the size of the components (<a href="http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/" target="_blank">System Sizing</a>), we’re ready to start selecting parts and manufacturers.  Because they’re the most important and satisfying part of this whole exercise, we’ll look at the solar panels themselves first.  This will include an explanation of the different crystal cell types, array voltages, temperature coefficients, product comparisons and why to prefer one over the other.</p>
+<p><strong>Solar Cells: Mono, Poly &amp; Amorphous</strong></p>
+<p>There are three different types of solar crystal cell technologies available on the market today: monocrystalline, polycrystalline and amorphous.  These refer to the physical metal/silicone building blocks that make up the actual solar cells.  Each panel contains numerous individual cells that are wired together, and the fabrication of these cells has a large effect on how the panels perform.</p>
+<div id="attachment_922" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Mono-VS-Poly.jpg" rel="thumbnail"><img class="size-medium wp-image-922  " title="Mono VS Poly" src="http://blimpyb.com/wp-content/uploads/2010/09/Mono-VS-Poly-600x399.jpg" alt="" width="288" height="191" /></a><p class="wp-caption-text">Monocrystalline VS polycrystalline</p></div>
+<p>Monocrystalline means ‘one crystal’.  In this case each individual cell is grown from a single silicon crystal.  This allows for the most uniform and consistent construction of a solar cell and is the best but most expensive type of panel.  I describe it as “best” mainly due to efficiency.  Top of the line monocrystalline panels can have an efficiency of up to 20%, which means of all the sun’s rays that strike the panel, 20% of it is converted to electricity, the rest is converted to heat or reflected.  A higher efficiency number means the panel can be smaller and still produce the same output as a less efficient panel, important if you have space restrictions like on an RV.</p>
+<p>Polycrystalline means ‘many crystals’.  While an oversimplification, this is sort of like the bologna or processed meat of the solar world, multiple different crystal bits are fused together to form one solar cell.  You can tell just by looking at them because they have a flaky, woodchip board look to them of small blue chunks, where a monocrystalline panel will just be a solid, uniform colour.  Polycrystalline panels are very widely used because they are cheaper than monocrystalline with efficiencies ranging from 10-15%.  This equates to them taking up roughly 30-50% more space, but they are more cost effective.</p>
+<p>Amorphous means ‘lacking form or order’, or in this case no defined crystal structure.  Amorphous panels are created by spraying a very thin silicon layer to create the panels, so while it’s quick and uses less material, the silicon doesn’t form itself into the rigid, uniform crystal structure of the other cell types.  This results in an even greater loss of efficiency down to about 6%, but in turn a lower price.  Also, because of the thin silicon layer, it’s possible to create amorphous solar panels that are flexible, you can essentially buy it by the roll and slap it on anything.  This is the newest of the solar cell technologies listed so it’s not as prevalent (also attributable to the low efficiency) and there’s less variety, but it should become more prominent in the coming years.</p>
+<p><strong>Array Voltage &#8211; Considerations</strong></p>
+<p>As stated in prior posts, your off-grid solar system is likely going to run off 12 Volts DC in the battery bank and appliances.  So that must mean you need 12 Volt panels, right?  Not necessarily&#8230;</p>
+<p>The first thing to note is that currently 140 Watts is the largest 12 Volt solar panel commercially available, higher wattage is only available at higher voltages.  So if you’re building a system like mine that requires over 400 Watts, you’d already be looking at 3-4 panels.  This in itself might not be a problem if you have the space, it’s just going to be more work to mount and wire up and slightly more expensive.</p>
+<p>Another point to keep in mind is that all solar panels are listed based on their ‘nominal’ voltage (usually 12, 24, 36, etc.), which means the voltage they run at the very lowest light levels to produce any current.  A panel rated at 12 Volts will output something more like 15-17 Volts in the middle of the day.  This actually turns out to be a good thing because batteries need to be charged by a higher voltage, but it’s something to be aware of, especially with this potential drawback: if your battery bank is large and not overly depleted, it could be sitting at 12.4 Volts early in the morning and the sun striking the panels only causes them to output 12.3 Volts, which means no charging will occur.  It’s only a matter of small percentages, but any sort of waste like this may as well be avoided if possible.</p>
+<div id="attachment_923" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Bessie-Sanyo.jpg" rel="thumbnail"><img class="size-medium wp-image-923 " title="Bessie Sanyo" src="http://blimpyb.com/wp-content/uploads/2010/09/Bessie-Sanyo-600x401.jpg" alt="" width="288" height="193" /></a><p class="wp-caption-text">Bessie and her two 36 volt Sanyo panels in parallel</p></div>
+<p>One last variable to consider when selecting array voltage is how far away from the panels you’re going to put the charge controller and batteries and what thickness of wire you’re using.  The wire will act as a resistor and cause power loss.  Checking out this <a href="http://www.cirris.com/testing/resistance/wire.html" target="_blank">Wire Resistance Calculator</a> and using an example of 30 feet of 10 AWG wire, that equates to 0.03 ohms.  Power loss equals current squared times resistance (P = I^2*R) so for 400 Watts of panels at peak output at 12 Volts is 33 Amps (remember P = V*I) and using the first equation that’s 33 Watts of lost power, over 8%!  Naturally you could use thicker or shorter wire runs, but the exact same setup using 36 Volt panels only has a current of 11 Amps and a power loss of 4 Watts, now down to a much more comforting 1% loss.</p>
+<p><strong>Array Voltage &#8211; Implementation</strong></p>
+<p>I’ve definitely glossed over it to this point, but one of the most important factors of the solar system is that there needs to be a charge controller in between the solar panels and the batteries and the controller choice will affect whether you can use nominal voltages other than 12.  Without poaching too much from the upcoming Choosing a Charge Controller post, if you buy a standard and cheaper PWM controller you will be forced to use panels and batteries of the same voltage, likely 12.  However, if you opt for the more advanced MPPT controller technology (which I use and recommend heavily as it only costs about $100 more) then you have opened up the possibility of using a higher array voltage than battery voltage.  This really broadens your options on panel choice.</p>
+<div id="attachment_924" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Series-VS-Parallel.jpg" rel="thumbnail"><img class="size-medium wp-image-924  " title="Series VS Parallel" src="http://blimpyb.com/wp-content/uploads/2010/09/Series-VS-Parallel-600x399.jpg" alt="" width="288" height="191" /></a><p class="wp-caption-text">Series VS Parallel</p></div>
+<p>Lastly, the wiring configuration of the panels can also be used to modify array voltage.  If you decided you needed 260 Watts, got a great deal on two 12 Volt panels but are convinced you’d get better efficiency with a 24 Volt array, you could just wire the two panels in series on the same circuit.  If you wanted to double the output, you could wire two 12 Volt panels in series, then parallel them with another two 12 Volt panels in series, still yielding the desired 24 Volts.  Or alternatively if you’re only looking for 12 Volts, then you could wire all 4 panels in parallel.  I don’t have a definitive answer on the array voltage subject, it’s up to you to weigh the pros and cons based on your individual setup.</p>
+<p><strong>Efficiency, Temperature Coefficients and Other Factors</strong></p>
+<p>Now that you’ve got a rough idea of the amount of panel wattage you need, and what voltage you want to run them at, it’s time to start comparing actual products.  I just wanted to outline a couple parameters you’ll see on solar panel data sheets from manufacturers and what they mean.</p>
+<p>Efficiency we’ve already touched on, it’s how much energy a panel is able to harvest from the sun, the higher the better.  In some cases you’ll see this broken down even further to cell and module efficiency.  Cell efficiency relates to the raw sun-absorbing material in the panel and how good it is, whereas module efficiency takes into account the construction of the panel as a whole including non-absorbing bits such as the frame.  Obviously module efficiency will always be slightly lower and is the “true” efficiency of the panel.</p>
+<div id="attachment_928" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Temperature-Dependence.jpg" rel="thumbnail"><img class="size-medium wp-image-928  " title="Temperature Dependence" src="http://blimpyb.com/wp-content/uploads/2010/09/Temperature-Dependence-600x546.jpg" alt="" width="288" height="262" /></a><p class="wp-caption-text">Temperature dependence of my Sanyo panels</p></div>
+<p>While the importance of this next number will be applicable in varying degrees depending on where you’re installing your solar off-grid system, the temperature coefficient of a panel can have a drastic effect and is a concept worth understanding regardless.  In short, the power generated by a solar panel is temperature dependant, the colder it is the more it will output due to intricacies of the photoelectric effect.  The temperature coefficient is just a multiplier on how much panel output power will change per degree Celsius (an alternate voltage temperature coefficient is also often available).  A typical power temperature coefficient would be around 0.4%/<sup>o</sup>C, centered on 25 <sup>o</sup>C.  So if you have a 200 Watt panel, in peak direct sunlight at 25 <sup>o</sup>C you should get 200 Watts of output like you paid for.  However, if it’s really hot out and the panel gets to 50 <sup>o</sup>C, 0.4% * 25 degrees = 10%, so you’ll only be getting 180 Watts.  Likewise if it’s cold and 0 <sup>o</sup>C you’ll get 220 Watts.</p>
+<p>There are a couple important side effects of solar panel temperature dependency.  The first and most relevant for an RV installation like mine is it gets a lot hotter on the aluminum roof than what the weatherman says it is.  On a 25 <sup>o</sup>C day it will easily be 35 <sup>o</sup>C up there, so you need to be acutely aware of this and how it will lower the amount of energy harvested.  Installing the panels with a standoff or some separation for air flow can help this to some extent.</p>
+<p>On the cold end of the spectrum, while the extra energy output is nice, you need to make sure your system is designed to handle the corresponding increase in voltage.  If I was building a larger commercial system with two 36 Volt panels in series for a 72 volt array and I bought a charge controller that’s maximum input rating is 80 Volts, if my voltage coefficient is 0.15 V/<sup>o</sup>C and it’s -25 <sup>o</sup>C in the middle of winter, all of a sudden I have an 88 Volt array and my charge controller has either shut itself off or is on fire.  Of course if it’s -25<sup> o</sup>C and you’re where I’m from in Alberta it’s the middle of winter and you aren’t getting much sun anyways, but you still need to be aware of it.</p>
+<p><strong>Panel Comparison – What I Did</strong></p>
+<p>To tie all the above pieces together, I’m going to use the real life example of how I selected my panels for Bessie.  The first step is obviously to find a few different panels that will suit your parameters of array voltage, wattage output and physical dimensions.  You can use Google, or a dedicated site like <a href="http://www.mrsolar.com/" target="_blank">Mr. Solar</a> or <a href="http://store.solar-electric.com/" target="_blank">Arizona Wind &amp; Sun</a> or do what I did and head down to your local green expo.  If you happen to be in Alberta or BC I found an extremely helpful distributor in Larry of <a href="http://www.solarwyse.ca" target="_blank">Solar Wyse</a>, tell him Blimpy sent you if you need good advice and good prices.  Because solar panels are very specialized items and they’re very large to ship (can be exorbitantly expensive from afar) a local distributor might be your best bet.  I was able to send an e-mailing outlining what variety of panel I needed and get a pared down list of what was actually available in the area, probably a lot more useful than finding an exact model online then realizing it would cost half the price of the panel to ship.</p>
+<p>Ultimately we arrived at three different panels that could do the trick, the <a href="http://blimpyb.com/wp-content/uploads/2010/09/CS6P.pdf" target="_blank">Canadian Solar CS6P 220 Watt</a>, the <a href="http://blimpyb.com/wp-content/uploads/2010/09/Sanyo HIT Power 215N.pdf" target="_blank">Sanyo HIT 215 Watt</a> or the <a href="http://blimpyb.com/wp-content/uploads/2010/09/BP SX3140.pdf" target="_blank">BP SX 3140 140 Watt</a>.  The BP panels I had come across myself, but the other two I hadn’t seen so like I said, always good to ask.  I’m not going to screw Larry over or make myself look stupid by quoting the prices, so instead I’ll just table out all the other important parameters of each setup from the above datasheets and briefly explain why I went with Sanyo.</p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="236" valign="top"></td>
+<td width="189" valign="top"><strong>Canadian   Solar CS6P</strong></td>
+<td width="201" valign="top"><strong>Sanyo HIT 215<br />
+</strong></td>
+<td width="201" valign="top"><strong>BP SX 3140</strong></td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Cell Type</em></td>
+<td width="189" valign="top">Monocrystalline</td>
+<td width="201" valign="top">Monocrystalline</td>
+<td width="201" valign="top">Polycrystalline</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Power (Watts)<br />
+</em></td>
+<td width="189" valign="top">220</td>
+<td width="201" valign="top">215</td>
+<td width="201" valign="top">140</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Number of   Panels Req’d</em></td>
+<td width="189" valign="top">2</td>
+<td width="201" valign="top">2</td>
+<td width="201" valign="top">3</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Dimensions</em></td>
+<td width="189" valign="top">64.5” X   38.7”</td>
+<td width="201" valign="top">62.2” X   31.4”</td>
+<td width="201" valign="top">59.4” X   26.5”</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Nominal   Voltage</em></td>
+<td width="189" valign="top">24</td>
+<td width="201" valign="top">36</td>
+<td width="201" valign="top">12</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Temperature   Coeff (%W/<sup> o</sup>C)</em></td>
+<td width="189" valign="top">-0.43</td>
+<td width="201" valign="top">-0.336</td>
+<td width="201" valign="top">-0.5</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Price</em></td>
+<td width="189" valign="top">More</td>
+<td width="201" valign="top">Most</td>
+<td width="201" valign="top">Least</td>
+</tr>
+</tbody>
+</table>
+<p>I distilled all the important info here for you, but you should be able to do the same for any brand of solar panel.  One thing worth noting when reading the datasheets, the Sanyo one contains a lot more detailed information and the CS and BP sheets don’t even list their module efficiency.  Sure, you could easily calculate it, but I immediately felt this indicated Sanyo knew they had a superior product worth showcasing, whereas the other two intentionally withheld information they didn’t want you thinking about.</p>
+<p>As you can see the three panels miraculously highlight all the parameters I outlined earlier.  They all have different nominal voltages.  The BP panel is much larger per Watt and less efficient because it is polycrystalline, but it’s also the cheapest.  You can also see that all monocrystalline panels are not created equal as each manufacturer has their own unique design process and materials.  The Sanyo is slightly more efficient and much less temperature sensitive, and correspondingly more expensive.</p>
+<div id="attachment_925" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Roof-Dimensions.jpg" rel="thumbnail"><img class="size-medium wp-image-925 " title="Roof Dimensions" src="http://blimpyb.com/wp-content/uploads/2010/09/Roof-Dimensions-600x399.jpg" alt="" width="288" height="191" /></a><p class="wp-caption-text">It&#39;s all for not if the panels don&#39;t fit!</p></div>
+<p>In an ideal world the easiest comparison you’ll be making is price per Watt, the lower the number the better.  These days in Canada that ranges from $3-5/Watt, but it varies greatly and is lower in the US.  I just provide that number as a guide to make sure you’re not getting supremely ripped off.  Once you start factoring in the array voltage and temperature sensitivity stuff it becomes a lot harder to just base it on price tag.</p>
+<p>So after all that, how did I ultimately decide on the Sanyo panels?  Temperature sensitivity played a role with me anticipating being in the southern US for extended periods of time.  Nominal voltage didn’t matter because I knew I wanted an MPPT controller.  No, the real reason was simply size.  Take a look at the attached picture of the doodles of the roof of my RV and you’ll see the limiting factor is a width of 3’.  Try as I did to pretend the Canadian Solar would fit, or that I could squeeze on the third BP panel, I knew I was only deluding myself so I dropped the hammer on two brand spanking new Sanyo HIT 215 Watt panels and haven’t looked back since.</p>
+<p>Best of all, they work like a dream&#8230;because they were designed to!</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s solar panel selection.  Over the coming weeks I will be creating posts for each aspect of the creation of an off-grid solar system with the hopes that you can follow along and do it yourself.  Of course it gets a little technically involved in spots, so feel free to ask for clarification in the comments or drop me an e-mail.</p>
+<p><strong>Topics</strong></p>
+<p><a href="../rv-upgrade/the-solar-series-goals-rationale/685/" target="_blank">Goals, Rationale</a></p>
+<p><a href="../rv-upgrade/the-solar-series-power-ac-dc/701/" target="_blank">Power – AC &amp; DC</a></p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/" target="_blank">System Sizing</a></p>
+<p>Choosing Panels<em><br />
+</em></p>
+<p>Choosing Batteries <em>(coming soon&#8230;)</em></p>
+<p>Choosing a Charge Controller <em>(coming soon&#8230;)</em></p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+
+
+<div class="shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-enjoy">
+<ul class="socials">
+		<li class="shr-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/&amp;t=The+Solar+Series%3A+Choosing+Panels" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="shr-twitter">
+			<a href="http://twitter.com/home?status=The+Solar+Series%3A+Choosing+Panels+-+http://su.pr/9xGMeB&amp;source=shareaholic" rel="nofollow" class="external" title="Tweet This!">Tweet This!</a>
+		</li>
+		<li class="shr-blogger">
+			<a href="http://www.blogger.com/blog_this.pyra?t&amp;u=http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/&amp;n=The+Solar+Series%3A+Choosing+Panels&amp;pli=1" rel="nofollow" class="external" title="Blog this on Blogger">Blog this on Blogger</a>
+		</li>
+		<li class="shr-comfeed">
+			<a href="http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/feed" rel="nofollow" class="external" title="Subscribe to the comments for this post?">Subscribe to the comments for this post?</a>
+		</li>
+		<li class="shr-delicious">
+			<a href="http://delicious.com/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/&amp;title=The+Solar+Series%3A+Choosing+Panels" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="shr-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/&amp;title=The+Solar+Series%3A+Choosing+Panels" rel="nofollow" class="external" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="shr-diigo">
+			<a href="http://www.diigo.com/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/&amp;title=The+Solar+Series%3A+Choosing+Panels&amp;desc=After%20determining%20how%20much%20electricity%20we%E2%80%99re%20going%20to%20use%2C%20where%20we%E2%80%99re%20geographically%20building%20our%20off-grid%20system%20and%20what%20that%20translates%20to%20in%20terms%20of%20the%20size%20of%20the%20components%20%28System%20Sizing%29%2C%20we%E2%80%99re%20ready%20to%20start%20selecting%20parts%20and%20manufacturers.%C2%A0%20Because%20they%E2%80%99re%20the%20most%20important%20" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a>
+		</li>
+		<li class="shr-googlebuzz">
+			<a href="http://www.google.com/buzz/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/&amp;imageurl=" rel="nofollow" class="external" title="Post on Google Buzz">Post on Google Buzz</a>
+		</li>
+		<li class="shr-misterwong">
+			<a href="http://www.mister-wong.com/addurl/?bm_url=http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/&amp;bm_description=The+Solar+Series%3A+Choosing+Panels&amp;plugin=sexybookmarks" rel="nofollow" class="external" title="Add this to Mister Wong">Add this to Mister Wong</a>
+		</li>
+		<li class="shr-reddit">
+			<a href="http://reddit.com/submit?url=http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/&amp;title=The+Solar+Series%3A+Choosing+Panels" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a>
+		</li>
+		<li class="shr-stumbleupon">
+			<a href="http://www.stumbleupon.com/submit?url=http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/&amp;title=The+Solar+Series%3A+Choosing+Panels" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+
+<img src="http://blimpyb.com/?ak_action=api_record_view&id=919&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>The Solar Series: System Sizing</title>
+		<link>http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/</link>
+		<comments>http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/#comments</comments>
+		<pubDate>Wed, 25 Aug 2010 06:23:56 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[battery]]></category>
+		<category><![CDATA[build your own]]></category>
+		<category><![CDATA[do it yourself]]></category>
+		<category><![CDATA[energy calculator]]></category>
+		<category><![CDATA[off grid]]></category>
+		<category><![CDATA[RV]]></category>
+		<category><![CDATA[sizing]]></category>
+		<category><![CDATA[solar]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=720</guid>
+		<description><![CDATA[Now that we’ve got an overall picture of what we’re trying to achieve in building an off-grid solar system (Goals, Rationale) and have some background on electricity (Power &#8211; AC &#38; DC) it’s time to do a bit of thinking and a bit of math to turn that into reality.  This happens in two parts.  [...]]]></description>
+			<content:encoded><![CDATA[<p>Now that we’ve got an overall picture of what we’re trying to achieve in building an off-grid solar system (<a href="http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/" target="_blank">Goals, Rationale</a>) and have some background on electricity (<a href="http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/" target="_blank">Power &#8211; AC &amp; DC</a>) it’s time to do a bit of thinking and a bit of math to turn that into reality.  This happens in two parts.  One, we need to understand what we’re trying to power and how much energy that will use.  Once we know that, the second task is determining what amount of solar panels and batteries will satisfy our needs once the system is built.</p>
+<p><strong>Step #1: Determine Energy Usage</strong></p>
+<p>For an RV system like mine, I’m just powering a subset of regular household items and appliances.  This includes a stereo, a laptop, lights, a coffee grinder and a water pump (naturally in order of importance, I’d rather have Led Zeppelin or hot caffeine than be able to wash dishes).  The first step is to make a list of everything you anticipate running, as you can see from my attached worksheet.</p>
+<div id="attachment_724" class="wp-caption alignright" style="width: 332px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Sizing-Spreadsheet.jpg" rel="thumbnail"><img class="size-full wp-image-724  " title="Sizing Spreadsheet" src="http://blimpyb.com/wp-content/uploads/2010/08/Sizing-Spreadsheet.jpg" alt="" width="322" height="229" /></a><p class="wp-caption-text">Doing the math to find 140 Amp hours total daily usage</p></div>
+<p>The next step actually involves multiplication, just so you’re forewarned.  Knowing what you’re running is good, knowing the exact amount of electricity that takes is what you really need.  There are numerous resources online at a general level, such as this <a href="http://rvbasics.com/techtips/RV-appliance-wattage-chart.html" target="_blank">Wattage Chart</a>.</p>
+<p>Make a spreadsheet just like mine listing each component, its wattage and the number of hours a day it will need to run.  Multiplying wattage times hours for each gives a daily watt hour total, then adding all components together gives the total daily watt hour number.  This is all we are interested in, total electrical consumption as one number, once you reach this point each individual component being powered doesn’t matter anymore for calculation purposes, but you will probably go back and tweak that list a few times.</p>
+<p>If you have any obscure devices you are looking to run that aren’t on a general online list, or if you are interested in knowing exactly how much energy an appliance uses, I highly recommend picking up something called a <a href="http://www.amazon.com/gp/product/B00009MDBU?ie=UTF8&amp;tag=blimpyb-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00009MDBU" target="_blank">Kill-A-Watt</a>.  These were available for free from the public library in Calgary so that might be an option in your town, or you can pick one up for $20.  Either way, it’s just a watt meter, you plug it in the wall in between your appliance, it has a little LCD display and can tell you exactly how much power is being used.  This can be very useful even if you aren’t building a solar system.  Everything plugged in at your house will consume power even if it’s not turned on, using this device to check things like TVs, amplifiers or computers can be very enlightening why enviro-crazy people unplug stuff when they aren’t home&#8230;it’s because they’re not actually crazy at all.</p>
+<p><strong>Step #1a: Separate AC and DC Electronics for Inverter Sizing</strong></p>
+<p>You likely noticed I made no mention of AC, DC or any wisdom from the <a href="http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/" target="_blank">last post</a>, so I’ll toss that in here.  In my list above I have both AC (coffee grinder, phone charger) and DC (lights, water pump) appliances.  Since I made sure to buy car cigarette lighter power supplies for anything I could, I have very little use for an inverter, but I can still go through the simple exercise here.  Anywhere possible it’s best to purchase a DC power adaptor as inverters are somewhere around 85% efficient; powering a 90 Watt laptop would take 105 Watts using an inverter.  Not the end of the world, but it’s still a waste.  And also worth noting is that waste will always be dissipated as heat, so those 15 Watts will contribute to raising the temperature in your RV and if pushed too far potentially harming electrical components.</p>
+<p>Inverters are rated in terms of the maximum number of AC Watts they can output.  Luckily AC and DC Watts are the same, save for the 85% efficiency problem, but they both represent the same amount of “work”.  So all you need to do is calculate the maximum total amount of AC watts you would ever use and buy a slightly larger inverter.  Expert tip, any inverter they sell at an auto parts shop or Walmart is marked up ridiculously, I bought a piece of junk 300 Watt one from China for $30, it works perfectly and I have capacity to spare.  <a href="http://www.dealextreme.com/details.dx/sku.22174" target="_blank">Dealextreme.com</a> baby, you will learn to love it, fast.</p>
+<p><strong>Step #2: Solar Panel Sizing</strong></p>
+<p>Now that we have our total daily power consumption number, we need to be able to supply it.  Sticking with my example spreadsheet, I came up with 140 amp hours a day of consumption (total watt hours of 1700 divided by 12 volts).</p>
+<div id="attachment_725" class="wp-caption alignleft" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Solar-Map.jpg" rel="thumbnail"><img class="size-medium wp-image-725" title="Solar Map" src="http://blimpyb.com/wp-content/uploads/2010/08/Solar-Map-600x450.jpg" alt="" width="288" height="216" /></a><p class="wp-caption-text">Peak sunlight hour map</p></div>
+<p>The first and most important variable is going to be where your system is geographically.  In the middle of winter at the North Pole, there’s no sun whatsoever, but there’s still a fair bit in the Arizona desert.  Take a look at this <a href="http://www.solar4power.com/map2-global-solar-power.html" target="_blank">map</a> or these <a href="http://www.builditsolar.com/References/SunChartRS.htm" target="_blank">worksheets</a> to see where you are locating your solar system and determine the total number of peak hours of sun you’ll get a day.  Because I’m aiming to be in the southern US during the winter, I took the rough guestimate that I’ll be getting 5 hours of peak sunlight a day.  Using this &#8220;peak sunlight&#8221; number makes life much easier math-wise, the sun might be up for 11 hours, but that equates to maybe 5 hours direct sunlight.  So 1700 watt hours divided by 5 hours equals 340 watts, the bare minimum of panel output needed.</p>
+<p>From there we need to take into account cloudy days.  That map already does factor them in if you know your exact location, but since I’ll be moving around, I’ll just come up with a rough worst case that it’s cloudy for 3 days in a row, and that clouds cut solar input by 50%.  This isn’t an exact science, and depends on your battery bank size how much you can tap into them during stretches of low light, and how much you&#8217;re willing to conserve, but essentially because round numbers are easy I knew I’d be needing around 400 watts of panel.</p>
+<p><strong>Step #3: Battery Bank Sizing</strong></p>
+<p>In a solar off-grid system the batteries wind up being just as crucial to providing energy as the panels themselves.  When the sun goes down, you need to be able to draw on all the energy accumulated during the day to run your electronics.  A battery bank that is too small will pose two problems.  The first is that it will shorten the lifespan of batteries.  Avoid draining your batteries below 50% of their overall capacity.  If you have 200 amp hours of capacity, and always drain your budgeted 140 amp hours, this continual depletion of 75% of the available energy will cause the batteries to degrade, not store as much charge and need to be replaced much sooner.  The second problem with a battery bank too small is not harvesting all the available energy.  If it’s nice and sunny and you always fully recharge the batteries by 2 PM every day, from then until sunset you’re not getting any more power, it’s just waste.</p>
+<div id="attachment_726" class="wp-caption alignright" style="width: 257px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Deep-Cycle-Battery.jpg" rel="thumbnail"><img class="size-full wp-image-726" title="Deep Cycle Battery" src="http://blimpyb.com/wp-content/uploads/2010/08/Deep-Cycle-Battery.jpg" alt="" width="247" height="237" /></a><p class="wp-caption-text">A deep-cycle battery for storing solar energy</p></div>
+<p>Conversely, there are two downsides to a battery bank that is too large.  The first problem is if you are unable to fully recharge the battery bank.  If you wind up depleting the batteries to 25%, then can only recharge them to 85% and repeat that cycle for many days in a row, it too will alter the battery chemistry, lessen the amount of charge they hold and shorten their lifespan.  Batteries like being fully charged, keep them happy.  The second problem with a battery bank too large is wasted cost and weight.  This will be covered in depth in the Choosing Batteries post, but 100 amp hours of capacity is going to weight about 60 lbs and cost $150.  If you have 800 amp hours of capacity (which is about twice as much as you need) then you essentially wasted $600 and are carrying an extra 240 lbs.</p>
+<p>Ideally you want to find the happy place between too much and not enough capacity.  Make sure you won’t deplete below 50% capacity at night, make sure you can recharge to 100% during the day and you’re set.  Surprisingly for a 12 volt system the math basically works out that you want the same number of amp hours of battery capacity as you have solar watts, in my case roughly 400.  One of the reasons for this is a battery’s ideal charge rate is 10% of its total capacity, so 40 amps times 12 volts equals 480 watts, which is pretty close to what I’ll be generating from the panels.</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s off-grid solar system sizing.  Over the coming weeks I will be creating posts for each aspect of the creation of an off-grid solar system with the hopes that you can follow along and do it yourself.  Of course it gets a little technically involved in spots, so feel free to ask for clarification in the comments or drop me an e-mail.</p>
+<p><strong>Topics</strong></p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/" target="_blank">Goals, Rationale</a></p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/" target="_blank">Power – AC &amp; DC</a></p>
+<p>System Sizing</p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/" target="_blank">Choosing Panels</a><em><br />
+</em></p>
+<p>Choosing Batteries <em>(coming soon&#8230;)</em></p>
+<p>Choosing a Charge Controller <em>(coming soon&#8230;)</em></p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+
+
+<div class="shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-enjoy">
+<ul class="socials">
+		<li class="shr-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/&amp;t=The+Solar+Series%3A+System+Sizing" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="shr-twitter">
+			<a href="http://twitter.com/home?status=The+Solar+Series%3A+System+Sizing+-+http://su.pr/7AcjOx&amp;source=shareaholic" rel="nofollow" class="external" title="Tweet This!">Tweet This!</a>
+		</li>
+		<li class="shr-blogger">
+			<a href="http://www.blogger.com/blog_this.pyra?t&amp;u=http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/&amp;n=The+Solar+Series%3A+System+Sizing&amp;pli=1" rel="nofollow" class="external" title="Blog this on Blogger">Blog this on Blogger</a>
+		</li>
+		<li class="shr-comfeed">
+			<a href="http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/feed" rel="nofollow" class="external" title="Subscribe to the comments for this post?">Subscribe to the comments for this post?</a>
+		</li>
+		<li class="shr-delicious">
+			<a href="http://delicious.com/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/&amp;title=The+Solar+Series%3A+System+Sizing" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="shr-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/&amp;title=The+Solar+Series%3A+System+Sizing" rel="nofollow" class="external" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="shr-diigo">
+			<a href="http://www.diigo.com/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/&amp;title=The+Solar+Series%3A+System+Sizing&amp;desc=Now%20that%20we%E2%80%99ve%20got%20an%20overall%20picture%20of%20what%20we%E2%80%99re%20trying%20to%20achieve%20in%20building%20an%20off-grid%20solar%20system%20%28Goals%2C%20Rationale%29%20and%20have%20some%20background%20on%20electricity%20%28Power%20-%20AC%20%26amp%3B%20DC%29%20it%E2%80%99s%20time%20to%20do%20a%20bit%20of%20thinking%20and%20a%20bit%20of%20math%20to%20turn%20that%20into%20reality.%C2%A0%20This%20happens%20in%20two%20parts" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a>
+		</li>
+		<li class="shr-googlebuzz">
+			<a href="http://www.google.com/buzz/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/&amp;imageurl=" rel="nofollow" class="external" title="Post on Google Buzz">Post on Google Buzz</a>
+		</li>
+		<li class="shr-misterwong">
+			<a href="http://www.mister-wong.com/addurl/?bm_url=http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/&amp;bm_description=The+Solar+Series%3A+System+Sizing&amp;plugin=sexybookmarks" rel="nofollow" class="external" title="Add this to Mister Wong">Add this to Mister Wong</a>
+		</li>
+		<li class="shr-reddit">
+			<a href="http://reddit.com/submit?url=http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/&amp;title=The+Solar+Series%3A+System+Sizing" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a>
+		</li>
+		<li class="shr-stumbleupon">
+			<a href="http://www.stumbleupon.com/submit?url=http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/&amp;title=The+Solar+Series%3A+System+Sizing" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+
+<img src="http://blimpyb.com/?ak_action=api_record_view&id=720&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>The Solar Series: Power &#8211; AC &amp; DC</title>
+		<link>http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/</link>
+		<comments>http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/#comments</comments>
+		<pubDate>Tue, 24 Aug 2010 20:41:49 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[AC]]></category>
+		<category><![CDATA[build your own]]></category>
+		<category><![CDATA[DC]]></category>
+		<category><![CDATA[do it yourself]]></category>
+		<category><![CDATA[electricity]]></category>
+		<category><![CDATA[off grid]]></category>
+		<category><![CDATA[power]]></category>
+		<category><![CDATA[RV]]></category>
+		<category><![CDATA[solar]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=701</guid>
+		<description><![CDATA[I actually wrote the System Sizing post before this one, then realized due to the curse of the engineer I’d taken for granted a lot of the background information about electricity.  If you understand all of this already you can skip to the next post, but I’m going to try in plain English to give [...]]]></description>
+			<content:encoded><![CDATA[<p>I actually wrote the System Sizing post before this one, then realized due to the curse of the engineer I’d taken for granted a lot of the background information about electricity.  If you understand all of this already you can skip to the <a href="http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/" target="_blank">next post</a>, but I’m going to try in plain English to give a quick and dirty explanation of how electrical power works in its different forms.  Wikipedia can also help you out on <a href="http://en.wikipedia.org/wiki/Electrical_power" target="_blank">power</a>, <a href="http://en.wikipedia.org/wiki/Alternating_current" target="_blank">AC</a>, <a href="http://en.wikipedia.org/wiki/Direct_current" target="_blank">DC</a> and <a href="http://en.wikipedia.org/wiki/Inverter_(electrical)" target="_blank">inverters</a>.</p>
+<p><strong>Power</strong></p>
+<div id="attachment_711" class="wp-caption alignleft" style="width: 214px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/bulb.jpg" rel="thumbnail"><img class="size-full wp-image-711  " title="bulb" src="http://blimpyb.com/wp-content/uploads/2010/08/bulb.jpg" alt="" width="204" height="228" /></a><p class="wp-caption-text">How a light bulb works</p></div>
+<p>Why does a light bulb get bright and hot when you flip the switch?  The basic principle of electricity is that current flows from a higher voltage to a lower voltage, in this case through the tungsten filament in the bulb.  The filament resists this flow like rapids in a river, so the electricity that freely flows through the copper wires in the wall leading up to the socket is all of a sudden confronted with a different filament material trying to stop it.  In essence the electric field in the wire smashes into all the molecules in the filament and transfers electric energy into kinetic energy (causing a drop in voltage), which makes the tungsten vibrate at an atomic level.  This vibration causes the electrons within the tungsten to jump to higher energy level, but as they are unstable in this state they will fall back down to their normal level and in doing so release light and heat.  This cycle repeats continuously like a hot air popcorn popper, the electrons get pushed to the top by electricity, then fall back down of their own accord and give off energy only to be pushed back up again.</p>
+<p>This continual cycle can be put in a more simplified term of just “doing work”.  Making light, making heat, moving something, doing work.  The amount of work done in one second is called a Watt.  In the light bulb example which is typically 100 Watts, this equates to approximately 10<sup>20</sup> electrons jumping state per second.</p>
+<p><strong>Alternating Current (AC)</strong></p>
+<div id="attachment_706" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Types-Of-Current.jpg" rel="thumbnail"><img class="size-medium wp-image-706" title="Types Of Current" src="http://blimpyb.com/wp-content/uploads/2010/08/Types-Of-Current-600x339.jpg" alt="" width="288" height="162" /></a><p class="wp-caption-text">The difference between AC and DC</p></div>
+<p>The electrical outlets in your house powering the light bulb run 110 Volt alternating current at 60 Hertz (i.e. the frequency, 60 times per second) from the North American power grid.  This means one prong of your socket varies in a sine wave from +110 to -110 and back to +120, 60 times per second, with this wire referred to as “hot”.  The other prong is called “ground” and stays at 0 Volts.  Current flows from the higher potential (110 volts) to ground and in doing so performs work.  Eventually as the voltage of the hot wire oscillates to be below zero, current will flow in the reverse direction from the now higher potential 0 Volts at ground to the -110 hot.  The same process of smashing into the resistive tungsten I described in the Power section still occurs, it’s just swooshing back and forth in both directions 60 times a second.</p>
+<p>The main reason the power in our homes is AC is because it comes from spinning generator turbines at a power plant somewhere.  Water falls down a dam or coal heats steam which spins a bunch of giant magnets at 60 times per second, so they just send that down the lines.  For more super fun tangent times, the whole <a href="http://en.wikipedia.org/wiki/Thomas_Edison" target="_blank">Edison</a> versus <a href="http://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Tesla</a> battle in the early 20<sup>th</sup> Century is a very interesting one.  I prefer Tesla due to his work on providing free power to the world by energizing the ionosphere, or using the same technology for some sort of death ray that was confiscated by the US government upon his death in the 1940&#8242;s with still no details released to this day.  Electricity is more sordid than you thought, no?</p>
+<p><strong>Direct Current (DC)</strong></p>
+<p>Anything that’s powered by a battery (such as Bessie the RV) instead runs on DC power, which is much simpler to understand.  The “hot” terminal is always 12 Volts, the ground always zero volts, there’s no switching, everything flows one way down hill.  Pretty simple.  Interestingly enough, in any home electronic appliance (TV, stereo, computer) the very first thing on the other end of the wall AC cord is an AC to DC converter, a stable DC voltage is needed to run anything of precision.  Unfortunately, if you want to take your home stereo into your RV, there’s really no way to take it apart and wire it straight into the RV’s 12 volt DC, you need one more piece&#8230;</p>
+<p><strong>Inverter</strong></p>
+<div id="attachment_709" class="wp-caption alignleft" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Inverter-VS-Cigarette.jpg" rel="thumbnail"><img class="size-medium wp-image-709  " title="Inverter VS Cigarette" src="http://blimpyb.com/wp-content/uploads/2010/08/Inverter-VS-Cigarette-600x399.jpg" alt="" width="288" height="191" /></a><p class="wp-caption-text">AC vs DC, Inverter vs Cigarette Lighter</p></div>
+<p>The missing link is something called an inverter.  It is a piece of electronic equipment able to take 12 volt DC power and convert it to 110 volt AC power.  Now anything that plugs into the wall in your home can plug into your off-grid solar system.  The sizing of an inverter will be covered in the next post, but it’s very important to realize (and the entire point of this post) that within an off-grid system there can and likely will be both AC and DC electronics to be run.  While it’s pretty obvious which is which when you try and plug a two-prong AC cord into a cigarette lighter socket and get nowhere, being aware of this beforehand and what’s actually happening with all the electrons jumping all over the place will definitely help you build a better off-grid system.</p>
+<p><strong>Solar</strong></p>
+<p>Since this is The Solar Series, I thought I would finish by tying up the loose end of how the sun and solar panels fit in this cycle.  Due to something called the photoelectric effect (discovered by Einstein no less) when sun shines on certain types of metal, that metal will produce an electrical voltage.  It’s actually the exact reverse principle of a light bulb.  The sun imparts kinetic energy on the electrons within a solar panel causing them to jump up in energy level, which again is unstable and they will eventually fall back to their normal state.  Rather than glowing or getting hot, due to the different material properties of a solar panel the energy level drop is released as electricity.</p>
+<p>For a lot more background on how solar panels work in general that I won’t be getting into here, try this online <a href="http://samlexsolar.com/learning-center" target="_blank">Learning Center</a>.</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s the story of electrical power in a nutshell.  Over the coming weeks I will be creating posts for each aspect of the creation of an off-grid solar system with the hopes that you can follow along and do it yourself.  Of course it gets a little technically involved in spots, so feel free to ask for clarification in the comments or drop me an e-mail.</p>
+<p><strong>Topics</strong></p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/" target="_blank">Goals, Rationale</a></p>
+<p>Power – AC &amp; DC</p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/" target="_blank">System Sizing</a></p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/" target="_blank">Choosing Panels</a><em><br />
+</em></p>
+<p>Choosing Batteries <em>(coming soon&#8230;)</em></p>
+<p>Choosing a Charge Controller <em>(coming soon&#8230;)</em></p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+
+
+<div class="shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-enjoy">
+<ul class="socials">
+		<li class="shr-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/&amp;t=The+Solar+Series%3A+Power+-+AC+%26+DC" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="shr-twitter">
+			<a href="http://twitter.com/home?status=The+Solar+Series%3A+Power+-+AC+%26+DC+-+http://su.pr/2L4x1O&amp;source=shareaholic" rel="nofollow" class="external" title="Tweet This!">Tweet This!</a>
+		</li>
+		<li class="shr-blogger">
+			<a href="http://www.blogger.com/blog_this.pyra?t&amp;u=http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/&amp;n=The+Solar+Series%3A+Power+-+AC+%26+DC&amp;pli=1" rel="nofollow" class="external" title="Blog this on Blogger">Blog this on Blogger</a>
+		</li>
+		<li class="shr-comfeed">
+			<a href="http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/feed" rel="nofollow" class="external" title="Subscribe to the comments for this post?">Subscribe to the comments for this post?</a>
+		</li>
+		<li class="shr-delicious">
+			<a href="http://delicious.com/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/&amp;title=The+Solar+Series%3A+Power+-+AC+%26+DC" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="shr-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/&amp;title=The+Solar+Series%3A+Power+-+AC+%26+DC" rel="nofollow" class="external" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="shr-diigo">
+			<a href="http://www.diigo.com/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/&amp;title=The+Solar+Series%3A+Power+-+AC+%26+DC&amp;desc=I%20actually%20wrote%20the%20System%20Sizing%20post%20before%20this%20one%2C%20then%20realized%20due%20to%20the%20curse%20of%20the%20engineer%20I%E2%80%99d%20taken%20for%20granted%20a%20lot%20of%20the%20background%20information%20about%20electricity.%C2%A0%20If%20you%20understand%20all%20of%20this%20already%20you%20can%20skip%20to%20the%20next%20post%2C%20but%20I%E2%80%99m%20going%20to%20try%20in%20plain%20English%20to%20giv" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a>
+		</li>
+		<li class="shr-googlebuzz">
+			<a href="http://www.google.com/buzz/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/&amp;imageurl=" rel="nofollow" class="external" title="Post on Google Buzz">Post on Google Buzz</a>
+		</li>
+		<li class="shr-misterwong">
+			<a href="http://www.mister-wong.com/addurl/?bm_url=http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/&amp;bm_description=The+Solar+Series%3A+Power+-+AC+%26+DC&amp;plugin=sexybookmarks" rel="nofollow" class="external" title="Add this to Mister Wong">Add this to Mister Wong</a>
+		</li>
+		<li class="shr-reddit">
+			<a href="http://reddit.com/submit?url=http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/&amp;title=The+Solar+Series%3A+Power+-+AC+%26+DC" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a>
+		</li>
+		<li class="shr-stumbleupon">
+			<a href="http://www.stumbleupon.com/submit?url=http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/&amp;title=The+Solar+Series%3A+Power+-+AC+%26+DC" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+
+<img src="http://blimpyb.com/?ak_action=api_record_view&id=701&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>The Solar Series: Goals, Rationale</title>
+		<link>http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/</link>
+		<comments>http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/#comments</comments>
+		<pubDate>Fri, 20 Aug 2010 20:59:23 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[build your own]]></category>
+		<category><![CDATA[do it yourself]]></category>
+		<category><![CDATA[off grid]]></category>
+		<category><![CDATA[RV]]></category>
+		<category><![CDATA[solar]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=685</guid>
+		<description><![CDATA[Before we delve deep into the nuts and bolts of how Bessie the RV is powered for boondocking for the next few years, and how you too can build your own complete off-grid system, I thought I would discuss some of the concepts and aims as background.  In fact, let’s keep it real simple. Goals [...]]]></description>
+			<content:encoded><![CDATA[<p>Before we delve deep into the nuts and bolts of how Bessie the RV is powered for boondocking for the next few years, and how you too can build your own complete off-grid system, I thought I would discuss some of the concepts and aims as background.  In fact, let’s keep it real simple.</p>
+<p><strong>Goals</strong></p>
+<ol>
+<li>Be completely off-grid self-sufficient using solar panels.  No plugging in, no generator.</li>
+<li>Provide enough energy to power all electrical systems (stereo, computer, lights, inverter, etc.) without having to overly worry about conservation.</li>
+<li>Select panels, batteries and solar charge controller that will all fit on the RV in the most efficient configuration possible.</li>
+</ol>
+<div id="attachment_687" class="wp-caption alignright" style="width: 298px"><strong><a href="http://blimpyb.com/wp-content/uploads/2010/08/Solar-Panel.jpg" rel="thumbnail"><img class="size-medium wp-image-687   " title="Solar Panel" src="http://blimpyb.com/wp-content/uploads/2010/08/Solar-Panel-600x399.jpg" alt="" width="288" height="191" /></a></strong><p class="wp-caption-text">The power of the sun in the palm of my hands...</p></div>
+<p>One of my favourite parts of getting all this on paper is that although I used this technology to pimp my RV, there’s absolutely no reason you couldn’t do something similar to your home, shack in the woods, boat or marijuana grow op.  Just make sure you have a clear and simply defined set of goals and that you don’t deviate from them.  This can be as simple as knowing what you’re trying to achieve in your head, but as you’ll see from my explanation of each goal as it related to my work, it’s still way too tempting to get off track if you don’t have some sort of reality check.</p>
+<p><strong>Goal #1 Explained: Be completely off-grid self-sufficient</strong></p>
+<div id="attachment_688" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Panels-on-RV-roof.jpg" rel="thumbnail"><img class="size-medium wp-image-688  " title="Panels on RV roof" src="http://blimpyb.com/wp-content/uploads/2010/08/Panels-on-RV-roof-600x399.jpg" alt="" width="288" height="191" /></a><p class="wp-caption-text">The beginning</p></div>
+<p>I originally toyed with the idea of some sort of hybrid system involving smaller panels, a generator and planning to plug in from time to time.  A day into the trip I confirmed my suspicions that if part of my daily routine was listening to the chug of a propane generator, I would likely shoot myself in the face.  I also found out since my RV is made with 1984 technology, I would need to plug in for 3 full days to recharge my battery bank, again no good.  So instead I opted to spend the extra dough and get enough panel output that no matter where I was, I would always have electricity.  Go anywhere, do anything, it’s a nice feeling.</p>
+<p><strong>Goal #2 Explained: Provide enough energy</strong></p>
+<p>There are numerous worksheets and resources online that show the energy consumption of various appliances (coming in the <a href="http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/" target="_blank">System Sizing</a> post), so you just need to know what you’ll be running and for how long each day.  From there you can decide on a reasonable battery bank and panel array size.  It’s very important to setup the correct buffer or factor of safety so you can still function after three cloudy days.  As it turns out I way over-budgeted how much energy I would use, and way under-budgeted how much I would generate.  It’s one of those “good” problems that I haven’t even been able to remedy by playing really loud music all the time.</p>
+<p><strong>Goal #3 Explained: Select equipment that will fit as efficiently as possible</strong></p>
+<div id="attachment_692" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/RV-Solar.jpg" rel="thumbnail"><img class="size-medium wp-image-692  " title="RV Solar" src="http://blimpyb.com/wp-content/uploads/2010/08/RV-Solar-600x399.jpg" alt="" width="288" height="191" /></a><p class="wp-caption-text">The end</p></div>
+<p>“Hmmm, these BP panels don’t quite fit, but are $200 cheaper, maybe I should just go for it.”  This quote from myself a few months ago is why we have our reality check.  The smaller Sanyo panels I bought instead barely fit, the BP ones wouldn’t have, but I still almost went for it.  There is an incredibly wide variety of different sizes, shapes and technologies, so picking a configuration where each individual piece properly interacts with all the components of the system is critical to achieving peak efficiency.  Anything less than peak efficiency won’t do, it makes no sense to buy $2000 worth of panels when you can only ever expect to extract $1500 worth of energy.</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s some of the big picture stuff out of the way.  Over the coming weeks I will be creating posts for each aspect of the creation of an off-grid solar system with the hopes that you can follow along and do it yourself.  Of course it gets a little technically involved in spots, so feel free to ask for clarification in the comments or drop me an e-mail.</p>
+<p><strong>Topics</strong></p>
+<p>Goals, Rationale</p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-power-ac-dc/701/" target="_blank">Power &#8211; AC &amp; DC</a></p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-system-sizing/720/" target="_blank">System Sizing</a><em><br />
+</em></p>
+<p><a href="http://blimpyb.com/rv-upgrade/the-solar-series-choosing-panels/919/" target="_blank">Choosing Panels</a><em><br />
+</em></p>
+<p>Choosing Batteries <em>(coming soon&#8230;)</em></p>
+<p>Choosing a Charge Controller <em>(coming soon&#8230;)</em></p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+
+
+<div class="shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-enjoy">
+<ul class="socials">
+		<li class="shr-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/&amp;t=The+Solar+Series%3A+Goals%2C+Rationale" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="shr-twitter">
+			<a href="http://twitter.com/home?status=The+Solar+Series%3A+Goals%2C+Rationale+-+http://su.pr/8viKyG&amp;source=shareaholic" rel="nofollow" class="external" title="Tweet This!">Tweet This!</a>
+		</li>
+		<li class="shr-blogger">
+			<a href="http://www.blogger.com/blog_this.pyra?t&amp;u=http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/&amp;n=The+Solar+Series%3A+Goals%2C+Rationale&amp;pli=1" rel="nofollow" class="external" title="Blog this on Blogger">Blog this on Blogger</a>
+		</li>
+		<li class="shr-comfeed">
+			<a href="http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/feed" rel="nofollow" class="external" title="Subscribe to the comments for this post?">Subscribe to the comments for this post?</a>
+		</li>
+		<li class="shr-delicious">
+			<a href="http://delicious.com/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/&amp;title=The+Solar+Series%3A+Goals%2C+Rationale" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="shr-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/&amp;title=The+Solar+Series%3A+Goals%2C+Rationale" rel="nofollow" class="external" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="shr-diigo">
+			<a href="http://www.diigo.com/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/&amp;title=The+Solar+Series%3A+Goals%2C+Rationale&amp;desc=Before%20we%20delve%20deep%20into%20the%20nuts%20and%20bolts%20of%20how%20Bessie%20the%20RV%20is%20powered%20for%20boondocking%20for%20the%20next%20few%20years%2C%20and%20how%20you%20too%20can%20build%20your%20own%20complete%20off-grid%20system%2C%20I%20thought%20I%20would%20discuss%20some%20of%20the%20concepts%20and%20aims%20as%20background.%C2%A0%20In%20fact%2C%20let%E2%80%99s%20keep%20it%20real%20simple.%0D%0A%0D%0AGoals%0D%0A%0D" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a>
+		</li>
+		<li class="shr-googlebuzz">
+			<a href="http://www.google.com/buzz/post?url=http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/&amp;imageurl=" rel="nofollow" class="external" title="Post on Google Buzz">Post on Google Buzz</a>
+		</li>
+		<li class="shr-misterwong">
+			<a href="http://www.mister-wong.com/addurl/?bm_url=http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/&amp;bm_description=The+Solar+Series%3A+Goals%2C+Rationale&amp;plugin=sexybookmarks" rel="nofollow" class="external" title="Add this to Mister Wong">Add this to Mister Wong</a>
+		</li>
+		<li class="shr-reddit">
+			<a href="http://reddit.com/submit?url=http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/&amp;title=The+Solar+Series%3A+Goals%2C+Rationale" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a>
+		</li>
+		<li class="shr-stumbleupon">
+			<a href="http://www.stumbleupon.com/submit?url=http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/&amp;title=The+Solar+Series%3A+Goals%2C+Rationale" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+
+<img src="http://blimpyb.com/?ak_action=api_record_view&id=685&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/rv-upgrade/the-solar-series-goals-rationale/685/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Kal Tire: Truly Bad Service Since 1953</title>
+		<link>http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/</link>
+		<comments>http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/#comments</comments>
+		<pubDate>Thu, 29 Jul 2010 19:10:30 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[Mapped]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[Travel Stories]]></category>
+		<category><![CDATA[bad service]]></category>
+		<category><![CDATA[gasket]]></category>
+		<category><![CDATA[Kal Tire]]></category>
+		<category><![CDATA[mechanic]]></category>
+		<category><![CDATA[radiator]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=560</guid>
+		<description><![CDATA[Mechanics.  For anyone who’s had to maintain a car, it’s often a sore spot.  Either you don’t know what’s wrong and they take advantage and charge you up the wazoo, or you know exactly what you need done and they do a sloppy job.  Blimpy’s latest tirade falls into the second category, although they still [...]]]></description>
+			<content:encoded><![CDATA[<p>Mechanics.  For anyone who’s had to maintain a car, it’s often a sore spot.  Either you don’t know what’s wrong and they take advantage and charge you up the wazoo, or you know exactly what you need done and they do a sloppy job.  Blimpy’s latest tirade falls into the second category, although they still made attempts for it to fall in both.</p>
+<p>Bessie is an old RV.  Trudging up mountain passes fully loaded when it’s 30 Celsius outside is very hard on her.  At this point I’m not even sure any more, but it seemed to me like she was overheating as problems got worse the longer I drove.  So I took it into the Kal Tire in Penticton telling them I’m having cooling problems and they say “well, we’ll just do a full mechanical inspection!”  No thanks, I already got one at a Kal Tire in Calgary and you had that on file before you asked, just the cooling system please.  They take a look and find a tiny leak in the radiator, show me the corrosion and it not holding pressure, order me a new one to install in Kelowna at 9:30 Monday, no charge.  Their motto is True Service which I am ridiculing in the title, but at this point I’m a happy customer.</p>
+<div id="attachment_561" class="wp-caption alignright" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Kal-Tire-Coolant-Leak-1.jpg" rel="thumbnail"><img class="size-medium wp-image-561" title="Kal Tire Coolant Leak 1" src="http://blimpyb.com/wp-content/uploads/2010/07/Kal-Tire-Coolant-Leak-1-300x199.jpg" alt="" width="300" height="199" /></a><p class="wp-caption-text">Bessie never leaked a drop before &quot;True Service&quot;</p></div>
+<p>After calling Saturday to again confirm the time, I arrive first thing Monday morning to be told it’ll be just a bit.  In “True Service” speak this means they’ll get around to it at about 12:30.  At least they have free popcorn and coffee and I got to watch Lance Armstrong officially retire 100 times on the sports highlights.</p>
+<p>After they finish up around 3 o’clock, I catch the mechanic who worked on it and he says everything went fine, he just had a bit of trouble tightening the gaskets on the hoses.  OK, fair enough, he’s a mechanic, there were difficulties in his job and he overcame them.  I drive it back where I’m staying in Kelowna, crack a beer, watch some baseball and pack up to leave the next day.</p>
+<p>About 20 minutes into my drive, I can feel the heat from the engine on my legs and it’s overheating worse than before.  Bessie never leaked a drop before getting “True Service”.  10 more minutes and it’s dire enough I pull over and kill the engine, only to hear a sizzling sound that wasn’t there before and see coolant on the ground before I even pop the hood.  There are 4 gasket hoses to the radiator, there’s green steamy ooze coming out of three of them.</p>
+<div id="attachment_562" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Kal-Tire-Coolant-Leak-2.jpg" rel="thumbnail"><img class="size-medium wp-image-562" title="Kal Tire Coolant Leak 2" src="http://blimpyb.com/wp-content/uploads/2010/07/Kal-Tire-Coolant-Leak-2-300x200.jpg" alt="" width="300" height="200" /></a><p class="wp-caption-text">At least the sizzling coolant has a sweet aroma</p></div>
+<p>I pull into the Kal Tire in Merritt, let them know about the poor job from the day before, they say it will be 40 minutes, I go get a sandwich.  This time 40 minutes meant immediately and they say they’re finished when I get back.  The hood’s still up, the mechanic’s still there, I ask “did you tighten all three lose hoses, or just this one?”  “Oh, you wanted all three?”  It then takes him roughly 30 seconds with a gasket tightening tool&#8230;why didn’t they just do it right the first time?!?!</p>
+<p>In an even funnier coincidence, hours after this when I’d made it to the town of Hope, I got a random feedback call from Kal Tire where I got to rate my overall experience as 3/10.  They even asked if I wanted to leave a message for the Kelowna store manager&#8230;no thanks, I’m sure he hears enough swearing already working in the shop.</p>
+<p>I think the moral of the story is that I’ve had the best luck just breathing down the neck of mechanics making it seem like I know what’s going on to put the fear of God in them, otherwise they really just don’t care because they already got your money.</p>
+
+
+<div class="shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-enjoy">
+<ul class="socials">
+		<li class="shr-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/&amp;t=Kal+Tire%3A+Truly+Bad+Service+Since+1953" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="shr-twitter">
+			<a href="http://twitter.com/home?status=Kal+Tire%3A+Truly+Bad+Service+Since+1953+-+http://su.pr/2Ni1Yc&amp;source=shareaholic" rel="nofollow" class="external" title="Tweet This!">Tweet This!</a>
+		</li>
+		<li class="shr-blogger">
+			<a href="http://www.blogger.com/blog_this.pyra?t&amp;u=http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/&amp;n=Kal+Tire%3A+Truly+Bad+Service+Since+1953&amp;pli=1" rel="nofollow" class="external" title="Blog this on Blogger">Blog this on Blogger</a>
+		</li>
+		<li class="shr-comfeed">
+			<a href="http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/feed" rel="nofollow" class="external" title="Subscribe to the comments for this post?">Subscribe to the comments for this post?</a>
+		</li>
+		<li class="shr-delicious">
+			<a href="http://delicious.com/post?url=http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/&amp;title=Kal+Tire%3A+Truly+Bad+Service+Since+1953" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="shr-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/&amp;title=Kal+Tire%3A+Truly+Bad+Service+Since+1953" rel="nofollow" class="external" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="shr-diigo">
+			<a href="http://www.diigo.com/post?url=http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/&amp;title=Kal+Tire%3A+Truly+Bad+Service+Since+1953&amp;desc=Mechanics.%C2%A0%20For%20anyone%20who%E2%80%99s%20had%20to%20maintain%20a%20car%2C%20it%E2%80%99s%20often%20a%20sore%20spot.%C2%A0%20Either%20you%20don%E2%80%99t%20know%20what%E2%80%99s%20wrong%20and%20they%20take%20advantage%20and%20charge%20you%20up%20the%20wazoo%2C%20or%20you%20know%20exactly%20what%20you%20need%20done%20and%20they%20do%20a%20sloppy%20job.%C2%A0%20Blimpy%E2%80%99s%20latest%20tirade%20falls%20into%20the%20second%20category%2C%20a" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a>
+		</li>
+		<li class="shr-googlebuzz">
+			<a href="http://www.google.com/buzz/post?url=http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/&amp;imageurl=" rel="nofollow" class="external" title="Post on Google Buzz">Post on Google Buzz</a>
+		</li>
+		<li class="shr-misterwong">
+			<a href="http://www.mister-wong.com/addurl/?bm_url=http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/&amp;bm_description=Kal+Tire%3A+Truly+Bad+Service+Since+1953&amp;plugin=sexybookmarks" rel="nofollow" class="external" title="Add this to Mister Wong">Add this to Mister Wong</a>
+		</li>
+		<li class="shr-reddit">
+			<a href="http://reddit.com/submit?url=http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/&amp;title=Kal+Tire%3A+Truly+Bad+Service+Since+1953" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a>
+		</li>
+		<li class="shr-stumbleupon">
+			<a href="http://www.stumbleupon.com/submit?url=http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/&amp;title=Kal+Tire%3A+Truly+Bad+Service+Since+1953" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+
+<img src="http://blimpyb.com/?ak_action=api_record_view&id=560&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<georss:point>49.9152374 -119.3918457</georss:point>	</item>
+		<item>
+		<title>The RV Graveyard</title>
+		<link>http://blimpyb.com/random/the-rv-graveyard/409/</link>
+		<comments>http://blimpyb.com/random/the-rv-graveyard/409/#comments</comments>
+		<pubDate>Fri, 23 Jul 2010 20:08:46 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[Mapped]]></category>
+		<category><![CDATA[Philosophy]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[Random Insanity]]></category>
+		<category><![CDATA[junk yard]]></category>
+		<category><![CDATA[recycle]]></category>
+		<category><![CDATA[scrap]]></category>
+		<category><![CDATA[steel]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=409</guid>
+		<description><![CDATA[Radiators, hub caps, mufflers, transmissions, all of these once belonged to Bessie’s fallen comrades. Out back of an RV shop can be a terrifying place.  This scrap metal once functioned, it had purpose.  But now? Perhaps it is because I know what is to become of it, having been there 5 years ago.  Steel is [...]]]></description>
+			<content:encoded><![CDATA[<p>Radiators, hub caps, mufflers, transmissions, all of these once belonged to Bessie’s fallen comrades.</p>
+<div id="attachment_410" class="wp-caption alignright" style="width: 250px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/RV-Graveyard.jpg" rel="thumbnail"><img class="size-medium wp-image-410 " title="RV Graveyard" src="http://blimpyb.com/wp-content/uploads/2010/07/RV-Graveyard-300x200.jpg" alt="" width="240" height="160" /></a><p class="wp-caption-text">Little scrap heap</p></div>
+<p>Out back of an RV shop can be a terrifying place.  This scrap metal once functioned, it had purpose.  But now?</p>
+<p>Perhaps it is because I know what is to become of it, having been there 5 years ago.  Steel is the most recycled material in the world, up to 97% of new steel is made with old steel.  It all dawned on me suddenly, gripping a walking bridge guard rail that it was made from Model T’s and confiscated handguns just like the ones I watched the cops throw in the furnace days earlier.</p>
+<div id="attachment_411" class="wp-caption alignleft" style="width: 250px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Steel-Scrap.jpg" rel="thumbnail"><img class="size-medium wp-image-411 " title="Steel Scrap" src="http://blimpyb.com/wp-content/uploads/2010/07/Steel-Scrap-300x225.jpg" alt="" width="240" height="180" /></a><p class="wp-caption-text">Big scrap heap</p></div>
+<p>Or instead the riser pipes on BP’s Horizon well.  Offshore grade stainless steel has very high Molybdenum and Nickel content and gives off a thick black polluting smoke that often doesn’t conform to environmental codes.  So how do they still make it?  At night so nobody can see.  It’s worth a lot of money.</p>
+<div id="attachment_416" class="wp-caption alignright" style="width: 188px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Steel-Heat.jpg" rel="thumbnail"><img class="size-medium wp-image-416 " title="Steel Heat" src="http://blimpyb.com/wp-content/uploads/2010/07/Steel-Heat-223x300.jpg" alt="" width="178" height="240" /></a><p class="wp-caption-text">The steel terminology for this is &quot;dropping a charge in the heat&quot;</p></div>
+<p>Bessie’s steel is not stainless, she rusts and degrades just like a person.  Me, I got a bad shoulder.  Bessie, she got a leaky radiator.  But it can be replaced with a new one made out of melted down old radiators.  It’s a beautiful, terrifying thing.  20 years from now, your shiny new refrigerator will be 0.01% Bessie, having travelled to the redwood forests, Mobile Alabama and the Florida Keys.  Some say each and every one of us has carbon atoms from Abraham Lincoln or Jesus.</p>
+<p>OK, enough screwing around, I just wanted to write myself up an excuse to post steel mill pictures.  But to finish off in the same failed philosophical vein I started in&#8230;without me, Bessie is nothing.  But without Bessie, I’m still Blimpy.</p>
+<div id="attachment_417" class="wp-caption alignleft" style="width: 250px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Melted-Steel.jpg" rel="thumbnail"><img class="size-medium wp-image-417 " title="Melted Steel" src="http://blimpyb.com/wp-content/uploads/2010/07/Melted-Steel-300x214.jpg" alt="" width="240" height="171" /></a><p class="wp-caption-text">Cooked to a delicious medium well</p></div>
+
+
+<div class="shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-enjoy">
+<ul class="socials">
+		<li class="shr-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blimpyb.com/random/the-rv-graveyard/409/&amp;t=The+RV+Graveyard" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="shr-twitter">
+			<a href="http://twitter.com/home?status=The+RV+Graveyard+-+http://su.pr/1fylOC&amp;source=shareaholic" rel="nofollow" class="external" title="Tweet This!">Tweet This!</a>
+		</li>
+		<li class="shr-blogger">
+			<a href="http://www.blogger.com/blog_this.pyra?t&amp;u=http://blimpyb.com/random/the-rv-graveyard/409/&amp;n=The+RV+Graveyard&amp;pli=1" rel="nofollow" class="external" title="Blog this on Blogger">Blog this on Blogger</a>
+		</li>
+		<li class="shr-comfeed">
+			<a href="http://blimpyb.com/random/the-rv-graveyard/409/feed" rel="nofollow" class="external" title="Subscribe to the comments for this post?">Subscribe to the comments for this post?</a>
+		</li>
+		<li class="shr-delicious">
+			<a href="http://delicious.com/post?url=http://blimpyb.com/random/the-rv-graveyard/409/&amp;title=The+RV+Graveyard" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="shr-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blimpyb.com/random/the-rv-graveyard/409/&amp;title=The+RV+Graveyard" rel="nofollow" class="external" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="shr-diigo">
+			<a href="http://www.diigo.com/post?url=http://blimpyb.com/random/the-rv-graveyard/409/&amp;title=The+RV+Graveyard&amp;desc=Radiators%2C%20hub%20caps%2C%20mufflers%2C%20transmissions%2C%20all%20of%20these%20once%20belonged%20to%20Bessie%E2%80%99s%20fallen%20comrades.%0D%0A%0D%0A%0D%0A%0D%0AOut%20back%20of%20an%20RV%20shop%20can%20be%20a%20terrifying%20place.%C2%A0%20This%20scrap%20metal%20once%20functioned%2C%20it%20had%20purpose.%C2%A0%20But%20now%3F%0D%0A%0D%0APerhaps%20it%20is%20because%20I%20know%20what%20is%20to%20become%20of%20it%2C%20having%20been%20there%205" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a>
+		</li>
+		<li class="shr-googlebuzz">
+			<a href="http://www.google.com/buzz/post?url=http://blimpyb.com/random/the-rv-graveyard/409/&amp;imageurl=" rel="nofollow" class="external" title="Post on Google Buzz">Post on Google Buzz</a>
+		</li>
+		<li class="shr-misterwong">
+			<a href="http://www.mister-wong.com/addurl/?bm_url=http://blimpyb.com/random/the-rv-graveyard/409/&amp;bm_description=The+RV+Graveyard&amp;plugin=sexybookmarks" rel="nofollow" class="external" title="Add this to Mister Wong">Add this to Mister Wong</a>
+		</li>
+		<li class="shr-reddit">
+			<a href="http://reddit.com/submit?url=http://blimpyb.com/random/the-rv-graveyard/409/&amp;title=The+RV+Graveyard" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a>
+		</li>
+		<li class="shr-stumbleupon">
+			<a href="http://www.stumbleupon.com/submit?url=http://blimpyb.com/random/the-rv-graveyard/409/&amp;title=The+RV+Graveyard" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+
+<img src="http://blimpyb.com/?ak_action=api_record_view&id=409&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/random/the-rv-graveyard/409/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+	<georss:point>49.0266647 -119.4433212</georss:point>	</item>
+		<item>
+		<title>But this one goes to 11</title>
+		<link>http://blimpyb.com/music/but-this-one-goes-to-11/126/</link>
+		<comments>http://blimpyb.com/music/but-this-one-goes-to-11/126/#comments</comments>
+		<pubDate>Tue, 11 May 2010 04:45:24 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[Car PC]]></category>
+		<category><![CDATA[Music]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[baffle]]></category>
+		<category><![CDATA[cabinets]]></category>
+		<category><![CDATA[carpc]]></category>
+		<category><![CDATA[carputer]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[electronics]]></category>
+		<category><![CDATA[gadgets]]></category>
+		<category><![CDATA[laptop]]></category>
+		<category><![CDATA[lat-500]]></category>
+		<category><![CDATA[lcd]]></category>
+		<category><![CDATA[magnet]]></category>
+		<category><![CDATA[pc for car]]></category>
+		<category><![CDATA[reading]]></category>
+		<category><![CDATA[speakers]]></category>
+		<category><![CDATA[tang band]]></category>
+		<category><![CDATA[touchscreen]]></category>
+		<category><![CDATA[tymphany]]></category>
+		<category><![CDATA[usb]]></category>
+		<category><![CDATA[w6-1721]]></category>
+		<category><![CDATA[xp]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=126</guid>
+		<description><![CDATA[All the electronic &#38; speaker gadgets going into Bessie&#8230; Share this on Facebook Tweet This! Blog this on Blogger Subscribe to the comments for this post? Share this on del.icio.us Digg this! Post this on Diigo Post on Google Buzz Add this to Mister Wong Share this on Reddit Stumble upon something good? Share it [...]]]></description>
+			<content:encoded><![CDATA[<p>All the electronic &amp; speaker gadgets going into Bessie&#8230;</p>
+<div id="attachment_127" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208237906872_116764945017868_220523_6206079_n.jpg" rel="thumbnail"><img class="size-medium wp-image-127" title="Gadgets" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208237906872_116764945017868_220523_6206079_n-300x225.jpg" alt="Gadgets" width="300" height="225" /></a><p class="wp-caption-text">Lots of gadgets, lots of them dirt cheap from China</p></div>
+<div id="attachment_128" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208241240205_116764945017868_220524_7574202_n.jpg" rel="thumbnail"><img class="size-medium wp-image-128" title="Reading material" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208241240205_116764945017868_220524_7574202_n-300x225.jpg" alt="Reading material" width="300" height="225" /></a><p class="wp-caption-text">Essential reading material</p></div>
+<div id="attachment_129" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208247906871_116764945017868_220525_1466588_n.jpg" rel="thumbnail"><img class="size-medium wp-image-129" title="LAT-500 subwoofer" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208247906871_116764945017868_220525_1466588_n-300x225.jpg" alt="LAT-500 subwoofer" width="300" height="225" /></a><p class="wp-caption-text">My Tymphany LAT-500 transducer subwoofer. It&#39;s a lot bigger than it looks in the picture.</p></div>
+<div id="attachment_130" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208254573537_116764945017868_220526_4718431_n.jpg" rel="thumbnail"><img class="size-medium wp-image-130" title="Tang Band W6-1721" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208254573537_116764945017868_220526_4718431_n-300x225.jpg" alt="Tang Band W6-1721" width="300" height="225" /></a><p class="wp-caption-text">My Tang Band W6-1721. It weighs about 15 lbs, that magnet ain&#39;t no joke.</p></div>
+<div id="attachment_131" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208261240203_116764945017868_220527_5843503_n.jpg" rel="thumbnail"><img class="size-medium wp-image-131" title="Speaker set" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208261240203_116764945017868_220527_5843503_n-300x225.jpg" alt="Speaker set" width="300" height="225" /></a><p class="wp-caption-text">The complete set. Trying to decide which of the crappy speakers go in the front door panels</p></div>
+<div id="attachment_132" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209337906762_116764945017868_220536_40307_n.jpg" rel="thumbnail"><img class="size-medium wp-image-132" title="Beautiful sound" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209337906762_116764945017868_220536_40307_n-300x225.jpg" alt="Beautiful sound" width="300" height="225" /></a><p class="wp-caption-text">Beautiful, beautiful sound.  Can't wait to install it and fire it up...yeehaw.</p></div>
+<div id="attachment_133" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209347906761_116764945017868_220537_3635993_n.jpg" rel="thumbnail"><img class="size-medium wp-image-133" title="Car PC" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209347906761_116764945017868_220537_3635993_n-300x225.jpg" alt="Car PC" width="300" height="225" /></a><p class="wp-caption-text">My Car PC. It has no hard drive. Running XP off a USB key is a bitch and a half, but worth it...once I figure out how to make a backup.</p></div>
+<div id="attachment_134" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209357906760_116764945017868_220538_6910208_n.jpg" rel="thumbnail"><img class="size-medium wp-image-134" title="Touchscreen" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209357906760_116764945017868_220538_6910208_n-300x225.jpg" alt="Touchscreen" width="300" height="225" /></a><p class="wp-caption-text">Touchscreen, again from China, again dirt cheap. Slightly frightened to tear the casing off the LCD on the laptop, but oh well.</p></div>
+<div id="attachment_135" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209367906759_116764945017868_220539_3081935_n.jpg" rel="thumbnail"><img class="size-medium wp-image-135" title="Badass speakers" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209367906759_116764945017868_220539_3081935_n-300x225.jpg" alt="Badass speakers" width="300" height="225" /></a><p class="wp-caption-text">Not my picture, just hypothesizing about using open baffle speakers instead of cabinets and mounting them in the bed cab up top. Hell of a big and fun canvas to paint something on though.</p></div>
+
+
+<div class="shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-enjoy">
+<ul class="socials">
+		<li class="shr-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blimpyb.com/music/but-this-one-goes-to-11/126/&amp;t=But+this+one+goes+to+11" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="shr-twitter">
+			<a href="http://twitter.com/home?status=But+this+one+goes+to+11+-+http://su.pr/1amSVP&amp;source=shareaholic" rel="nofollow" class="external" title="Tweet This!">Tweet This!</a>
+		</li>
+		<li class="shr-blogger">
+			<a href="http://www.blogger.com/blog_this.pyra?t&amp;u=http://blimpyb.com/music/but-this-one-goes-to-11/126/&amp;n=But+this+one+goes+to+11&amp;pli=1" rel="nofollow" class="external" title="Blog this on Blogger">Blog this on Blogger</a>
+		</li>
+		<li class="shr-comfeed">
+			<a href="http://blimpyb.com/music/but-this-one-goes-to-11/126/feed" rel="nofollow" class="external" title="Subscribe to the comments for this post?">Subscribe to the comments for this post?</a>
+		</li>
+		<li class="shr-delicious">
+			<a href="http://delicious.com/post?url=http://blimpyb.com/music/but-this-one-goes-to-11/126/&amp;title=But+this+one+goes+to+11" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="shr-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blimpyb.com/music/but-this-one-goes-to-11/126/&amp;title=But+this+one+goes+to+11" rel="nofollow" class="external" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="shr-diigo">
+			<a href="http://www.diigo.com/post?url=http://blimpyb.com/music/but-this-one-goes-to-11/126/&amp;title=But+this+one+goes+to+11&amp;desc=All%20the%20electronic%20%26amp%3B%20speaker%20gadgets%20going%20into%20Bessie...%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a>
+		</li>
+		<li class="shr-googlebuzz">
+			<a href="http://www.google.com/buzz/post?url=http://blimpyb.com/music/but-this-one-goes-to-11/126/&amp;imageurl=" rel="nofollow" class="external" title="Post on Google Buzz">Post on Google Buzz</a>
+		</li>
+		<li class="shr-misterwong">
+			<a href="http://www.mister-wong.com/addurl/?bm_url=http://blimpyb.com/music/but-this-one-goes-to-11/126/&amp;bm_description=But+this+one+goes+to+11&amp;plugin=sexybookmarks" rel="nofollow" class="external" title="Add this to Mister Wong">Add this to Mister Wong</a>
+		</li>
+		<li class="shr-reddit">
+			<a href="http://reddit.com/submit?url=http://blimpyb.com/music/but-this-one-goes-to-11/126/&amp;title=But+this+one+goes+to+11" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a>
+		</li>
+		<li class="shr-stumbleupon">
+			<a href="http://www.stumbleupon.com/submit?url=http://blimpyb.com/music/but-this-one-goes-to-11/126/&amp;title=But+this+one+goes+to+11" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+
+<img src="http://blimpyb.com/?ak_action=api_record_view&id=126&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/music/but-this-one-goes-to-11/126/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Crazy speakers</title>
+		<link>http://blimpyb.com/music/crazy-speakers/113/</link>
+		<comments>http://blimpyb.com/music/crazy-speakers/113/#comments</comments>
+		<pubDate>Tue, 04 May 2010 04:35:21 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[Music]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[aes]]></category>
+		<category><![CDATA[speakers]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=113</guid>
+		<description><![CDATA[In case anyone is wondering what I mean when I say the speakers are going to be crazy&#8230; http://www.aes.org/aeshc/pdf/how.the.aes.began/olson_direct-radiator-loudspeaker-enclosures.pdf Share this on Facebook Tweet This! Blog this on Blogger Subscribe to the comments for this post? Share this on del.icio.us Digg this! Post this on Diigo Post on Google Buzz Add this to Mister Wong [...]]]></description>
+			<content:encoded><![CDATA[<p>In case anyone is wondering what I mean when I say the speakers are going to be crazy&#8230;</p>
+<h3><a rel="nofollow" href="http://www.aes.org/aeshc/pdf/how.the.aes.began/olson_direct-radiator-loudspeaker-enclosures.pdf" target="_blank">http://www.aes.org/aeshc/pdf/how.the.aes.began/olson_direct-radiator-loudspeaker-enclosures.pdf</a></h3>
+
+
+<div class="shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-enjoy">
+<ul class="socials">
+		<li class="shr-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blimpyb.com/music/crazy-speakers/113/&amp;t=Crazy+speakers" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="shr-twitter">
+			<a href="http://twitter.com/home?status=Crazy+speakers+-+http://su.pr/1lYuiO&amp;source=shareaholic" rel="nofollow" class="external" title="Tweet This!">Tweet This!</a>
+		</li>
+		<li class="shr-blogger">
+			<a href="http://www.blogger.com/blog_this.pyra?t&amp;u=http://blimpyb.com/music/crazy-speakers/113/&amp;n=Crazy+speakers&amp;pli=1" rel="nofollow" class="external" title="Blog this on Blogger">Blog this on Blogger</a>
+		</li>
+		<li class="shr-comfeed">
+			<a href="http://blimpyb.com/music/crazy-speakers/113/feed" rel="nofollow" class="external" title="Subscribe to the comments for this post?">Subscribe to the comments for this post?</a>
+		</li>
+		<li class="shr-delicious">
+			<a href="http://delicious.com/post?url=http://blimpyb.com/music/crazy-speakers/113/&amp;title=Crazy+speakers" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="shr-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blimpyb.com/music/crazy-speakers/113/&amp;title=Crazy+speakers" rel="nofollow" class="external" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="shr-diigo">
+			<a href="http://www.diigo.com/post?url=http://blimpyb.com/music/crazy-speakers/113/&amp;title=Crazy+speakers&amp;desc=In%20case%20anyone%20is%20wondering%20what%20I%20mean%20when%20I%20say%20the%20speakers%20are%20going%20to%20be%20crazy...%0D%0Ahttp%3A%2F%2Fwww.aes.org%2Faeshc%2Fpdf%2Fhow.the.aes.began%2Folson_direct-radiator-loudspeaker-enclosures.pdf" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a>
+		</li>
+		<li class="shr-googlebuzz">
+			<a href="http://www.google.com/buzz/post?url=http://blimpyb.com/music/crazy-speakers/113/&amp;imageurl=" rel="nofollow" class="external" title="Post on Google Buzz">Post on Google Buzz</a>
+		</li>
+		<li class="shr-misterwong">
+			<a href="http://www.mister-wong.com/addurl/?bm_url=http://blimpyb.com/music/crazy-speakers/113/&amp;bm_description=Crazy+speakers&amp;plugin=sexybookmarks" rel="nofollow" class="external" title="Add this to Mister Wong">Add this to Mister Wong</a>
+		</li>
+		<li class="shr-reddit">
+			<a href="http://reddit.com/submit?url=http://blimpyb.com/music/crazy-speakers/113/&amp;title=Crazy+speakers" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a>
+		</li>
+		<li class="shr-stumbleupon">
+			<a href="http://www.stumbleupon.com/submit?url=http://blimpyb.com/music/crazy-speakers/113/&amp;title=Crazy+speakers" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+
+<img src="http://blimpyb.com/?ak_action=api_record_view&id=113&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/music/crazy-speakers/113/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>1984 Chevy Coachmen</title>
+		<link>http://blimpyb.com/car-pc/1984-chevy-coachmen/89/</link>
+		<comments>http://blimpyb.com/car-pc/1984-chevy-coachmen/89/#comments</comments>
+		<pubDate>Thu, 29 Apr 2010 02:06:30 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[Car PC]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[bessie]]></category>
+		<category><![CDATA[car pc]]></category>
+		<category><![CDATA[crossovers]]></category>
+		<category><![CDATA[electronics]]></category>
+		<category><![CDATA[gps]]></category>
+		<category><![CDATA[lcd]]></category>
+		<category><![CDATA[soundcard]]></category>
+		<category><![CDATA[speakers]]></category>
+		<category><![CDATA[touchscreen]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=89</guid>
+		<description><![CDATA[My 1984 Chevy Coachmen, before I turn her into an electronic battle weapon. Share this on Facebook Tweet This! Blog this on Blogger Subscribe to the comments for this post? Share this on del.icio.us Digg this! Post this on Diigo Post on Google Buzz Add this to Mister Wong Share this on Reddit Stumble upon [...]]]></description>
+			<content:encoded><![CDATA[<p>My 1984 Chevy Coachmen, before I turn her into an electronic battle weapon.</p>
+<div id="attachment_102" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/04/26294_117728014921561_116764945017868_205328_5309149_n.jpg" rel="thumbnail"><img class="size-medium wp-image-102" title="Bessie" src="http://blimpyb.com/wp-content/uploads/2010/04/26294_117728014921561_116764945017868_205328_5309149_n-300x225.jpg" alt="Bessie" width="300" height="225" /></a><p class="wp-caption-text">Bessie in all her glory</p></div>
+<div id="attachment_101" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/04/26294_117728018254894_116764945017868_205329_212147_n.jpg" rel="thumbnail"><img class="size-medium wp-image-101" title="Cab" src="http://blimpyb.com/wp-content/uploads/2010/04/26294_117728018254894_116764945017868_205329_212147_n-300x225.jpg" alt="Cab" width="300" height="225" /></a><p class="wp-caption-text">Inside the main cab, red circles are where the crazy speakers go, blue arrow is where the Car PC with GPS and backup cam go along with external soundcard for active crossovers. LCD touchscreen goes in the dash.</p></div>
+<div id="attachment_99" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/04/26294_117728021588227_116764945017868_205330_6080412_n.jpg" rel="thumbnail"><img class="size-medium wp-image-99 " title="Electronics" src="http://blimpyb.com/wp-content/uploads/2010/04/26294_117728021588227_116764945017868_205330_6080412_n-300x225.jpg" alt="Electronics" width="300" height="225" /></a><p class="wp-caption-text">Where the blue arrow points, soon to be filled with electronics galore</p></div>
+<div id="attachment_90" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/26294_117728028254893_116764945017868_205331_5413419_n.jpg" rel="thumbnail"><img class="size-medium wp-image-90 " title="Speakers" src="http://blimpyb.com/wp-content/uploads/2010/06/26294_117728028254893_116764945017868_205331_5413419_n-300x225.jpg" alt="Speakers" width="300" height="225" /></a><p class="wp-caption-text">Current speakers blow, new speakers won&#39;t</p></div>
+
+
+<div class="shr-bookmarks shr-bookmarks-expand shr-bookmarks-center shr-bookmarks-bg-enjoy">
+<ul class="socials">
+		<li class="shr-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blimpyb.com/car-pc/1984-chevy-coachmen/89/&amp;t=1984+Chevy+Coachmen" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="shr-twitter">
+			<a href="http://twitter.com/home?status=1984+Chevy+Coachmen+-+http://su.pr/1nFIxd&amp;source=shareaholic" rel="nofollow" class="external" title="Tweet This!">Tweet This!</a>
+		</li>
+		<li class="shr-blogger">
+			<a href="http://www.blogger.com/blog_this.pyra?t&amp;u=http://blimpyb.com/car-pc/1984-chevy-coachmen/89/&amp;n=1984+Chevy+Coachmen&amp;pli=1" rel="nofollow" class="external" title="Blog this on Blogger">Blog this on Blogger</a>
+		</li>
+		<li class="shr-comfeed">
+			<a href="http://blimpyb.com/car-pc/1984-chevy-coachmen/89/feed" rel="nofollow" class="external" title="Subscribe to the comments for this post?">Subscribe to the comments for this post?</a>
+		</li>
+		<li class="shr-delicious">
+			<a href="http://delicious.com/post?url=http://blimpyb.com/car-pc/1984-chevy-coachmen/89/&amp;title=1984+Chevy+Coachmen" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="shr-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blimpyb.com/car-pc/1984-chevy-coachmen/89/&amp;title=1984+Chevy+Coachmen" rel="nofollow" class="external" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="shr-diigo">
+			<a href="http://www.diigo.com/post?url=http://blimpyb.com/car-pc/1984-chevy-coachmen/89/&amp;title=1984+Chevy+Coachmen&amp;desc=My%201984%20Chevy%20Coachmen%2C%20before%20I%20turn%20her%20into%20an%20electronic%20battle%20weapon.%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a>
+		</li>
+		<li class="shr-googlebuzz">
+			<a href="http://www.google.com/buzz/post?url=http://blimpyb.com/car-pc/1984-chevy-coachmen/89/&amp;imageurl=" rel="nofollow" class="external" title="Post on Google Buzz">Post on Google Buzz</a>
+		</li>
+		<li class="shr-misterwong">
+			<a href="http://www.mister-wong.com/addurl/?bm_url=http://blimpyb.com/car-pc/1984-chevy-coachmen/89/&amp;bm_description=1984+Chevy+Coachmen&amp;plugin=sexybookmarks" rel="nofollow" class="external" title="Add this to Mister Wong">Add this to Mister Wong</a>
+		</li>
+		<li class="shr-reddit">
+			<a href="http://reddit.com/submit?url=http://blimpyb.com/car-pc/1984-chevy-coachmen/89/&amp;title=1984+Chevy+Coachmen" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a>
+		</li>
+		<li class="shr-stumbleupon">
+			<a href="http://www.stumbleupon.com/submit?url=http://blimpyb.com/car-pc/1984-chevy-coachmen/89/&amp;title=1984+Chevy+Coachmen" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+
+<img src="http://blimpyb.com/?ak_action=api_record_view&id=89&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/car-pc/1984-chevy-coachmen/89/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
