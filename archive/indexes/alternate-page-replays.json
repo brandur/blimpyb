@@ -1,0 +1,20 @@
+[
+  {
+    "original": "http://blimpyb.com/random/the-only-part-of-your-face-that-will-get-melted-off-is-your-frown/117/",
+    "timestamp": "20100907064333",
+    "kind": "page",
+    "source": "https://web.archive.org/web/20100907064333if_/http://blimpyb.com/random/the-only-part-of-your-face-that-will-get-melted-off-is-your-frown/117/",
+    "retrieved_at": "2026-11-02T22:09:26.508882+00:00",
+    "status": "failed",
+    "error": "curl: (56) The requested URL returned error: 404"
+  },
+  {
+    "original": "http://blimpyb.com/photography/the-san-diego-zoo-is-a-freakin-zoo/3214/",
+    "timestamp": "20110117170702",
+    "kind": "page",
+    "source": "https://web.archive.org/web/20110117170702if_/http://blimpyb.com/photography/the-san-diego-zoo-is-a-freakin-zoo/3214/",
+    "retrieved_at": "2026-11-02T22:09:27.166834+00:00",
+    "status": "failed",
+    "error": "curl: (56) The requested URL returned error: 404"
+  }
+]

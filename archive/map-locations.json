@@ -1,0 +1,1711 @@
+{
+  "objects": [
+    {
+      "object_name": "post",
+      "object_id": "4680",
+      "title": "Those Crazy Creationists",
+      "lat": "38.9989510",
+      "lng": "-84.6266098",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "28",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4647",
+      "title": "The Kentucky Bourbon Trail",
+      "lat": "38.0405846",
+      "lng": "-84.5037155",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4567",
+      "title": "You Can Check Arkansas Off The List",
+      "lat": "35.1578293",
+      "lng": "-90.7057800",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4546",
+      "title": "Mardi Gras 2012",
+      "lat": "29.9510651",
+      "lng": "-90.0715332",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "28",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4513",
+      "title": "Who’s Tom Petty?",
+      "lat": "29.6516342",
+      "lng": "-82.3248291",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4493",
+      "title": "Beware the Rainbows: An Ode to the Turkey Vulture",
+      "lat": "29.1624794",
+      "lng": "-81.5253525",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "28",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4459",
+      "title": "Space is the place",
+      "lat": "28.9005451",
+      "lng": "-81.2636719",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4452",
+      "title": "North America is my bitch",
+      "lat": "31.0731735",
+      "lng": "-81.4271545",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4430",
+      "title": "I’m Officially A Snowbird",
+      "lat": "32.0973587",
+      "lng": "-82.8936691",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4400",
+      "title": "The Delta Diaries: The Sound and the Fury",
+      "lat": "34.3664932",
+      "lng": "-89.5192490",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4371",
+      "title": "The Delta Diaries: Travelling Riverside Blues",
+      "lat": "33.7440033",
+      "lng": "-90.7248154",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4363",
+      "title": "The Delta Diaries: Blimpy Lives on a Plantation",
+      "lat": "33.4101143",
+      "lng": "-91.0617752",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4331",
+      "title": "The Delta Diaries: Blimpy Gets Taught A Lesson",
+      "lat": "33.4509506",
+      "lng": "-90.6550903",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "53",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4311",
+      "title": "Mississippi isn’t backwards, just the politicians",
+      "lat": "32.2987556",
+      "lng": "-90.1848068",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "54",
+        "63",
+        "53"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4287",
+      "title": "Occupy Dallas",
+      "lat": "32.7762375",
+      "lng": "-96.7968369",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "54",
+        "53"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4253",
+      "title": "BlimpyB, World Series good luck charm",
+      "lat": "32.7254105",
+      "lng": "-97.3208466",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4245",
+      "title": "Football, Cold Beer, Hot Pussy",
+      "lat": "33.5778618",
+      "lng": "-101.8551636",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4233",
+      "title": "Texas Greeting Cards",
+      "lat": "35.2219963",
+      "lng": "-101.8312988",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "53"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4226",
+      "title": "Back in the Saddle Again",
+      "lat": "35.2078590",
+      "lng": "-101.8305664",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4108",
+      "title": "Blimpy needs your help!",
+      "lat": "51.0382538",
+      "lng": "-114.0526276",
+      "author_name": "Blimpy",
+      "categories": [
+        "54",
+        "28"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4100",
+      "title": "Texas is bigger than France",
+      "lat": "35.1974640",
+      "lng": "-101.9154129",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4092",
+      "title": "Mission Accomplished: I live at a bar",
+      "lat": "35.2101593",
+      "lng": "-101.8658524",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4084",
+      "title": "Blimpy Video #2 Explained",
+      "lat": "35.2219963",
+      "lng": "-101.8312988",
+      "author_name": "Blimpy",
+      "categories": [
+        "28",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4077",
+      "title": "Blimpy Video #2: This Time It’s Personal",
+      "lat": "35.1717224",
+      "lng": "-103.7249680",
+      "author_name": "Blimpy",
+      "categories": [
+        "28"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4072",
+      "title": "The Blimpy Diet!",
+      "lat": "35.0440445",
+      "lng": "-104.6762772",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "28",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4065",
+      "title": "I’d like to buy a prostitute license, please",
+      "lat": "35.6869736",
+      "lng": "-105.9377975",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4031",
+      "title": "It’s all downhill from here",
+      "lat": "35.0382004",
+      "lng": "-108.3474960",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4025",
+      "title": "Blimpy: The Video",
+      "lat": "34.6089401",
+      "lng": "-111.8412094",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "28"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "4016",
+      "title": "I should start selling healing crystals",
+      "lat": "34.8697395",
+      "lng": "-111.7609863",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3963",
+      "title": "Flagstaff: The only liberal place in Arizona",
+      "lat": "35.2013512",
+      "lng": "-111.6392517",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "53",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3942",
+      "title": "Blimpy Gets His Kicks on Route 66",
+      "lat": "35.3255615",
+      "lng": "-112.8774033",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "53",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3910",
+      "title": "If a government shutdown closes the National Parks…and I’m in one?",
+      "lat": "36.0352554",
+      "lng": "-114.7994308",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "54",
+        "53"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3870",
+      "title": "Live Review: Galactic at the Las Vegas Hard Rock Cafe",
+      "lat": "36.1041946",
+      "lng": "-115.1722641",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "33"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3864",
+      "title": "What Happens in Vegas…",
+      "lat": "36.1136436",
+      "lng": "-115.1728210",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3844",
+      "title": "Life Through The Eyes of Bessie",
+      "lat": "35.1677780",
+      "lng": "-114.5730209",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3834",
+      "title": "Mudshark Brewery",
+      "lat": "34.4839020",
+      "lng": "-114.3224564",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3794",
+      "title": "Phoenix NASCAR Subway 500",
+      "lat": "33.3765221",
+      "lng": "-112.3112640",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3673",
+      "title": "Just Another Day at the Office in Quartzsite AZ",
+      "lat": "33.6591721",
+      "lng": "-114.2330933",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3649",
+      "title": "Joshua Tree Camping",
+      "lat": "33.8461189",
+      "lng": "-115.7837372",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "64"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3586",
+      "title": "Palm Springs is Gay",
+      "lat": "33.8302956",
+      "lng": "-116.5452957",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3555",
+      "title": "Mo’ Macro, Mo’ Problems",
+      "lat": "33.6189117",
+      "lng": "-117.9289474",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "59",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3514",
+      "title": "We’ve got a loaner gun if you’d like?",
+      "lat": "33.1958694",
+      "lng": "-117.3794861",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3505",
+      "title": "Wide Angle Madness",
+      "lat": "32.8060188",
+      "lng": "-117.2583237",
+      "author_name": "Blimpy",
+      "categories": [
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3355",
+      "title": "Trader Joe’s and Drive-Thru Banking",
+      "lat": "32.7978249",
+      "lng": "-117.2403107",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3321",
+      "title": "The Calendar Shoot",
+      "lat": "32.7444382",
+      "lng": "-117.2519608",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3295",
+      "title": "The USS Midway",
+      "lat": "32.7136993",
+      "lng": "-117.1752853",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3214",
+      "title": "The San Diego Zoo is a Freakin Zoo",
+      "lat": "32.7359772",
+      "lng": "-117.1507874",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "3065",
+      "title": "Blimpy’s Hollywood Insider",
+      "lat": "34.1016273",
+      "lng": "-118.3266525",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2989",
+      "title": "Marina del Rey & Venice Beach",
+      "lat": "33.9858093",
+      "lng": "-118.4727478",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2981",
+      "title": "The Museum of Jurassic Technology",
+      "lat": "34.0258408",
+      "lng": "-118.3950348",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2904",
+      "title": "Getty Center",
+      "lat": "34.0885887",
+      "lng": "-118.4756393",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2879",
+      "title": "Hollister Brewing Company",
+      "lat": "34.4287376",
+      "lng": "-119.8715439",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125",
+        "64"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2855",
+      "title": "Gainey Vineyards",
+      "lat": "34.6065559",
+      "lng": "-120.0654449",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2811",
+      "title": "Santa Ynez Valley",
+      "lat": "34.5789528",
+      "lng": "-119.9480362",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2793",
+      "title": "Solvang Brewing Company",
+      "lat": "34.5962982",
+      "lng": "-120.1435699",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2784",
+      "title": "The SLO",
+      "lat": "35.2810631",
+      "lng": "-120.6573944",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2760",
+      "title": "San Luis Obispo",
+      "lat": "35.2827530",
+      "lng": "-120.6596146",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2754",
+      "title": "Hearst Castle at San Simeon",
+      "lat": "35.6849403",
+      "lng": "-121.1696091",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2702",
+      "title": "The Carmel Safeway",
+      "lat": "36.5381241",
+      "lng": "-121.9078293",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2692",
+      "title": "Monterey: A Photographer’s Dream",
+      "lat": "36.6339836",
+      "lng": "-121.9382858",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2641",
+      "title": "Monterey Aquarium",
+      "lat": "36.6028519",
+      "lng": "-121.8933105",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2593",
+      "title": "Monterey Bay",
+      "lat": "36.6002388",
+      "lng": "-121.8946762",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2579",
+      "title": "Monterey Coast Brewery",
+      "lat": "36.6758842",
+      "lng": "-121.6553116",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2515",
+      "title": "National Steinbeck Center in Salinas",
+      "lat": "36.6767921",
+      "lng": "-121.6559448",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2518",
+      "title": "Steinbeck Museum",
+      "lat": "36.6767921",
+      "lng": "-121.6559448",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2504",
+      "title": "Santa Cruz Mountain Brewing",
+      "lat": "36.9591446",
+      "lng": "-122.0472565",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2491",
+      "title": "Half Moon Bay Brewing Company",
+      "lat": "37.5038795",
+      "lng": "-122.4857407",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2481",
+      "title": "City View Storage",
+      "lat": "37.8229370",
+      "lng": "-122.3702621",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "64"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2444",
+      "title": "Exploratorium",
+      "lat": "37.8039627",
+      "lng": "-122.4485321",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2435",
+      "title": "San Francisco: You Ain’t Artsier Than Me",
+      "lat": "37.8052139",
+      "lng": "-122.4320984",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2364",
+      "title": "San Francisco",
+      "lat": "37.7593765",
+      "lng": "-122.5108032",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2348",
+      "title": "Giordano Brothers",
+      "lat": "37.7981033",
+      "lng": "-122.4071960",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2284",
+      "title": "Raider Nation",
+      "lat": "37.7517662",
+      "lng": "-122.2015610",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2275",
+      "title": "The Mehserle Sentence Makes Me Sick",
+      "lat": "37.7723351",
+      "lng": "-122.2221375",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "54",
+        "53"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2208",
+      "title": "Live Review: Underworld, DJ Shadow, MSTRKRFT",
+      "lat": "37.7056770",
+      "lng": "-122.4198914",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "33"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2196",
+      "title": "California Election Special",
+      "lat": "37.7749290",
+      "lng": "-122.4194183",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "59",
+        "54",
+        "53"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2186",
+      "title": "The Giants Win the World Series!",
+      "lat": "37.7783546",
+      "lng": "-122.3893814",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "54",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2127",
+      "title": "The World Series",
+      "lat": "37.7968979",
+      "lng": "-122.4219589",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2074",
+      "title": "Avenue of the Giants",
+      "lat": "40.3512497",
+      "lng": "-123.9272614",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2056",
+      "title": "Redwood Curtain Brewery",
+      "lat": "40.8569336",
+      "lng": "-124.0885773",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "2006",
+      "title": "Arcata",
+      "lat": "40.8665161",
+      "lng": "-124.0828400",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "2005",
+      "title": "Arcata: Front Row Seats with the Freaks",
+      "lat": "40.8689384",
+      "lng": "-124.0861130",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1995",
+      "title": "Six Rivers Brewery – Manager’s Special",
+      "lat": "40.9490585",
+      "lng": "-124.1016083",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1981",
+      "title": "Six Rivers Brewery",
+      "lat": "40.9490585",
+      "lng": "-124.1016083",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1972",
+      "title": "The Redwoods, The Madness",
+      "lat": "41.3632126",
+      "lng": "-124.0196533",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "28"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1897",
+      "title": "Crescent City: Just Keep Driving",
+      "lat": "41.7559471",
+      "lng": "-124.2017441",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1904",
+      "title": "Prairie Creek Redwoods",
+      "lat": "41.4020004",
+      "lng": "-124.0424347",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1871",
+      "title": "Crescent City CA",
+      "lat": "41.7559471",
+      "lng": "-124.2017441",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1859",
+      "title": "Oregonaturemagikal 72",
+      "lat": "42.0526123",
+      "lng": "-124.2839813",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1822",
+      "title": "Brookings",
+      "lat": "42.0653877",
+      "lng": "-124.3093643",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1809",
+      "title": "Oregonaturemagikal 48",
+      "lat": "42.3035126",
+      "lng": "-124.4106750",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1763",
+      "title": "Gold Beach",
+      "lat": "42.3035126",
+      "lng": "-124.4106750",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1682",
+      "title": "Umpqua State Park",
+      "lat": "43.6574974",
+      "lng": "-124.1953506",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1759",
+      "title": "Oregonaturemagikal 24",
+      "lat": "43.6574974",
+      "lng": "-124.1953506",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1677",
+      "title": "How to win $50 without having a clue",
+      "lat": "43.9804344",
+      "lng": "-124.0858078",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1655",
+      "title": "Florence",
+      "lat": "43.9826202",
+      "lng": "-124.0998383",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1651",
+      "title": "Steelhead Brewery",
+      "lat": "44.0546722",
+      "lng": "-123.0901489",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1619",
+      "title": "Eugene",
+      "lat": "44.0520706",
+      "lng": "-123.0867538",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1611",
+      "title": "Portland Politics",
+      "lat": "45.5185280",
+      "lng": "-122.6741333",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "53"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1604",
+      "title": "Columbia River Brewing Co.",
+      "lat": "45.5357399",
+      "lng": "-122.6217880",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1597",
+      "title": "Migration Brewing Co.",
+      "lat": "45.5264473",
+      "lng": "-122.6365356",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1590",
+      "title": "Rogue Ales Public House",
+      "lat": "45.5257721",
+      "lng": "-122.6847916",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1505",
+      "title": "Portland",
+      "lat": "45.5228958",
+      "lng": "-122.6670380",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1497",
+      "title": "Portland: Drink, smoke, mope",
+      "lat": "45.5260620",
+      "lng": "-122.6372604",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1459",
+      "title": "Tillamook Cheese",
+      "lat": "45.4838142",
+      "lng": "-123.8421478",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1486",
+      "title": "The Smartest American I’ve Met",
+      "lat": "45.4833031",
+      "lng": "-123.8455429",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "53",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1454",
+      "title": "Bill’s Tavern Brewhouse",
+      "lat": "45.8980675",
+      "lng": "-123.9611816",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1449",
+      "title": "First run-in with the cops",
+      "lat": "45.8917732",
+      "lng": "-123.9615250",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1399",
+      "title": "North Oregon Coast",
+      "lat": "45.7201080",
+      "lng": "-123.8940201",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1357",
+      "title": "Gearhart Links Golf Course…and brewpub?",
+      "lat": "46.0321465",
+      "lng": "-123.9223938",
+      "author_name": "Blimpy",
+      "categories": [
+        "62",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1366",
+      "title": "Fort Stevens",
+      "lat": "46.2020493",
+      "lng": "-123.9623718",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1349",
+      "title": "Fort George Brewery & Public House",
+      "lat": "46.1885223",
+      "lng": "-123.8275986",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1342",
+      "title": "Livin’ in a van, down by the Columbia River",
+      "lat": "46.1899033",
+      "lng": "-123.8478546",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "64"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1282",
+      "title": "Cape Disappointment was a real letdown",
+      "lat": "46.2898216",
+      "lng": "-124.0604324",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1241",
+      "title": "The Ocean",
+      "lat": "46.9017258",
+      "lng": "-124.1191330",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "28"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1188",
+      "title": "Westport and the Docks of the Damned",
+      "lat": "46.9077911",
+      "lng": "-124.1136398",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1177",
+      "title": "An Afternoon in Aberdeen",
+      "lat": "46.9753723",
+      "lng": "-123.8157196",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1142",
+      "title": "I Love New York Deli",
+      "lat": "47.6666298",
+      "lng": "-122.3170776",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1133",
+      "title": "The Six Arms Brewpub",
+      "lat": "47.6138611",
+      "lng": "-122.3192215",
+      "author_name": "Blimpy",
+      "categories": [
+        "67",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1096",
+      "title": "Seattle: A Cloudy Juxtaposition",
+      "lat": "47.6352539",
+      "lng": "-122.3015823",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1028",
+      "title": "Seattle",
+      "lat": "47.6101341",
+      "lng": "-122.3420563",
+      "author_name": "Blimpy",
+      "categories": []
+    },
+    {
+      "object_name": "post",
+      "object_id": "1019",
+      "title": "Live Review: Starkey & Ikonika at The Baltic Room",
+      "lat": "47.6062088",
+      "lng": "-122.3320694",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "33"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "1003",
+      "title": "Blimpin’ in the USA!",
+      "lat": "49.0019798",
+      "lng": "-122.7568130",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "979",
+      "title": "East Hastings",
+      "lat": "49.2813416",
+      "lng": "-123.0997620",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "59",
+        "63",
+        "53",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "884",
+      "title": "Escape from Vancouver",
+      "lat": "49.2829552",
+      "lng": "-123.1203384",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "879",
+      "title": "Granville Island",
+      "lat": "49.2706223",
+      "lng": "-123.1347427",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "63"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "732",
+      "title": "That Purple Cunt",
+      "lat": "49.2395172",
+      "lng": "-123.1702728",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "28",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "666",
+      "title": "Vancouver Firsts: Blimpy Quotes",
+      "lat": "49.2753983",
+      "lng": "-123.1527786",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "28"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "636",
+      "title": "Vancouver Firsts: There is no spoon, only pimp hat",
+      "lat": "49.2666664",
+      "lng": "-123.1999969",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "621",
+      "title": "The Best Week Of My Life",
+      "lat": "49.2397232",
+      "lng": "-123.1322250",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "567",
+      "title": "Album of the Week: Statesboro Blues by Blind Willie McTell",
+      "lat": "49.2624626",
+      "lng": "-123.1778793",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "33"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "560",
+      "title": "Kal Tire: Truly Bad Service Since 1953",
+      "lat": "49.9152374",
+      "lng": "-119.3918457",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "39",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "445",
+      "title": "Lessons from the Okanagan: Whatever DMT is, I need to smoke some",
+      "lat": "49.8932228",
+      "lng": "-119.4687195",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "59",
+        "28"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "409",
+      "title": "The RV Graveyard",
+      "lat": "49.0266647",
+      "lng": "-119.4433212",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "65",
+        "28",
+        "39"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "393",
+      "title": "Bessie Breakdown #2",
+      "lat": "49.0270195",
+      "lng": "-119.1747437",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "347",
+      "title": "Christina Lake Golf Club",
+      "lat": "49.0193291",
+      "lng": "-118.2056503",
+      "author_name": "Blimpy",
+      "categories": [
+        "62",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "328",
+      "title": "Fire Braised Chuck Roast",
+      "lat": "49.2714996",
+      "lng": "-117.6800385",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "66"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "316",
+      "title": "Nelson Brewing Company: Paddy Whack Pale Ale",
+      "lat": "49.4885826",
+      "lng": "-117.2990875",
+      "author_name": "Blimpy",
+      "categories": [
+        "1",
+        "125"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "295",
+      "title": "Nelson: Radical Self-Expressionists or Undesirables?",
+      "lat": "49.4989548",
+      "lng": "-117.2886963",
+      "author_name": "Blimpy",
+      "categories": [
+        "59",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "287",
+      "title": "Parking Lot Fresh Salsa",
+      "lat": "49.4937515",
+      "lng": "-117.2996826",
+      "author_name": "Blimpy",
+      "categories": [
+        "66"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "242",
+      "title": "Day 2: Put your own drive shaft back on",
+      "lat": "49.5079231",
+      "lng": "-115.7831421",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "179",
+      "title": "Day 1: Igor. Nice guy, not much of a mechanic.",
+      "lat": "49.4735069",
+      "lng": "-115.5213470",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "64",
+        "68"
+      ]
+    },
+    {
+      "object_name": "post",
+      "object_id": "161",
+      "title": "SNOW White",
+      "lat": "51.0568085",
+      "lng": "-114.0377045",
+      "author_name": "Blimpy",
+      "categories": [
+        "125",
+        "28"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Preserve exact archived payload bytes: their SHA-256 hashes are recorded.
+archive/raw/** -text
+archive/assets/** -text
+content/images/** -text

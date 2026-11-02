@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" >
+
+<channel>
+	<title>Blimpy Backgammon &#187; RV Upgrade</title>
+	<atom:link href="http://blimpyb.com/category/rv-upgrade/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blimpyb.com</link>
+	<description>Quit job.  Buy RV.  Kick North America&#039;s Ass.</description>
+	<lastBuildDate>Sun, 18 Dec 2011 23:33:54 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+		<item>
+		<title>MPPT Charge Controller</title>
+		<link>http://blimpyb.com/diy-solar/mppt-charge-controller/3880/</link>
+		<comments>http://blimpyb.com/diy-solar/mppt-charge-controller/3880/#comments</comments>
+		<pubDate>Wed, 06 Apr 2011 22:12:01 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[DIY Solar]]></category>
+		<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[DIY solar power]]></category>
+		<category><![CDATA[mppt solar charge controller]]></category>
+		<category><![CDATA[RV solar panels]]></category>
+		<category><![CDATA[solar charge controller]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=3880</guid>
+		<description><![CDATA[This is the sixth DIY solar post in a series on solar power systems detailing the role of the solar charge controller and why to prefer an MPPT charge controller.  While this application was done for an RV solar panel system, the concepts are intended to apply for any do it yourself solar power system.  [...]]]></description>
+			<content:encoded><![CDATA[<p>This is the sixth <strong>DIY solar</strong> post in a series on solar power systems detailing the role of the solar charge controller and why to prefer an MPPT charge controller.  While this application was done for an RV solar panel system, the concepts are intended to apply for any do it yourself solar power system.  We hope you enjoy this entry (The Solar Series: Choosing a Solar Charge Controller) and links to the rest of the DIY solar panel system series can be found at the bottom.</p>
+<p>This post will outline why we need a charge controller in the first place by explaining what it does, then go into a comparison of which technology is best, detail some practical sizing and wiring considerations then finish with an explanation of different models of charge controllers and their customizability.  Having personally used the <a title="Morningstar Charge Controller" href="http://blimpyb.com/Solar-Sphere-Tristar-MPPT" target="_blank">Morningstar Tristar 45 MPPT</a> and found it to be the most efficient, customizable and reliable, I recommend it so much it’s got its own dedicated post.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=8%2C3%2C0"><img src="http://blimpyb.com/wp-content/uploads/2010/12/solar-energy-quote2.jpg" alt="solar power contractors" border="0"></a>
+</p>
+<p><strong>What is a Charge Controller and Why Do I Need One?</strong></p>
+<p>In a perfect world it would seem straightforward that we would take the wires from our solar panels, hook them up to our batteries and be done with it.  Unfortunately it’s not that simple.  Both the panels and the batteries are “dumb” and so the charge controller needs to act as a brain to keep the charging process running smoothly and efficiently.  How “smart” the controller is depends on the technology and manufacturer, but the best models will sense incoming power from the panels, the charge level and temperature of the batteries and adjust the controller’s output accordingly.  I refer to it as “smart” because in some fashion or another it needs to be able to sense these outside variables and make decisions based on them.  The two main issues it is compensating for are varying input power from the panels and varying charge levels of the battery as explained in the following two paragraphs.</p>
+<p><div id="attachment_3889" class="wp-caption alignright" style="width: 207px"><a href="http://blimpyb.com/wp-content/uploads/2011/04/Tristar-MPPT.jpg" rel="lightbox[3880]"><img class="size-full wp-image-3889" title="MPPT Charge Controller" src="http://blimpyb.com/wp-content/uploads/2011/04/Tristar-MPPT.jpg" alt="MPPT Charge Controller" width="197" height="166" /></a><p class="wp-caption-text">The controller is the &quot;brain&quot;</p></div></p>
+<p>The voltage output of a solar panel is affected by how much sunlight is striking it and at what intensity.  In the simplest case of a 12 volt nominal panel this can vary from slightly below 12 V at the crack of dawn to above 17 V in broad daylight, especially if it’s cold outside.  If your battery is moderately charged hovering around 12.5 V, it’s going to not get charged at all in the morning, then by midday it will be boiling and destroy itself.  The primary function of even the simplest charge controller is to prevent this from happening.</p>
+<p>The second concern is the charging profile of a battery.  If it’s at 12.5 V, depending on the battery it is perhaps most happy being charged at a constant voltage of 13.8.  All the current will flow into the electrolyte ion chemical reactions to store more power.  However, eventually the battery will be full and instead of storing more charge it will get hot, start to boil and after an extended period permanently damage itself.  Any decent modern charge controller will sense the battery voltage and realize once it’s held it at 13.8 for awhile and the battery is full, it should perhaps back it down to something like 13 V to go easy on the little guy as he can’t store any more charge.  A third bonus a good charge controller can take care of here is temperature compensation, that 13.8 V might be perfect if it’s 25 <sup>O</sup>C, but if it’s -25 <sup>O</sup>C maybe it should be backed off to 13.2 V to reduce stress.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=11%2C4%2C0"><img src="http://www.shareasale.com/image/banner1180.gif"  border="0"></a></p>
+<p><strong>Controlling Voltage: PWM vs. MPPT</strong></p>
+<p>Now that we’ve outlined why the voltage needs to be shaped to suit the needs of the battery, the next question is how?  The basic method used in any <a href="http://blimpyb.com/Solar-Sphere-Controllers" target="_blank">modern charge controller</a> is something called pulse width modulation (PWM).  It might sound like a scary engineering term, but it’s a simple concept.  If the panels are outputting at 17 V and I only want to charge the battery at 13.6 V, a simple solution is to have the charge controller only on 80% of the time (17*0.8=13.6).  While this is achieved with transistors that turn on and off thousands of times per second, it’s easy to visualize looking at the graph and thinking of it at a high level.</p>
+<p><div id="attachment_3887" class="wp-caption alignleft" style="width: 226px"><a href="http://blimpyb.com/wp-content/uploads/2011/04/PWM.gif" rel="lightbox[3880]"><img class="size-medium wp-image-3887" title="PWM" src="http://blimpyb.com/wp-content/uploads/2011/04/PWM-600x337.gif" alt="" width="216" height="121" /></a><p class="wp-caption-text">PWM in a nutshell: on and off real fast</p></div></p>
+<p>However, pulse width modulation alone has one massive drawback here, you aren’t harvesting energy 20% of the time because the circuit is open.  Sure, it’s better than frying your battery, but it’s incredibly wasteful and inefficient.  For this reason PWM should only be considered in smaller solar installations where the cost of better technology won’t be recouped over time (explained in the next section), although good <a title="solar charge controller" href="http://blimpyb.com/Solar-Sphere-PWM-25" target="_blank">affordable PWM controllers</a> certainly exist.</p>
+<p>And what is this better technology?  It’s something called maximum power point tracking (the abbreviation at the front of <a href="http://blimpyb.com/Solar-Sphere-Tristar-MPPT" target="_blank">MPPT charge controller</a>) and is vastly superior to PWM alone.  The basic idea is through more complex and expensive power electronics in the solar charge controller it is able to act as a variable DC power supply.  So if you have 17 Volts input from the panel at a current of 10 amps (170 Watts) and still want to output that at 13.6 V, you’ll wind up with just a tad under 12.5 amps from the MPPT controller.  How this all actually works you don’t want to know, trust me (for masochist engineers: <a href="http://blimpyb.com/wp-content/uploads/2011/04/IFAC2005.pdf">MPPT theory</a>) but the efficiency winds up being in the 98% range, which means 10 times less loss than PWM only.</p>
+<p>The other major benefit of an MPPT charge controller is allowing the use of higher nominal voltage solar panels.  My 36 volt panels charging 12 volt batteries would not be possible with PWM (unless you wanted 30% efficiency), but with the variable DC power supply of MPPT I’m able to do it easily with an efficiency around 96%.  The greater this step down in voltage, the less efficient the charge controller will be and the hotter it will get, but for the versatility afforded in choosing panels, improved energy recovery in low light and less ohmic loss over a 36 volt wire run, it’s more than worth it.</p>
+<p>Expanding on this, a good MPPT charge controller doesn’t just increase efficiency on the output side by monitoring the battery charge state (PWM controllers can do this too), it can also control the input power by modifying the solar array voltage.  If you have a 36 Volt nominal array, an MPPT solar charge controller will perform a voltage sweep and see exactly what point produces optimal power.  Left to their own devices, the panels might stabilize at 42 Volts, but the MPPT charge controller could find during its voltage sweep that harvested power is highest if the panels are held at 40.5 Volts, so it will force them to stay there.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=12%2C4%2C0"><img src="http://www.shareasale.com/image/banner1-changes-2.gif"  border="0"></a></p>
+<p><strong>Choosing an MPPT Charge Controller</strong></p>
+<p>The main factors to take into account when selecting a charge controller are whether your solar power system is large enough to warrant the cost of MPPT, choosing an appropriate amp rating based on system size, and what additional charge controller features you need/want.</p>
+<p><div id="attachment_3893" class="wp-caption alignright" style="width: 226px"><a href="http://blimpyb.com/wp-content/uploads/2011/04/Battery-Voltage-Setpoints.jpg" rel="lightbox[3880]"><img class="size-medium wp-image-3893" title="Battery Voltage Setpoints" src="http://blimpyb.com/wp-content/uploads/2011/04/Battery-Voltage-Setpoints-600x507.jpg" alt="" width="216" height="182" /></a><p class="wp-caption-text">Voltage setpoints, yet another way to increase efficiency</p></div></p>
+<p>The most logical way to decide on getting an MPPT charge controller vs a PWM charge controller is payout, i.e. will the increased efficiency pay for the increased cost.  Because almost all major solar panel manufacturers guarantee panel output for 25 years, that’s plenty of time to get your money back.  Let’s go through a quick example comparing my existing MPPT system versus a hypothetical PWM system.  I’ve got 430 Watts of power at 36 volts, my wire run adds a 1% loss and my <a href="http://blimpyb.com/Solar-Sphere-Tristar-MPPT" target="_blank">Tristar MPPT charge controller</a> is 96% efficient stepping down from 36 to 12 volts, which yields an available actual power of 409 Watts.  An equivalent 12 volt system with a PWM charge controller would have an 8% loss in the wires (thicker wire would cost more) and just to make it more fair, let’s say 85% efficient at stepping down from the array’s 15-17 volts, yielding an available actual power of 336 Watts, a 73 Watt difference.</p>
+<p>The short way of comparing the two is taking the 73 Watts multiplied by the average solar panel value of $4 per Watt, which gives you around $300 extra dollars to spend on the charge controller.  However, a far better method of comparison is to analyze how much energy you’re losing via inefficiency over the entire lifetime of the system and what it’s worth monetarily, which tilts the scales far more in the MPPT’s favour.  If we make the assumption of 5 hours of peak sunlight a day, the math breaks down like this: 73 Watts of loss * 5 hours peak sunlight per day * 365 days * 25 years = 3.3 megawatt hours.  Yes, megawatts.  Using the solar power system as a straight up grid tie-in replacement that values the power at about $0.10 per kilowatt hour, that equates to $333, similar to our shorthand estimate.  However, in the case of my RV which is never connected to the grid, I value a kilowatt hour at a lot more than 10 cents because I can get it wherever I want, anywhere on the planet.  The same goes for an off-grid remote installation where there are no power lines.  Lastly, and even more importantly for people in areas with government subsidies on solar power generation, the rate paid by the grid can rise as high as $0.80/kWh, so you’re all of a sudden looking at $2650.  Woah.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=8%2C3%2C0"><img src="http://blimpyb.com/wp-content/uploads/2010/12/solar-energy-quote2.jpg" alt="solar power contractors" border="0"></a>
+</p>
+<p><strong>Choosing an MPPT Charge Controller – Amp Rating</strong></p>
+<p>This barely deserves its own section because it’s pretty straightforward, but charge controllers obviously come in a wide variety of sizes, which is measured by their amp rating.  My <a href="http://blimpyb.com/Solar-Sphere-Tristar-MPPT" target="_blank">Morningstar Tristar 45 MPPT</a> has the 45 to indicate 45 amps is the most it can handle.  430 watts panel output / 12 volt battery voltage = 36 amps and since the next smallest model is 30 amps, the choice of 45 was dead simple, hopefully you can easily do the same comparison yourself, perhaps leaving a bit of room if you feel like adding more panels in the future.</p>
+<p><strong>Choosing an MPPT Charge Controller – Competing Brands</strong></p>
+<p>Now that we’ve done all the mathematical heavy lifting, all that remains is to pick an actual controller.  <a href="http://blimpyb.com/Go-Green-Controllers" target="_blank">Xantrex, Outback and Morningstar</a> are the dominant brands on the market, so it’s just up to you to decide which customizability and extra features you need (temperature compensation, LCD display, customizable charging set points, PC monitoring software, accessories like relay controllers to turn on and off other system components, etc).  As I am so pleased with my <a href="http://blimpyb.com/Solar-Sphere-Tristar-MPPT" target="_blank">Morningstar Tristar MPPT</a>, I’ve written an additional post detailing all the features that make it such an enticing MPPT charge controller.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=12%2C4%2C0"><img src="http://www.shareasale.com/image/banner1-changes-2.gif"  border="0"></a></p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s how to select the best charge controller.  Over the coming weeks  I  will be creating posts for each aspect of the   creation of off-grid   solar power systems with the hopes that you can   follow along and use   the the info for your own <strong>DIY solar</strong> panel system.  Of course it   gets a little technically involved in spots, so feel free to ask for   clarification in the comments or drop me an e-mail.</p>
+<p><strong>Topics</strong></p>
+<p><a title="RV Solar Panels" href="../diy-solar/rv-solar-panels/685/" target="_blank">RV Solar Panels</a> &#8211; Goals, Rationale</p>
+<p><a title="How Do Solar Panels Work" href="../diy-solar/how-solar-panels-work/701/" target="_blank">How Do Solar Panels Work</a> &#8211; Power, AC &amp; DC</p>
+<p><a title="Solar Power Systems" href="../diy-solar/solar-power-systems/720/" target="_blank">Solar Power System Sizing</a><em> &#8211; </em>How much power do you need?</p>
+<p><a title="Best Solar Panels" href="http://blimpyb.com/diy-solar/best-solar-panels/919/" target="_blank">Best Solar Panels</a> &#8211; Selecting the best solar panels for you</p>
+<p><a title="Solar Batteries" href="../diy-solar/solar-batteries/2296/" target="_blank">Solar Batteries</a> &#8211; Selecting the best solar batteries for you<em><br />
+</em></p>
+<p><em>Choosing a Charge Controller</em><em> </em></p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+<div class="shr-publisher-3880"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=3880&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/diy-solar/mppt-charge-controller/3880/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Solar Batteries</title>
+		<link>http://blimpyb.com/diy-solar/solar-batteries/2296/</link>
+		<comments>http://blimpyb.com/diy-solar/solar-batteries/2296/#comments</comments>
+		<pubDate>Tue, 09 Nov 2010 20:29:36 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[DIY Solar]]></category>
+		<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[deep cycle battery]]></category>
+		<category><![CDATA[DIY solar power]]></category>
+		<category><![CDATA[off-grid solar]]></category>
+		<category><![CDATA[RV solar panels]]></category>
+		<category><![CDATA[solar batteries]]></category>
+		<category><![CDATA[solar battery]]></category>
+		<category><![CDATA[solar power systems]]></category>
+		<category><![CDATA[trojan battery]]></category>
+		<category><![CDATA[trojan t-105]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=2296</guid>
+		<description><![CDATA[This is the fifth DIY solar post in a series on solar power systems, now onto the deep cycle battery for use as our solar batteries.  While this application was done for an RV solar panel system, the concepts are intended to apply for any do it yourself solar power system.  We hope you enjoy [...]]]></description>
+			<content:encoded><![CDATA[<p>This is the fifth <strong>DIY solar</strong> post in a series on solar power   systems, now onto the deep cycle battery for use as our solar batteries.   While this application was done for an RV solar panel system,   the  concepts are intended to apply for any do it yourself solar power    system.  We hope you enjoy this entry (The Solar Series: Choosing Solar Batteries) and links to the rest of the DIY solar panel system series  can be found at the bottom.</p>
+<p>Choosing the type of solar batteries to fill the required capacity dictated by our <a title="Solar Power Systems" href="http://blimpyb.com/diy-solar/solar-power-systems/720/" target="_blank">solar power system sizing</a> is one of the simpler steps as there are far fewer choices than with <a title="Best Solar Panels" href="http://blimpyb.com/diy-solar/best-solar-panels/919/" target="_blank">selecting panels</a>.  The industry standard for solar batteries is the <a href="http://blimpyb.com/Real-Goods-T-105">Trojan T-105</a> as they’re durable and cost effective, so you could skip this whole post and just pick up those.  However, if you’re trying to make the most informed decision or have specialized needs, let me go through some background on different battery technologies and manufacturers.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=6%2C3%2C0"><img src="http://www.shareasale.com/image/26305/468x60.jpg"  border="0"></a></p>
+<p><strong>Battery Applications – Deep Cycle Battery VS Starter Battery<br />
+</strong></p>
+<p>Although this series of posts is intended to apply beyond just RV solar panel systems, that does provide us a good base to compare different battery types.  Everyone knows a standard automobile has a starter battery under the hood.  Its main purpose is to provide a very high current in a short burst to turn over the starter motor to get the engine going.  Its ability to do so is rated in Cold Cranking Amps (CCA) which will be higher for an 18-wheeler than a Honda Civic.  While a starter battery can hold a moderate amount of overall charge, that’s not its purpose.</p>
+<p><div id="attachment_2303" class="wp-caption alignright" style="width: 226px"><a href="http://blimpyb.com/wp-content/uploads/2010/11/Dual-Purpose.jpg" rel="lightbox[2296]"><img class="size-medium wp-image-2303     " title="Solar Batteries Dual Purpose" src="http://blimpyb.com/wp-content/uploads/2010/11/Dual-Purpose-600x450.jpg" alt="Solar Batteries Dual Purpose" width="216" height="162" /></a><p class="wp-caption-text">Dual Purpose equals BAD!</p></div></p>
+<p>This is where deep cycle solar batteries come in.  They are specialized for storing energy in applications that dissipate charge much more slowly than a starter battery and their capacity is rated in amp hours.  In my RV solar power system, when I have all the electronics going it will drain the solar batteries at 20 amps, where the capacity per battery is 110 amp hours (I have four).  A large starter battery can provide up to 200 amps for a few seconds but maybe only has a 60 amp hour capacity.</p>
+<p>One point I have to make is there are batteries called “dual purpose” on the market which claim to provide the functionality of deep cycle and starter batteries in one handy package.  Naturally all this means is it’s bad at doing both of them.  I originally had one in my RV which I removed and replaced with a starter and put the solar batteries in a separate compartment in the back.  Avoid dual purpose batteries at all costs.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=11%2C4%2C0"><img src="http://www.shareasale.com/image/banner1180.gif"  border="0"></a></p>
+<p><strong>Battery Types – Flooded, Gel Cell &amp; AGM</strong></p>
+<p>Flooded lead acid batteries are by far the most prevalent type of starter or deep cycle battery.  They contain conductive lead plates suspended in a battery acid liquid solution of electrolytes.  Starter batteries have a greater number of thinner plates for maximum surface area and maximum current, whereas deep cycle batteries have a lesser number of thicker plates to store more charge.</p>
+<p><div id="attachment_2305" class="wp-caption alignleft" style="width: 189px"><a href="http://blimpyb.com/wp-content/uploads/2010/11/Wiki-Battery.jpg" rel="lightbox[2296]"><img class="size-full wp-image-2305  " title="Solar Battery Chemistry" src="http://blimpyb.com/wp-content/uploads/2010/11/Wiki-Battery.jpg" alt="" width="179" height="191" /></a><p class="wp-caption-text">Sorta the idea via Wikipedia</p></div></p>
+<p>Flooded lead acid is the oldest battery technology so is the cheapest, and if treated correctly more than adequately durable.  Because the electrolyte solution is just water with dissolved battery acid ions, it can evaporate over time, or convert to hydrogen and oxygen gas if the batteries are overcharged, requiring an occasional top-up with distilled or de-ionized water.  One variation to offset this is sealed lead acid batteries where this gas cannot easily escape.</p>
+<p>Gel Cell batteries function exactly the same as flooded, except the electrolyte is replaced with a gel.  This means the batteries don’t need to be held upright, are less sensitive to vibration and the electrolyte will not evaporate.  However, they are more expensive.</p>
+<p>AGM stands for absorbed glass mat and is the newest and most expensive technology.  Here the electrolyte is held next to the plates by a fibreglass mesh.  They are more resistant to extreme temperatures, hold more charge per unit of weight and don’t have the electrolyte evaporate or need to be upright, partially justifying their cost.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=8%2C3%2C0"><img src="http://blimpyb.com/wp-content/uploads/2010/12/solar-energy-quote2.jpg" alt="solar power contractors" border="0"></a>
+</p>
+<p><strong>Deep Cycle Battery Manufacturers</strong></p>
+<p><div id="attachment_2310" class="wp-caption alignright" style="width: 80px"><a href="http://blimpyb.com/wp-content/uploads/2010/11/Trojan-T-105.jpg" rel="lightbox[2296]"><img class="size-full wp-image-2310    " title="Trojan T-105" src="http://blimpyb.com/wp-content/uploads/2010/11/Trojan-T-105.jpg" alt="Trojan T-105" width="70" height="71" /></a><p class="wp-caption-text">Trojan</p></div></p>
+<p><a href="http://blimpyb.com/Real-Goods-T-105" target="_blank"><em>Trojan</em></a> – I already mentioned Trojan because they’re the brand I chose and are very popular for RV and off-grid solar power systems.  Their <a href="http://click.linksynergy.com/fs-bin/click?id=0rz81b/xsPU&amp;subid=&amp;offerid=194438.1&amp;type=10&amp;tmpid=3504&amp;RD_PARM1=http%3A%2F%2Fwww.realgoods.com%2Fproduct%2Fsolar%2Bpower%2Fbatteries-controllers%2Fwet%2Bcell%2Ftrojan%2Bgolf%2Bcart%2B9v%2Bwet%2Bcell.do" target="_blank">classic T-105</a> is a 6 volt flooded lead acid designed for golf carts, which just so happens to work perfectly for RV solar batteries as well.  Keep in mind you’ll need to buy them in pairs to achieve the required 12 volts.  They sell several other voltage and capacity combinations, so if there’s a distributor in your area, investigate after researching on <a href="http://www.trojanbattery.com/Products/GolfCart.aspx" target="_blank">their website</a>.</p>
+<p><div id="attachment_2309" class="wp-caption alignright" style="width: 84px"><a href="http://blimpyb.com/wp-content/uploads/2010/11/Surette.jpg" rel="lightbox[2296]"><img class="size-full wp-image-2309  " title="Surette Deep Cycle Battery" src="http://blimpyb.com/wp-content/uploads/2010/11/Surette.jpg" alt="Surette Deep Cycle Battery" width="74" height="92" /></a><p class="wp-caption-text">Surette</p></div></p>
+<p><a href="http://www.shareasale.com/r.cfm?u=427264&amp;b=118044&amp;m=16774&amp;afftrack=&amp;urllink=www%2Egogreensolar%2Ecom%2Fcollections%2Fvendors%3Fq%3DRolls%2BBattery" target="_blank"><em>Surette/Rolls</em></a> – Another heavyweight in the renewable energy and transportation deep cycle and solar battery industry, Surette specializes in more heavy duty applications and is slightly harder to find.  However, their products are well reviewed, they have more variety especially in larger battery banks, so they’re definitely worth looking into (<a href="http://www.rollsbattery.com/content/6v-12v-fs-series" target="_blank">website here</a>).</p>
+<p><em>East Penn</em> – Another well known battery manufacturer, they manufacturer more conventional consumer batteries, something like an AC/Delco.  Their EPGC15G is similar to the T-105, and they also have a variety of Gel and AGM batteries such as the 8A27 I was also recommended (<a href="http://www.dekabatteries.com/" target="_blank">website here</a>).</p>
+<p><div id="attachment_2308" class="wp-caption alignright" style="width: 104px"><a href="http://blimpyb.com/wp-content/uploads/2010/11/East-Penn.jpg" rel="lightbox[2296]"><img class="size-full wp-image-2308    " title="East Penn Deep Cycle Battery" src="http://blimpyb.com/wp-content/uploads/2010/11/East-Penn.jpg" alt="East Penn Deep Cycle Battery" width="94" height="92" /></a><p class="wp-caption-text">East Penn</p></div></p>
+<p><em>Other</em> – I listed three big players, and like I said there isn’t a huge variety in batteries because they aren’t overly complicated so manufacturers succeed by making a lot of them well with small profit margins.  If you want to try another company, make sure you research their products and ensure you get good product data (explained next section).  While sourcing batteries locally can be cheaper due to their weight, when they are shipped drained there are some <a href="http://click.linksynergy.com/fs-bin/click?id=0rz81b/xsPU&amp;subid=&amp;offerid=194438.1&amp;type=10&amp;tmpid=3504&amp;RD_PARM1=http%3A%2F%2Fwww.realgoods.com%2Fproduct%2Fsolar%2Bpower%2Fbatteries-controllers%2Fwet%2Bcell%2Ftrojan%2Bgolf%2Bcart%2B9v%2Bwet%2Bcell.do" target="_blank">good deals online for the T-105s</a>.  Lastly, I 100% recommend against used batteries.  I saw some great deals on Craigslist in my area, but you have no idea how they were (mis)treated before you got them and they could die sooner than you hoped, ruining the value proposition.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=11%2C4%2C0"><img src="http://www.shareasale.com/image/banner1180.gif"  border="0"></a></p>
+<p><strong>Solar Battery Parameters</strong></p>
+<p>As I mentioned, the above established manufacturers will be able to tell you a lot about each of the solar batteries they make, which you can use to make them last as long as possible, which is really the only concern once installed.</p>
+<p><em>Voltage Set Points</em> – When my solar batteries are 100% charged, have been allowed to rest for several hours and have no current being drawn from them, they settle around 12.6 Volts, which is fairly standard.  While you would hope you could just apply a voltage of 12.6 to them during the day to return them to full charge, unfortunately it doesn’t work this way&#8230;at all.  I don’t want to get into the nitty gritty, and will touch on it more in the Charge Controller post, but a voltage somewhat above this 12.6 is required during the bulk charge, then once it reaches full charge it needs to be held there for a specific period of time, then to prevent overcharging it needs to be lowered to a specific float voltage.  These all vary per battery and without knowing the exact numbers, you won’t be able to achieve peak charging efficiency or battery life.</p>
+<p><em>Capacity Degredation VS Cycles</em> – There isn’t really a formal term for this variable but you’ll usually find it as a graph.  All it indicates is that over time, a battery’s capacity will decrease each time it is discharged and recharged.  What counts as a ‘cycle’ can vary, usually 50% discharge is the number because below that isn’t good for the batteries.  As the three manufacturers listed above are all reliable and competitors, you’ll find they’ll be fairly good and in line with each other that sometime after 500 cycles there will be a rapid decline in how much a battery can hold.  This also illustrates the importance of not overdrawing your battery bank.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=7%2C3%2C0"><img src="http://blimpyb.com/wp-content/uploads/2010/12/solar-energy-quote.jpg" alt="solar power contractors" border="0"></a></p>
+<p><strong>Selecting Batteries</strong></p>
+<p><div id="attachment_2302" class="wp-caption alignright" style="width: 251px"><a href="http://blimpyb.com/wp-content/uploads/2010/11/Deep-Cycle.jpg" rel="lightbox[2296]"><img class="size-medium wp-image-2302      " title="Deep Cycle Solar Batteries Are Heavy" src="http://blimpyb.com/wp-content/uploads/2010/11/Deep-Cycle-398x600.jpg" alt="Deep Cycle Solar Batteries Are Heavy" width="241" height="364" /></a><p class="wp-caption-text">I chose Trojan T-105s, but they&#39;re all this heavy</p></div></p>
+<p>Now that I’ve outlined all the considerations around different solar battery manufacturers and types, and you’ve figured out which are available in your area, I wanted to finish with a quick and easy comparison method between two or more different batteries.  It’s just two simple numbers derived from a spreadsheet.  The first is dollars per amp hour ($/AH) and measures cost effectiveness, the second is amp hours per pound (AH/lb) and measures weight effectiveness, which is only important for mobile applications and even then not a huge factor unless comparing flooded to AGM.  Simply fill in the blanks yourself following this example.</p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="200" valign="top">Mfgr</td>
+<td width="200" valign="top"><strong>Surette</strong></td>
+<td width="200" valign="top"><strong>East Penn</strong></td>
+<td width="200" valign="top"><strong>Trojan</strong></td>
+</tr>
+<tr>
+<td width="200" valign="top">Model</td>
+<td width="200" valign="top"><a href="http://www.shareasale.com/r.cfm?u=427264&amp;b=118044&amp;m=16774&amp;afftrack=&amp;urllink=www%2Egogreensolar%2Ecom%2Fproducts%2Frolls%2Dbattery%2Ds%2D460"><strong>S-460</strong></a></td>
+<td width="200" valign="top"><strong>EPGC15G</strong></td>
+<td width="200" valign="top"><a href="http://blimpyb.com/Real-Goods-T-105" target="_blank"><strong>T-105</strong></a></td>
+</tr>
+<tr>
+<td width="200" valign="top">Cost ($)</td>
+<td width="200" valign="top">310</td>
+<td width="200" valign="top">189</td>
+<td width="200" valign="top">186</td>
+</tr>
+<tr>
+<td width="200" valign="top">Capacity   (AH)</td>
+<td width="200" valign="top">350</td>
+<td width="200" valign="top">215</td>
+<td width="200" valign="top">225</td>
+</tr>
+<tr>
+<td width="200" valign="top">Weight   (lb)</td>
+<td width="200" valign="top">117</td>
+<td width="200" valign="top">63</td>
+<td width="200" valign="top">62</td>
+</tr>
+<tr>
+<td width="200" valign="top">$/AH</td>
+<td width="200" valign="top">0.89</td>
+<td width="200" valign="top">0.88</td>
+<td width="200" valign="top">0.83</td>
+</tr>
+<tr>
+<td width="200" valign="top">AH/lb</td>
+<td width="200" valign="top">2.99</td>
+<td width="200" valign="top">3.41</td>
+<td width="200" valign="top">3.63</td>
+</tr>
+</tbody>
+</table>
+<p>As I said right off the bat, I picked the <a href="http://click.linksynergy.com/fs-bin/click?id=0rz81b/xsPU&amp;subid=&amp;offerid=194438.1&amp;type=10&amp;tmpid=3504&amp;RD_PARM1=http%3A%2F%2Fwww.realgoods.com%2Fproduct%2Fsolar%2Bpower%2Fbatteries-controllers%2Fwet%2Bcell%2Ftrojan%2Bgolf%2Bcart%2B9v%2Bwet%2Bcell.do">cheapest and most readily available Trojans</a> and they’ve worked great ever since.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=12%2C4%2C0"><img src="http://www.shareasale.com/image/banner1-changes-2.gif"  border="0"></a></p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s it on the selection of solar batteries.  Over the coming weeks I  will be creating posts for each aspect of the    creation of off-grid  solar power systems with the hopes that you can    follow along and use  the the info for your own <strong>DIY solar</strong> panel  system.  Of course it  gets a little technically involved in spots, so  feel free to ask for  clarification in the comments or drop me an  e-mail.</p>
+<p><strong>Topics</strong></p>
+<p><a title="RV Solar Panels" href="http://blimpyb.com/diy-solar/rv-solar-panels/685/" target="_blank">RV Solar Panels</a> &#8211; Goals, Rationale</p>
+<p><a title="How Do Solar Panels Work" href="http://blimpyb.com/diy-solar/how-solar-panels-work/701/" target="_blank">How Do Solar Panels Work</a> &#8211; Power, AC &amp; DC</p>
+<p><a title="Solar Power Systems" href="http://blimpyb.com/diy-solar/solar-power-systems/720/" target="_blank">Solar Power System Sizing</a><em> &#8211; </em>How much power do you need?</p>
+<p><a title="Best Solar Panels" href="http://blimpyb.com/diy-solar/best-solar-panels/919/" target="_blank">Best Solar Panels</a> &#8211; Selecting the best solar panels for you</p>
+<p><em>Solar Batteries &#8211; Selecting the best solar batteries for you</em><em><br />
+</em></p>
+<p><a title="solar charge controller" href="../diy-solar/mppt-charge-controller/3880/" target="_blank">Solar Charge Controller</a> &#8211; Choosing between MPPT and PWM<em></em></p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+<div class="shr-publisher-2296"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=2296&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/diy-solar/solar-batteries/2296/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Best Solar Panels</title>
+		<link>http://blimpyb.com/diy-solar/best-solar-panels/919/</link>
+		<comments>http://blimpyb.com/diy-solar/best-solar-panels/919/#comments</comments>
+		<pubDate>Tue, 14 Sep 2010 20:38:31 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[DIY Solar]]></category>
+		<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[DIY solar power]]></category>
+		<category><![CDATA[most efficient solar panels]]></category>
+		<category><![CDATA[off-grid solar]]></category>
+		<category><![CDATA[RV solar panels]]></category>
+		<category><![CDATA[solar panel efficiency]]></category>
+		<category><![CDATA[solar panel manufacturers]]></category>
+		<category><![CDATA[solar power systems]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=919</guid>
+		<description><![CDATA[This is the fourth DIY solar post in a series on solar power systems, here covering the best solar panels for you and how to choose between different solar panel manufacturers.  While this application was done for an RV solar panel system, the concepts are intended to apply for any do it yourself solar power [...]]]></description>
+			<content:encoded><![CDATA[<p>This is the fourth <strong>DIY solar</strong> post in a series on solar power   systems, here covering the <em>best solar panels</em> for you and how to choose between different <a href="http://blimpyb.com/Go-Green-Solar-Panels" target="_blank">solar panel manufacturers</a>.  While this application was done for an RV solar panel system,   the concepts are intended to apply for any do it yourself solar power   system.  We hope you enjoy this entry (The Solar Series: Choosing Solar Panels) and links to the rest of the DIY solar panel system series  can be found at the bottom.</p>
+<p>After determining how much electricity we’re going to use, where we’re geographically building our off-grid solar power system and what that translates to in terms of the size of the components (<a title="Solar Power Systems" href="http://blimpyb.com/diy-solar/solar-power-systems/720/" target="_blank">System Sizing</a>), we’re ready to start selecting parts and solar panel manufacturers.  Because they’re the most important and satisfying part of this whole exercise, we’ll look at the solar panels themselves first.  This will include an explanation of the different crystal cell types, array voltages, temperature coefficients, solar panel efficiency, product comparisons and why to prefer one over the other.  Cost, size, power requirements and all kinds of factors come into play which is why there&#8217;s no specific <a href='http://092.me'>answer</a>, only you can select the <strong>best solar panels</strong> for you!</p>
+<p>If all this seems a little daunting and you just want to honestly know which brand currently makes the best solar panels, I&#8217;d go with the <a href="http://blimpyb.com/Go-Green-Sanyo" target="_blank">Sanyo HIT line</a>, which also happens to be what I own.  As you can see from all my research below, they&#8217;re the <a href="http://blimpyb.com/Go-Green-Sanyo" target="_blank">most efficient solar panels</a>, least temperature sensitive, will work for home and mobile installations and are definitely worth the slightly higher incremental cost, but please read on to see how I drew that conclusion.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=7%2C3%2C0"><img src="http://blimpyb.com/wp-content/uploads/2010/12/solar-energy-quote.jpg" alt="solar power contractors" border="0"></a></p>
+<p><strong>Solar Cells: Mono, Poly &amp; Amorphous</strong></p>
+<p>There are three different types of solar crystal cell technologies available on the market today: monocrystalline, polycrystalline and amorphous.  These refer to the physical metal/silicone building blocks that make up the actual solar cells.  Each panel contains numerous individual cells that are wired together, and the fabrication of these cells has a large effect on how the panels perform.</p>
+<p><div id="attachment_922" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Mono-VS-Poly.jpg" rel="lightbox[919]"><img class="size-medium wp-image-922   " title="Best Solar Panels Technology" src="http://blimpyb.com/wp-content/uploads/2010/09/Mono-VS-Poly-600x399.jpg" alt="Best Solar Panels Technology" width="288" height="191" /></a><p class="wp-caption-text">Monocrystalline VS polycrystalline</p></div></p>
+<p><a href="http://click.linksynergy.com/fs-bin/click?id=0rz81b/xsPU&amp;subid=&amp;offerid=194438.1&amp;type=10&amp;tmpid=3504&amp;RD_PARM1=http%3A%2F%2Fwww.realgoods.com%2Fproduct%2Fsolar%2Bpower%2Fsolar%2Bpanels%2Ffor%2Boff-grid%2Bsystems%2Fsharp%2B175w%2Bsolar%2Bpanel.do" target="_blank">Monocrystalline</a> means ‘one crystal’.  In this case each individual cell is grown from a single silicon crystal.  This allows for the most uniform and consistent construction of a solar cell and makes or the best solar panels, but also the most expensive.  I describe it as “best” mainly due to being the <a href="http://blimpyb.com/Go-Green-Sanyo" target="_blank">most efficient solar panels</a>.  Top of the line monocrystalline panels can have an efficiency of up to 20%, which means of all the sun’s rays that strike the panel, 20% of it is converted to electricity, the rest is converted to heat or reflected.  A higher efficiency number means the panel can be smaller and still produce the same output as a less efficient panel, important if you have space restrictions like on an RV.</p>
+<p><a href="http://click.linksynergy.com/fs-bin/click?id=0rz81b/xsPU&amp;subid=&amp;offerid=194438.1&amp;type=10&amp;tmpid=3504&amp;RD_PARM1=http%3A%2F%2Fwww.realgoods.com%2Fproduct%2Fsolar%2Bpower%2Fkyocera%2B40%2Bwatt%2Bsolar%2Bpanel.do" target="_blank">Polycrystalline</a> means ‘many crystals’.  While an oversimplification, this is sort of like the bologna or processed meat of the solar world, multiple different crystal bits are fused together to form one solar cell.  You can tell just by looking at them because they have a flaky, woodchip board look to them of small blue chunks, where a monocrystalline panel will just be a solid, uniform colour.  Polycrystalline panels are very widely used because they are cheaper than monocrystalline with efficiencies ranging from 10-15%.  This equates to them taking up roughly 30-50% more space, but they are <a href="http://blimpyb.com/Go-Green-CS" target="_blank">more cost effective</a>.</p>
+<p><a href="http://blimpyb.com/Solar-Sphere-Amorphous" target="_blank">Amorphous</a> means ‘lacking form or order’, or in this case no defined crystal structure.  Amorphous panels are created by spraying a very thin silicon layer to create the panels, so while it’s quick and uses less material, the silicon doesn’t form itself into the rigid, uniform crystal structure of the other cell types.  This results in an even greater loss of efficiency down to about 6%, but in turn a lower price.  Also, because of the thin silicon layer, it’s possible to create amorphous <a href="http://blimpyb.com/Solar-Sphere-Amorphous" target="_blank">solar panels that are flexible</a>, you can essentially buy it by the roll and slap it on anything.  This is the newest of the solar cell technologies listed so it’s not as prevalent (also attributable to the low efficiency) and there’s less variety, but it should become more prominent in the coming years.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=12%2C4%2C0"><img src="http://www.shareasale.com/image/banner1-changes-2.gif"  border="0"></a></p>
+<p><strong>Array Voltage &#8211; Considerations</strong></p>
+<p>As stated in prior posts, your off-grid solar power system is likely going to run off 12 Volts DC in the battery bank and appliances.  So that must mean you need 12 Volt panels, right?  Not necessarily&#8230;</p>
+<p>The first thing to note is that currently 140 Watts is the <a href="http://www.amazon.com/Sunforce-39310-130-Watt-High-Efficiency-Polycrystalline/dp/B001G6TAEO?SubscriptionId=AKIAIID3YVG2VFARBOPA&tag=blimpbackg-20" target="_blank" rel="nofollow" title="" >largest 12 Volt solar panel commercially available</a>, higher wattage is only available at higher voltages.  So if you’re building a system like mine that requires over 400 Watts, you’d already be looking at 3-4 panels.  This in itself might not be a problem if you have the space, it’s just going to be more work to mount and wire up and slightly more expensive (again, like I said, best solar panels is subjective).</p>
+<p>Another point to keep in mind is that all solar panels are listed based on their ‘nominal’ voltage (usually 12, 24, 36, etc.), which means the voltage they run at the very lowest light levels to produce any current.  A panel rated at 12 Volts will output something more like 15-17 Volts in the middle of the day.  This actually turns out to be a good thing because batteries need to be charged by a higher voltage, but it’s something to be aware of, especially with this potential drawback: if your battery bank is large and not overly depleted, it could be sitting at 12.4 Volts early in the morning and the sun striking the panels only causes them to output 12.3 Volts, which means no charging will occur.  It’s only a matter of small percentages, but any sort of waste like this may as well be avoided if possible.</p>
+<p><div id="attachment_923" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Bessie-Sanyo.jpg" rel="lightbox[919]"><img class="size-medium wp-image-923  " title="Sanyo Solar Panels" src="http://blimpyb.com/wp-content/uploads/2010/09/Bessie-Sanyo-600x401.jpg" alt="Sanyo Solar Panels" width="288" height="193" /></a><p class="wp-caption-text">Bessie and her two 36 volt Sanyo panels in parallel</p></div></p>
+<p>One last variable to consider when selecting array voltage is how far away from the panels you’re going to put the charge controller and batteries and what thickness of wire you’re using.  The wire will act as a resistor and cause power loss.  Checking out this <a href="http://www.cirris.com/testing/resistance/wire.html" target="_blank">Wire Resistance Calculator</a> and using an example of 30 feet of 10 AWG wire, that equates to 0.03 ohms.  Power loss equals current squared times resistance (P = I^2*R) so for 400 Watts of panels at peak output at 12 Volts is 33 Amps (remember P = V*I) and using the first equation that’s 33 Watts of lost power, over 8%!  Naturally you could use thicker or shorter wire runs, but the exact same setup using 36 Volt panels only has a current of 11 Amps and a power loss of 4 Watts, now down to a much more comforting 1% loss.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=7%2C3%2C0"><img src="http://blimpyb.com/wp-content/uploads/2010/12/solar-energy-quote.jpg" alt="solar power contractors" border="0"></a></p>
+<p><strong>Array Voltage &#8211; Implementation</strong></p>
+<p>I’ve definitely glossed over it to this point, but one of the most important factors of the solar system is that there needs to be a charge controller in between the solar panels and the batteries and the controller choice will affect whether you can use nominal voltages other than 12.  Without poaching too much from the upcoming Choosing a Charge Controller post, if you buy a standard and cheaper <a href="http://click.linksynergy.com/fs-bin/click?id=0rz81b/xsPU&amp;subid=&amp;offerid=194438.1&amp;type=10&amp;tmpid=3504&amp;RD_PARM1=http%3A%2F%2Fwww.realgoods.com%2Fproduct%2Fsolar%2Bpower%2Fbatteries-controllers%2Fcharge%2Bcontrollers%2Fmorningstar%2Bprostar%2B30-amp%2Bpv%2Bcharge%2Bcontroller%2Bwith%2Bmeter.do" target="_blank">PWM controller</a> you will be forced to use panels and batteries of the same voltage, likely 12.  However, if you opt for the more <a href="http://blimpyb.com/Solar-Sphere-Tristar-MPPT" target="_blank">advanced MPPT controller technology</a> (which I use and recommend heavily) then you have opened up the possibility of using a higher array voltage than battery voltage.  This really broadens your options on panel choice.</p>
+<p><div id="attachment_924" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Series-VS-Parallel.jpg" rel="lightbox[919]"><img class="size-medium wp-image-924   " title="Best Solar Panel Configuration" src="http://blimpyb.com/wp-content/uploads/2010/09/Series-VS-Parallel-600x399.jpg" alt="Best Solar Panel Configuration" width="288" height="191" /></a><p class="wp-caption-text">Series VS Parallel</p></div></p>
+<p>Lastly, the wiring configuration of the panels can also be used to modify array voltage.  If you decided you needed 260 Watts, got a great deal on two 12 Volt panels but are convinced you’d get better efficiency with a 24 Volt array, you could just wire the two panels in series on the same circuit.  If you wanted to double the output, you could wire two 12 Volt panels in series, then parallel them with another two 12 Volt panels in series, still yielding the desired 24 Volts.  Or alternatively if you’re only looking for 12 Volts, then you could wire all 4 panels in parallel.  I don’t have a definitive <a href='http://092.me'>answer</a> on the array voltage subject, it’s up to you to weigh the pros and cons based on your individual setup.</p>
+<p><strong>Efficiency, Temperature Coefficients and Other Factors</strong></p>
+<p>Now that you’ve got a rough idea of the amount of panel wattage you need, and what voltage you want to run them at, it’s time to start comparing actual products.  I just wanted to outline a couple parameters you’ll see on solar panel data sheets from manufacturers and what they mean.</p>
+<p>Solar panel efficiency we’ve already touched on, it’s how much energy a panel is able to harvest from the sun, the higher the better.  In some cases you’ll see this broken down even further to cell and module efficiency.  Cell efficiency relates to the raw sun-absorbing material in the panel and how good it is, whereas module efficiency takes into account the construction of the panel as a whole including non-absorbing bits such as the frame.  Obviously module efficiency will always be slightly lower and is the “true” solar panel efficiency.</p>
+<p><div id="attachment_928" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Temperature-Dependence.jpg" rel="lightbox[919]"><img class="size-medium wp-image-928   " title="Solar Panel Efficiency" src="http://blimpyb.com/wp-content/uploads/2010/09/Temperature-Dependence-600x546.jpg" alt="Solar Panel Efficiency" width="288" height="262" /></a><p class="wp-caption-text">Temperature dependence of my Sanyo panels</p></div></p>
+<p>While the importance of this next number will be applicable in varying degrees depending on where you’re installing your solar off-grid system, the temperature coefficient of a panel can have a drastic effect and is a concept worth understanding regardless.  In short, the power generated by a solar panel is temperature dependant, the colder it is the more it will output due to intricacies of the photoelectric effect.  The temperature coefficient is just a multiplier on how much panel output power will change per degree Celsius (an alternate voltage temperature coefficient is also often available).  A typical power temperature coefficient would be around 0.4%/<sup>o</sup>C, centered on 25 <sup>o</sup>C.  So if you have a 200 Watt panel, in peak direct sunlight at 25 <sup>o</sup>C you should get 200 Watts of output like you paid for.  However, if it’s really hot out and the panel gets to 50 <sup>o</sup>C, 0.4% * 25 degrees = 10%, so you’ll only be getting 180 Watts.  Likewise if it’s cold and 0 <sup>o</sup>C you’ll get 220 Watts.</p>
+<p>There are a couple important side effects of solar panel temperature dependency.  The first and most relevant for an RV solar power installation like mine is it gets a lot hotter on the aluminum roof than what the weatherman says it is.  On a 25 <sup>o</sup>C day it will easily be 35 <sup>o</sup>C up there, so you need to be acutely aware of this and how it will lower the amount of energy harvested.  Installing the panels with a standoff or some separation for air flow can help this to some extent.</p>
+<p>On the cold end of the spectrum, while the extra energy output is <a href='http://092.me'>nice</a>, you need to make sure your system is designed to handle the corresponding increase in voltage.  If I was building a larger commercial system with two 36 Volt panels in series for a 72 volt array and I bought a charge controller that’s maximum input rating is 80 Volts, if my voltage coefficient is 0.15 V/<sup>o</sup>C and it’s -25 <sup>o</sup>C in the middle of winter, all of a sudden I have an 88 Volt array and my charge controller has either shut itself off or is on fire.  Of course if it’s -25<sup> o</sup>C and you’re where I’m from in Alberta it’s the middle of winter and you aren’t getting much sun anyways, but you still need to be aware of it.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=11%2C4%2C0"><img src="http://www.shareasale.com/image/banner1180.gif"  border="0"></a></p>
+<p><strong>Best Solar Panels Comparison<br />
+</strong></p>
+<p>To tie all the above pieces together, I’m going to use the real life example of how I selected the best solar panels for Bessie the RV.  The first step is obviously to find a few different panels that will suit your parameters of array voltage, wattage output and physical dimensions.  There are plenty of good sites online with <a href="http://blimpyb.com/Solar-Sphere-Panels" target="_blank">Solar Sphere</a> having the best selection, along with <a href="http://blimpyb.com/Go-Green-Solar-Panels" target="_blank">Go Green Solar</a> or <a href="http://blimpyb.com/Real-Goods-Solar" target="_blank">Real Goods Solar</a>, several of which offer free shipping on larger orders (or if you&#8217;re in Alberta or BC check out Larry at <a href="http://www.solarwyse.ca" target="_blank">Solar Wyse</a> and tell him Blimpy sent you).</p>
+<p>Ultimately I arrived at three different panels that could do the trick, the <a href="http://blimpyb.com/Solar-Sphere-CS" target="_blank">Canadian Solar CS6P 220 Watt</a> (<a href="http://blimpyb.com/wp-content/uploads/2010/09/CS6P.pdf" target="_blank">data sheet</a>), the <a href="http://blimpyb.com/Go-Green-Sanyo-HIT-215" target="_blank">Sanyo HIT 215 Watt</a> (<a href="http://blimpyb.com/wp-content/uploads/2010/09/Sanyo HIT Power 215N.pdf" target="_blank">data sheet</a>) or the <a href="http://blimpyb.com/Go-Green-BP" target="_blank">BP SX 3140 140 Watt</a> (<a href="http://blimpyb.com/wp-content/uploads/2010/09/BP SX3140.pdf">data sheet</a>).  I’ll table out all the other important parameters of each setup from the above datasheets and briefly explain why I went with Sanyo as the best solar panels for me.</p>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="236" valign="top"></td>
+<td width="189" valign="top"><strong>Canadian   Solar CS6P</strong></td>
+<td width="201" valign="top"><strong>Sanyo HIT 215<br />
+</strong></td>
+<td width="201" valign="top"><strong>BP SX 3140</strong></td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Cell Type</em></td>
+<td width="189" valign="top">Polycrystalline</td>
+<td width="201" valign="top">Monocrystalline</td>
+<td width="201" valign="top">Polycrystalline</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Power (Watts)<br />
+</em></td>
+<td width="189" valign="top">220</td>
+<td width="201" valign="top">215</td>
+<td width="201" valign="top">140</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Number of   Panels Req’d</em></td>
+<td width="189" valign="top">2</td>
+<td width="201" valign="top">2</td>
+<td width="201" valign="top">3</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Dimensions</em></td>
+<td width="189" valign="top">64.5” X   38.7”</td>
+<td width="201" valign="top">62.2” X   31.4”</td>
+<td width="201" valign="top">59.4” X   26.5”</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Nominal   Voltage</em></td>
+<td width="189" valign="top">24</td>
+<td width="201" valign="top">36</td>
+<td width="201" valign="top">12</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Temperature   Coeff (%W/<sup> o</sup>C)</em></td>
+<td width="189" valign="top">-0.43</td>
+<td width="201" valign="top">-0.336</td>
+<td width="201" valign="top">-0.5</td>
+</tr>
+<tr>
+<td width="236" valign="top"><em>Price</em></td>
+<td width="189" valign="top">More</td>
+<td width="201" valign="top">Most</td>
+<td width="201" valign="top">Least</td>
+</tr>
+</tbody>
+</table>
+<p>I distilled all the important info here for you, but you should be able to do the same for any brand of solar panel.  One thing worth noting when reading the datasheets, the Sanyo one contains a lot more detailed information and the CS and BP sheets don’t even list their module efficiency.  Sure, you could easily calculate it, but I immediately felt this indicated Sanyo knew they had a superior product worth showcasing, whereas the other two intentionally withheld information they didn’t want you thinking about.</p>
+<p>As you can see the three panels miraculously highlight all the parameters I outlined earlier.  They all have different nominal voltages.  The BP panel is much larger per Watt and less efficient because it is polycrystalline, but it’s also the cheapest.  You can also see that all monocrystalline panels are not created equal as each manufacturer has their own unique design process and materials.  The Sanyo is slightly more efficient and much less temperature sensitive, and correspondingly more expensive.</p>
+<p><div id="attachment_925" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/09/Roof-Dimensions.jpg" rel="lightbox[919]"><img class="size-medium wp-image-925  " title="Best Solar Panel Sizing" src="http://blimpyb.com/wp-content/uploads/2010/09/Roof-Dimensions-600x399.jpg" alt="Best Solar Panel Sizing" width="288" height="191" /></a><p class="wp-caption-text">It&#39;s all for not if the panels don&#39;t fit!</p></div></p>
+<p>In an ideal world the easiest comparison you’ll be making is price per Watt, the lower the number the better.  These days in Canada that ranges from $3-5/Watt, but it varies greatly and is lower in the US.  I just provide that number as a guide to make sure you’re not getting supremely ripped off.  Once you start factoring in the array voltage and temperature sensitivity stuff it becomes a lot harder to just base it on price tag.</p>
+<p>So after all that, how did I ultimately decide on the <a href="http://blimpyb.com/Go-Green-Sanyo" target="_blank">Sanyo panels</a>?  Temperature sensitivity played a role with me anticipating being in the southern US for extended periods of time.  Nominal voltage didn’t matter because I knew I wanted an MPPT controller.  No, the real reason was simply size.  Take a look at the attached picture of the doodles of the roof of my RV and you’ll see the limiting factor is a width of 3’.  Try as I did to pretend the Canadian Solar would fit, or that I could squeeze on the third BP panel, I knew I was only deluding myself so I dropped the hammer on two brand spanking new <a href="http://blimpyb.com/Go-Green-Sanyo-HIT-215" target="_blank">Sanyo HIT 215 Watt panels</a> and haven’t looked back since.</p>
+<p>Best of all, they work like a dream&#8230;because they were designed to!</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=11%2C4%2C0"><img src="http://www.shareasale.com/image/banner1180.gif"  border="0"></a></p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s how to select the best solar panels.  Over the coming weeks I  will be creating posts for each aspect of the   creation of off-grid  solar power systems with the hopes that you can   follow along and use  the the info for your own <strong>DIY solar</strong> panel system.  Of course it  gets a little technically involved in spots, so feel free to ask for  clarification in the comments or drop me an e-mail.</p>
+<p><strong>Topics</strong></p>
+<p><a title="RV Solar Panels" href="http://blimpyb.com/diy-solar/rv-solar-panels/685/" target="_blank">RV Solar Panels</a> &#8211; Goals, Rationale</p>
+<p><a title="How Do Solar Panels Work" href="http://blimpyb.com/diy-solar/how-solar-panels-work/701/" target="_blank">How Do Solar Panels Work</a> &#8211; Power, AC &amp; DC</p>
+<p><a title="Solar Power Systems" href="http://blimpyb.com/diy-solar/solar-power-systems/720/" target="_blank">Solar Power System Sizing</a><em> &#8211; </em>How much power do you need?</p>
+<p><em>Best Solar Panels &#8211; Selecting the best solar panels for you</em></p>
+<p><a title="Solar Batteries" href="http://blimpyb.com/diy-solar/solar-batteries/2296/" target="_blank">Solar Batteries</a> &#8211; Selecting the best solar batteries for you<em><br />
+</em></p>
+<p><a title="solar charge controller" href="../diy-solar/mppt-charge-controller/3880/" target="_blank">Solar Charge Controller</a> &#8211; Choosing between MPPT and PWM<em></em></p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+<div class="shr-publisher-919"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=919&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/diy-solar/best-solar-panels/919/feed/</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+		<item>
+		<title>Solar Power Systems</title>
+		<link>http://blimpyb.com/diy-solar/solar-power-systems/720/</link>
+		<comments>http://blimpyb.com/diy-solar/solar-power-systems/720/#comments</comments>
+		<pubDate>Wed, 25 Aug 2010 06:23:56 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[DIY Solar]]></category>
+		<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[DIY solar power]]></category>
+		<category><![CDATA[do it yourself solar]]></category>
+		<category><![CDATA[off-grid solar]]></category>
+		<category><![CDATA[RV solar panels]]></category>
+		<category><![CDATA[solar panel systems]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=720</guid>
+		<description><![CDATA[This is the third DIY solar post in a series on solar power systems.  While this application was done for an RV solar panel system, the concepts are intended to apply for any do it yourself solar power system.  We hope you enjoy this entry (The Solar Series: Solar Power System Sizing) and links to [...]]]></description>
+			<content:encoded><![CDATA[<p>This is the third <strong>DIY solar</strong> post in a series on solar power  systems.  While this application was done for an <a href="http://blimpyb.com/Go-Green-Solar-Kits" target="_blank">RV solar panel system</a>,  the concepts are intended to apply for any do it yourself solar power  system.  We hope you enjoy this entry (The Solar Series: Solar Power System Sizing) and links to the rest of the DIY solar panel system series  can be found at the bottom.</p>
+<p>Now that we’ve got an overall picture of what we’re trying to achieve in building an off-grid solar system (<a title="RV Solar Panels" href="http://blimpyb.com/diy-solar/rv-solar-panels/685/" target="_blank">RV Solar Panels</a>) and have some background on electricity (<a title="How Solar Panels Work" href="http://blimpyb.com/diy-solar/how-solar-panels-work/701/" target="_blank">Power &#8211; AC &amp; DC</a>) it’s time to do a bit of thinking and a bit of math to turn that into reality.  This happens in two parts.  One, we need to understand what we’re trying to power and how much energy that will use.  Once we know that, the second task is determining what amount of solar panels and batteries will satisfy our needs once the system is built.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=12%2C4%2C0"><img src="http://www.shareasale.com/image/banner1-changes-2.gif"  border="0"></a></p>
+<p><strong>Step #1: Determine Energy Usage</strong></p>
+<p>For an RV solar power system like mine, I’m just powering a subset of regular household items and appliances.  This includes a stereo, a laptop, lights, a coffee grinder and a water pump (naturally in order of importance, I’d rather have Led Zeppelin or hot caffeine than be able to wash dishes).  The first step is to make a list of everything you anticipate running, as you can see from my attached worksheet.</p>
+<p><div id="attachment_724" class="wp-caption alignright" style="width: 332px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Sizing-Spreadsheet.jpg" rel="lightbox[720]"><img class="size-full wp-image-724   " title="Solar Power System Sizing Spreadsheet" src="http://blimpyb.com/wp-content/uploads/2010/08/Sizing-Spreadsheet.jpg" alt="Solar Power System Sizing Spreadsheet" width="322" height="229" /></a><p class="wp-caption-text">Doing the math to find 140 Amp hours total daily usage</p></div></p>
+<p>The next step actually involves multiplication, just so you’re forewarned.  Knowing what you’re running is good, knowing the exact amount of electricity that takes is what you really need.  There are numerous resources online at a general level, such as this <a href="http://rvbasics.com/techtips/RV-appliance-wattage-chart.html" target="_blank">Wattage Chart</a>.</p>
+<p>Make a spreadsheet just like mine listing each component, its wattage and the number of hours a day it will need to run.  Multiplying wattage times hours for each gives a daily watt hour total, then adding all components together gives the total daily watt hour number.  This is all we are interested in, total electrical consumption as one number, once you reach this point each individual component being powered doesn’t matter anymore for calculation purposes, but you will probably go back and tweak that list a few times.</p>
+<p>If you have any obscure devices you are looking to run that aren’t on a general online list, or if you are interested in knowing exactly how much energy an appliance uses, I highly recommend picking up something called a <a href="http://www.amazon.com/gp/product/B00009MDBU?ie=UTF8&amp;tag=blimpyb-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00009MDBU" target="_blank" rel="nofollow">Kill-A-Watt</a>.  These were available for free from the public library in Calgary so that might be an option in your town, or you can pick one up for $20.  Either way, it’s just a watt meter, you plug it in the wall in between your appliance, it has a little LCD display and can tell you exactly how much power is being used.  This can be very useful even if you aren’t building a solar power system.  Everything plugged in at your house will consume power even if it’s not turned on, using this device to check things like TVs, amplifiers or computers can be very enlightening why enviro-crazy people unplug stuff when they aren’t home&#8230;it’s because they’re not actually crazy at all.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=8%2C3%2C0"><img src="http://blimpyb.com/wp-content/uploads/2010/12/solar-energy-quote2.jpg" alt="solar power contractors" border="0"></a>
+</p>
+<p><strong>Step #1a: Separate AC and DC Electronics for Inverter Sizing</strong></p>
+<p>You likely noticed I made no mention of AC, DC or any wisdom from the <a title="How Do Solar Panels Work" href="http://blimpyb.com/diy-solar/how-solar-panels-work/701/" target="_blank">last post</a>, so I’ll toss that in here.  In my list above I have both AC (coffee grinder, phone charger) and DC (lights, water pump) appliances.  Since I made sure to buy car cigarette lighter power supplies for anything I could as part of my RV solar power system, I have very little use for an inverter, but I can still go through the simple exercise here.  Anywhere possible it’s best to purchase a DC power adapter as inverters are somewhere around 85% efficient; powering a 90 Watt laptop would take 105 Watts <a href="http://blimpyb.com/Solar-Sphere-Inverter" target="_blank">using an inverter</a>.  Not the end of the world, but it’s still a waste.  And also worth noting is that waste will always be dissipated as heat, so those 15 Watts will contribute to raising the temperature in your RV and if pushed too far potentially harming electrical components.</p>
+<p>Inverters are rated in terms of the maximum number of AC Watts they can output.  Luckily AC and DC Watts are the same, save for the 85% efficiency problem, but they both represent the same amount of “work”.  So all you need to do is calculate the maximum total amount of AC watts you would ever use and buy a slightly larger inverter.  Expert tip, any inverter they sell at an auto parts shop or Walmart is marked up ridiculously, I bought a piece of junk 200 Watt one from China for $30, it works perfectly and I have capacity to spare.  <a href="http://www.dealextreme.com/details.dx/sku.22174" target="_blank">Dealextreme.com</a> baby, you will learn to love it, fast.  However, if you need anything over 200 Watts, I could consider a <a href="http://blimpyb.com/Go-Green-Inverter" target="_blank">legitimate commercial inverter</a>.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=12%2C4%2C0"><img src="http://www.shareasale.com/image/banner1-changes-2.gif"  border="0"></a></p>
+<p><strong>Step #2: Solar System Sizing</strong></p>
+<p>Now that we have our total daily power consumption number, our solar power system will need to be able to supply it.  Sticking with my example spreadsheet, I came up with 140 amp hours a day of consumption (total watt hours of 1700 divided by 12 volts).</p>
+<p><div id="attachment_725" class="wp-caption alignleft" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Solar-Map.jpg" rel="lightbox[720]"><img class="size-medium wp-image-725 " title="Solar Power Systems Sunlight Map" src="http://blimpyb.com/wp-content/uploads/2010/08/Solar-Map-600x450.jpg" alt="Solar Power Systems Sunlight Map" width="288" height="216" /></a><p class="wp-caption-text">Peak sunlight hour map</p></div></p>
+<p>The first and most important variable is going to be where your system is geographically.  In the middle of winter at the North Pole, there’s no sun whatsoever, but there’s still a fair bit in the Arizona desert.  Take a look at this <a href="http://www.solar4power.com/map2-global-solar-power.html" target="_blank">map</a> or these <a href="http://www.builditsolar.com/References/SunChartRS.htm" target="_blank">worksheets</a> to see where you are locating your solar system and determine the total number of peak hours of sun you’ll get a day.  Because I’m aiming to be in the southern US during the winter, I took the rough guestimate that I’ll be getting 5 hours of peak sunlight a day.  Using this &#8220;peak sunlight&#8221; number makes life much easier math-wise, the sun might be up for 11 hours, but that equates to maybe 5 hours direct sunlight.  So 1700 watt hours divided by 5 hours equals 340 watts, the bare minimum of panel output needed.</p>
+<p>From there we need to take into account cloudy days.  That map already does factor them in if you know your exact location, but since I’ll be moving around, I’ll just come up with a rough worst case that it’s cloudy for 3 days in a row, and that clouds cut solar input by 50%.  This isn’t an exact science, and depends on your battery bank size how much you can tap into them during stretches of low light, and how much you&#8217;re willing to conserve, but essentially because round numbers are easy I knew I’d be needing around 400 watts of panel.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=6%2C3%2C0"><img src="http://www.shareasale.com/image/26305/468x60.jpg"  border="0"></a></p>
+<p><strong>Step #3: Solar Battery Sizing</strong></p>
+<p>In off-grid solar power systems the batteries wind up being just as crucial to providing energy as the panels themselves.  When the sun goes down, you need to be able to draw on all the energy accumulated during the day to run your electronics.  A battery bank that is too small will pose two problems.  The first is that it will shorten the lifespan of batteries.  Avoid draining your batteries below 50% of their overall capacity.  If you have 200 amp hours of capacity, and always drain your budgeted 140 amp hours, this continual depletion of 75% of the available energy will cause the batteries to degrade, not store as much charge and need to be replaced much sooner.  The second problem with a battery bank too small is not harvesting all the available energy.  If it’s <a href='http://092.me'>nice</a> and sunny and you always fully recharge the batteries by 2 PM every day, from then until sunset you’re not getting any more power, it’s just waste.</p>
+<p><div id="attachment_726" class="wp-caption alignright" style="width: 257px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Deep-Cycle-Battery.jpg" rel="lightbox[720]"><img class="size-full wp-image-726 " title="Solar Power Systems Battery" src="http://blimpyb.com/wp-content/uploads/2010/08/Deep-Cycle-Battery.jpg" alt="Solar Power Systems Battery" width="247" height="237" /></a><p class="wp-caption-text">A deep-cycle battery for storing solar energy</p></div></p>
+<p>Conversely, there are two downsides if a solar power systems battery bank is too large.  The first problem is if you are unable to fully recharge the <a href="http://blimpyb.com/Real-Goods-Battery" target="_blank">battery bank</a>.  If you wind up depleting the batteries to 25%, then can only recharge them to 85% and repeat that cycle for many days in a row, it too will alter the battery chemistry, lessen the amount of charge they hold and shorten their lifespan.  Batteries like being fully charged, keep them happy.  The second problem with a battery bank too large is wasted cost and weight.  This will be covered in depth in the <a title="Solar Batteries" href="http://blimpyb.com/diy-solar/solar-batteries/2296/" target="_blank">Solar Batteries</a> post, but 100 amp hours of capacity is going to weight about 60 lbs and cost $150.  If you have 800 amp hours of capacity (which is about twice as much as you need) then you essentially wasted $600 and are carrying an extra 240 lbs.</p>
+<p>Ideally you want to find the happy place between too much and not enough capacity.  Make sure you won’t deplete below 50% capacity at night, make sure you can recharge to 100% during the day and you’re set.  Surprisingly for a 12 volt system the math basically works out that you want the same number of amp hours of battery capacity as you have solar watts, in my case roughly 400.  One of the reasons for this is a battery’s ideal charge rate is 10% of its total capacity, so 40 amps times 12 volts equals 480 watts, which is pretty close to what I’ll be <a href="http://blimpyb.com/Solar-Sphere-Panels" target="_blank">generating from the panels</a>.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=11%2C4%2C0"><img src="http://www.shareasale.com/image/banner1180.gif"  border="0"></a></p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s off-grid solar power system sizing.  Over the coming weeks I will be creating posts for each aspect of the   creation of off-grid solar power systems with the hopes that you can   follow along and use the the info for your own <strong>DIY solar</strong> panel system.  Of course it gets a little technically involved in spots, so feel free to ask for clarification in the comments or drop me an e-mail.</p>
+<p><strong>Topics</strong></p>
+<p><a title="RV Solar Panels" href="http://blimpyb.com/diy-solar/rv-solar-panels/685/">RV Solar Panels</a> &#8211; Goals, Rationale</p>
+<p><a title="How Do Solar Panels Work" href="http://blimpyb.com/diy-solar/how-solar-panels-work/701/" target="_blank">How Do Solar Panels Work</a> &#8211; Power, AC &amp; DC</p>
+<p><em>Solar Power System Sizing<em> &#8211; </em>How much power do you need?</em></p>
+<p><a title="Best Solar Panels" href="http://blimpyb.com/diy-solar/best-solar-panels/919/" target="_blank">Best Solar Panels</a> &#8211; Selecting the best solar panels for you</p>
+<p><a title="Solar Batteries" href="http://blimpyb.com/diy-solar/solar-batteries/2296/" target="_blank">Solar Batteries</a> &#8211; Selecting the best solar batteries for you<em><br />
+</em></p>
+<p><a title="solar charge controller" href="../diy-solar/mppt-charge-controller/3880/" target="_blank">Solar Charge Controller</a> &#8211; Choosing between MPPT and PWM<em></em></p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+<div class="shr-publisher-720"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=720&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/diy-solar/solar-power-systems/720/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>How Do Solar Panels Work</title>
+		<link>http://blimpyb.com/diy-solar/how-solar-panels-work/701/</link>
+		<comments>http://blimpyb.com/diy-solar/how-solar-panels-work/701/#comments</comments>
+		<pubDate>Tue, 24 Aug 2010 20:41:49 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[DIY Solar]]></category>
+		<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[DIY solar power]]></category>
+		<category><![CDATA[do it yourself solar]]></category>
+		<category><![CDATA[how solar panels work]]></category>
+		<category><![CDATA[off-grid solar]]></category>
+		<category><![CDATA[RV solar panels]]></category>
+		<category><![CDATA[solar panel systems]]></category>
+		<category><![CDATA[solar power systems]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=701</guid>
+		<description><![CDATA[This is the second DIY solar post in a series on solar power systems to answer the question how do solar panels work, starting with background on electricity in general.  While this application was done for an RV solar panel system, the concepts are intended to apply for any do it yourself solar power system.  [...]]]></description>
+			<content:encoded><![CDATA[<p>This is the second <strong>DIY solar</strong> post in a series on solar power  systems to <a href='http://092.me'>answer</a> the <a href='http://092.me'>question</a> <em>how do solar panels work</em>, starting with background on electricity in general.  While this application was done for an RV solar panel system,  the concepts are intended to apply for any do it yourself solar power  system.  We hope you enjoy this entry (The Solar Series: Power &#8211; AC &amp; DC) and links to the rest of the DIY solar panel system series  can be found at the bottom.</p>
+<p>I actually wrote the System Sizing post before this one, then realized due to the curse of the engineer I’d taken for granted a lot of the background information about electricity.  If you understand all of this already you can skip to the <a title="Solar Power Systems" href="http://blimpyb.com/diy-solar/solar-power-systems/720/" target="_blank">solar power system sizing post</a>, but I’m going to try in plain English to give a quick and dirty explanation of how solar panels work and how electrical power works in its different forms.  Wikipedia can also help you out on <a href="http://en.wikipedia.org/wiki/Electrical_power" target="_blank">power</a>, <a href="http://en.wikipedia.org/wiki/Alternating_current" target="_blank">AC</a>, <a href="http://en.wikipedia.org/wiki/Direct_current" target="_blank">DC</a> and <a href="http://en.wikipedia.org/wiki/Inverter_(electrical)" target="_blank">inverters</a>, as can this site on the exact mechanics of <a href="http://science.howstuffworks.com/environmental/energy/solar-cell.htm" target="_blank">how solar panels work</a>.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=5%2C3%2C0"><img src="http://www.shareasale.com/image/26305/468x60_00.jpg"  border="0"></a></p>
+<p><strong>Power</strong></p>
+<p><div id="attachment_711" class="wp-caption alignleft" style="width: 214px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/bulb.jpg" rel="lightbox[701]"><img class="size-full wp-image-711   " title="Light Bulb" src="http://blimpyb.com/wp-content/uploads/2010/08/bulb.jpg" alt="How Do Solar Panels Work light bulb" width="204" height="228" /></a><p class="wp-caption-text">How a light bulb works</p></div></p>
+<p>Why does a light bulb get bright and hot when you flip the switch?  The basic principle of electricity is that current flows from a higher voltage to a lower voltage, in this case through the tungsten filament in the bulb.  The filament resists this flow like rapids in a river, so the electricity that freely flows through the copper wires in the wall leading up to the socket is all of a sudden confronted with a different filament material trying to stop it.  In essence the electric field in the wire smashes into all the molecules in the filament and transfers electric energy into kinetic energy (causing a drop in voltage), which makes the tungsten vibrate at an atomic level.  This vibration causes the electrons within the tungsten to jump to higher energy level, but as they are unstable in this state they will fall back down to their normal level and in doing so release light and heat.  This cycle repeats continuously like a hot air popcorn popper, the electrons get pushed to the top by electricity, then fall back down of their own accord and give off energy only to be pushed back up again.</p>
+<p>This continual cycle can be put in a more simplified term of just “doing work”.  Making light, making heat, moving something, doing work.  The amount of work done in one second is called a Watt.  In the light bulb example which is typically 100 Watts, this equates to approximately 10<sup>20</sup> electrons jumping state per second.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=11%2C4%2C0"><img src="http://www.shareasale.com/image/banner1180.gif"  border="0"></a></p>
+<p><strong>Alternating Current (AC)</strong></p>
+<p><div id="attachment_706" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Types-Of-Current.jpg" rel="lightbox[701]"><img class="size-medium wp-image-706" title="Types Of Current" src="http://blimpyb.com/wp-content/uploads/2010/08/Types-Of-Current-600x339.jpg" alt="" width="288" height="162" /></a><p class="wp-caption-text">The difference between AC and DC</p></div></p>
+<p>The electrical outlets in your house powering the light bulb run 110 Volt alternating current at 60 Hertz (i.e. the frequency, 60 times per second) from the North American power grid.  This means one prong of your socket varies in a sine wave from +110 to -110 and back to +120, 60 times per second, with this wire referred to as “hot”.  The other prong is called “ground” and stays at 0 Volts.  Current flows from the higher potential (110 volts) to ground and in doing so performs work.  Eventually as the voltage of the hot wire oscillates to be below zero, current will flow in the reverse direction from the now higher potential 0 Volts at ground to the -110 hot.  The same process of smashing into the resistive tungsten I described in the Power section still occurs, it’s just swooshing back and forth in both directions 60 times a second.</p>
+<p>The main reason the power in our homes is AC is because it comes from spinning generator turbines at a power plant somewhere.  Water falls down a dam or coal heats steam which spins a bunch of giant magnets at 60 times per second, so they just send that down the lines.  For more super fun tangent times, the whole <a href="http://en.wikipedia.org/wiki/Thomas_Edison" target="_blank">Edison</a> versus <a href="http://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Tesla</a> battle in the early 20<sup>th</sup> Century is a very interesting one.  I prefer Tesla due to his work on providing free power to the world by energizing the ionosphere, or using the same technology for some sort of death ray that was confiscated by the US government upon his death in the 1940&#8242;s with still no details released to this day.  Electricity is more sordid than you thought, no?</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=7%2C3%2C0"><img src="http://blimpyb.com/wp-content/uploads/2010/12/solar-energy-quote.jpg" alt="solar power contractors" border="0"></a></p>
+<p><strong>Direct Current (DC)</strong></p>
+<p>Anything that’s powered by a battery (such as Bessie with her RV solar panels) instead runs on DC power, which is much simpler to understand.  The “hot” terminal is always 12 Volts, the ground always zero volts, there’s no switching, everything flows one way down hill.  Pretty simple.  Interestingly enough, in any home electronic appliance (TV, stereo, computer) the very first thing on the other end of the wall AC cord is an AC to DC converter, a stable DC voltage is needed to run anything of precision.  Unfortunately, if you want to take your home stereo into your RV, there’s really no way to take it apart and wire it straight into the RV’s 12 volt DC, you need one more piece&#8230;</p>
+<p><strong>Inverter</strong></p>
+<p><div id="attachment_709" class="wp-caption alignleft" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Inverter-VS-Cigarette.jpg" rel="lightbox[701]"><img class="size-medium wp-image-709   " title="Inverter VS Cigarette" src="http://blimpyb.com/wp-content/uploads/2010/08/Inverter-VS-Cigarette-600x399.jpg" alt="How Do Solar Panels Work Inverter VS Cigarette" width="288" height="191" /></a><p class="wp-caption-text">AC vs DC, Inverter vs Cigarette Lighter</p></div></p>
+<p>The missing link is something called an <a href="http://blimpyb.com/Solar-Sphere-Inverter" target="_blank">inverter</a>.  It is a piece of electronic equipment able to take 12 volt DC power and convert it to 110 volt AC power.  Now anything that plugs into the wall in your home can plug into your off-grid solar system.  The <a href="http://blimpyb.com/Go-Green-Inverter" target="_blank">sizing of an inverter</a> will be covered in the next post, but it’s very important to realize (and the entire point of this post) that within an off-grid system there can and likely will be both AC and DC electronics to be run.  While it’s pretty obvious which is which when you try and plug a two-prong AC cord into a cigarette lighter socket and get nowhere, being aware of this beforehand and what’s actually happening with all the electrons jumping all over the place will definitely help you build a better off-grid system.</p>
+<p><strong>Solar</strong></p>
+<p>Since this is The Solar Series, I thought I would finish by tying up the loose end of how the sun and <a href="http://blimpyb.com/Go-Green-Solar-Panels" target="_blank">solar panels</a> fit in this cycle, <a href='http://092.me'>answer</a>ing the <a href='http://092.me'>question</a> of <em>how do solar panels work</em>.  Due to something called the photoelectric effect (discovered by Einstein no less) when sun shines on certain types of metal, that metal will produce an electrical voltage.  It’s actually the exact reverse principle of a light bulb.  The sun imparts kinetic energy on the electrons within a solar panel causing them to jump up in energy level, which again is unstable and they will eventually fall back to their normal state.  Rather than glowing or getting hot, due to the different material properties of a solar panel the energy level drop is released as electricity.</p>
+<p>For a lot more background on how solar panels work in general that I won’t be getting into here, try this online <a href="http://samlexsolar.com/learning-center" target="_blank">Learning Center</a>.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=11%2C4%2C0"><img src="http://www.shareasale.com/image/banner1180.gif"  border="0"></a></p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s the <a href='http://092.me'>answer</a> of how do solar panels work in a nutshell.  Over the coming weeks I will be creating posts for each aspect of the  creation of off-grid solar power systems with the hopes that you can  follow along and use the the info for your own <strong>DIY solar</strong> panel system.  Of course it gets a little technically involved in spots, so feel free to ask for clarification in the comments or drop me an e-mail.</p>
+<p><strong>Topics</strong></p>
+<p><a title="RV Solar Panels" href="http://blimpyb.com/diy-solar/rv-solar-panels/685/">RV Solar Panels</a> &#8211; Goals, Rationale</p>
+<p><em>How Do Solar Panels Work &#8211; Power, AC &amp; DC</em></p>
+<p><a title="Solar Power Systems" href="http://blimpyb.com/diy-solar/solar-power-systems/720/" target="_blank">Solar Power System Sizing</a><em> &#8211; </em>How much power do you need?<em> </em></p>
+<p><a title="Best Solar Panels" href="http://blimpyb.com/diy-solar/best-solar-panels/919/" target="_blank">Best Solar Panels</a> &#8211; Selecting the best solar panels for you</p>
+<p><a title="Solar Batteries" href="http://blimpyb.com/diy-solar/solar-batteries/2296/" target="_blank">Solar Batteries</a> &#8211; Selecting the best solar batteries for you<em><br />
+</em></p>
+<p><a title="solar charge controller" href="../diy-solar/mppt-charge-controller/3880/" target="_blank">Solar Charge Controller</a> &#8211; Choosing between MPPT and PWM<em></em></p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+<div class="shr-publisher-701"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=701&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/diy-solar/how-solar-panels-work/701/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>RV Solar Panels</title>
+		<link>http://blimpyb.com/diy-solar/rv-solar-panels/685/</link>
+		<comments>http://blimpyb.com/diy-solar/rv-solar-panels/685/#comments</comments>
+		<pubDate>Fri, 20 Aug 2010 20:59:23 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[DIY Solar]]></category>
+		<category><![CDATA[RV Boondocking]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[DIY solar power]]></category>
+		<category><![CDATA[do it yourself solar]]></category>
+		<category><![CDATA[off-grid solar]]></category>
+		<category><![CDATA[RV solar]]></category>
+		<category><![CDATA[solar panel systems]]></category>
+		<category><![CDATA[solar power systems]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=685</guid>
+		<description><![CDATA[This is the first DIY solar post in a series on solar power systems.  While this application was done for an RV solar panel system, the concepts are intended to apply for any do it yourself solar power system.  We hope you enjoy this entry (The Solar Series: Goals, Rationale) and links to the rest [...]]]></description>
+			<content:encoded><![CDATA[<p>This is the first <strong>DIY solar</strong> post in a series on solar power systems.  While this application was done for an RV solar panel system, the concepts are intended to apply for any do it yourself solar power system.  We hope you enjoy this entry (The Solar Series: Goals, Rationale) and links to the rest of the DIY solar panel system series can be found at the bottom.</p>
+<p>Before we delve deep into the nuts and bolts of how Bessie the RV is powered for boondocking for the next few years, and how you too can build your own complete off-grid solar system, I thought I would discuss some of the concepts and aims as background.  In fact, let’s keep it real simple.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=7%2C3%2C0"><img src="http://blimpyb.com/wp-content/uploads/2010/12/solar-energy-quote.jpg" alt="solar power contractors" border="0"></a></p>
+<p><strong>RV Solar Panel Goals</strong></p>
+<ol>
+<li>Be completely off-grid self-sufficient using solar panels.  No plugging in, no generator.</li>
+<li>Provide enough energy to power all electrical systems (stereo, computer, lights, inverter, etc.) without having to overly worry about conservation.</li>
+<li>Select <a title="RV Solar Panels" href="http://blimpyb.com/Solar-Sphere-Panels" target="_blank">panels</a>, <a href="http://blimpyb.com/Real-Goods-Battery" target="_blank">batteries</a> and <a href="http://blimpyb.com/Solar-Sphere-Controllers" target="_blank">solar charge controller</a> that will all fit on the RV in the most efficient configuration possible.</li>
+</ol>
+<p><div id="attachment_687" class="wp-caption alignright" style="width: 298px"><strong><a href="http://blimpyb.com/wp-content/uploads/2010/08/Solar-Panel.jpg" rel="lightbox[685]"><img class="size-medium wp-image-687    " title="RV Solar Panels on the ground" src="http://blimpyb.com/wp-content/uploads/2010/08/Solar-Panel-600x399.jpg" alt="RV Solar Panels on the ground" width="288" height="191" /></a></strong><p class="wp-caption-text">The power of the sun in the palm of my hands...</p></div></p>
+<p>One of my favourite parts of getting all this on paper is that although I used this technology to pimp my <em>RV solar panels</em>, there’s absolutely no reason you couldn’t do something similar to your home, shack in the woods, boat or marijuana grow op.  You could opt to <a title="RV Solar Panels" href="http://blimpyb.com/Solar-Sphere-Kit" target="_blank">purchase a kit</a>, or save some money and understand the entire process following this complete guide.  Just make sure you have a clear and simply defined set of goals and that you don’t deviate from them.  This can be as simple as knowing what you’re trying to achieve in your head, but as you’ll see from my explanation of each goal as it related to my work, it’s still way too tempting to get off track if you don’t have some sort of reality check for your <a title="RV Solar Panels" href="http://blimpyb.com/Go-Green-Solar-Kits" target="_blank">off-grid solar panel system</a>.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=12%2C4%2C0"><img src="http://www.shareasale.com/image/banner1-changes-2.gif"  border="0"></a></p>
+<p><strong>Goal #1 Explained: Be completely off-grid self-sufficient</strong></p>
+<p><div id="attachment_688" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/Panels-on-RV-roof.jpg" rel="lightbox[685]"><img class="size-medium wp-image-688   " title="RV Solar Panels on the roof" src="http://blimpyb.com/wp-content/uploads/2010/08/Panels-on-RV-roof-600x399.jpg" alt="RV Solar Panels on the roof" width="288" height="191" /></a><p class="wp-caption-text">The beginning</p></div></p>
+<p>I originally toyed with the idea of some sort of hybrid solar power system involving smaller panels, a generator and planning to plug in from time to time.  A day into the trip I confirmed my suspicions that if part of my daily routine was listening to the chug of a propane generator, I would likely shoot myself in the face.  I also found out since my RV is made with 1984 technology, I would need to plug in for 3 full days to recharge my battery bank, again no good.  So instead I opted to spend the extra dough and get enough RV solar panel output that no matter where I was, the RV solar panels would always produce enough electricity.  Go anywhere, do anything, it’s a <a href='http://092.me'>nice</a> feeling.</p>
+<p><strong>Goal #2 Explained: Provide enough energy</strong></p>
+<p>There are numerous worksheets and resources online that show the energy consumption of various appliances (coming in the <a href="http://blimpyb.com/diy-solar/solar-power-systems/720/" target="_blank">Solar Power System Sizing</a> post), so you just need to know what you’ll be running and for how long each day.  From there you can decide on a reasonable battery bank and solar panel array size.  It’s very important to setup the correct buffer or factor of safety so you can still function after three cloudy days.  As it turns out I way over-budgeted how much energy I would use, and way under-budgeted how much I would generate.  It’s one of those “good” problems that I haven’t even been able to remedy by playing really loud music all the time.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=6%2C3%2C0"><img src="http://www.shareasale.com/image/26305/468x60.jpg"  border="0"></a></p>
+<p><strong>Goal #3 Explained: Select equipment that will fit as efficiently as possible</strong></p>
+<p><div id="attachment_692" class="wp-caption alignright" style="width: 298px"><a href="http://blimpyb.com/wp-content/uploads/2010/08/RV-Solar.jpg" rel="lightbox[685]"><img class="size-medium wp-image-692   " title="RV Solar Panels" src="http://blimpyb.com/wp-content/uploads/2010/08/RV-Solar-600x399.jpg" alt="RV Solar Panels" width="288" height="191" /></a><p class="wp-caption-text">The end</p></div></p>
+<p>“Hmmm, these <a href="http://blimpyb.com/Go-Green-BP" target="_blank">BP solar panels</a> don’t quite fit, but are $200 cheaper, maybe I should just go for it.”  This quote from myself a few months ago is why we have our reality check.  The smaller <a title="Sanyo Solar Panels" href="http://blimpyb.com/Go-Green-Sanyo" target="_blank">Sanyo solar panels</a> I bought instead barely fit, the BP ones wouldn’t have, but I still almost went for it.  There is an incredibly wide variety of different sizes, shapes and technologies, so picking a configuration where each individual piece properly interacts with all the components of the system is critical to achieving peak efficiency.  Anything less than peak efficiency won’t do, it makes no sense to buy $2000 worth of solar panels when you can only ever expect to extract $1500 worth of energy.</p>
+<p style="text-align: center;"><a target="_blank" href="http://blimpyb.com/wp-content/plugins/adrotate/adrotate-out.php?track=11%2C4%2C0"><img src="http://www.shareasale.com/image/banner1180.gif"  border="0"></a></p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<p>So that’s some of the big picture stuff on RV solar panels out of the way.  Over the coming weeks I will be creating posts for each aspect of the creation of off-grid solar power systems with the hopes that you can follow along and use the the info for your own <strong>DIY solar</strong> panel system.  Of course it gets a little technically involved in spots, so feel free to ask for clarification in the comments or drop me an e-mail.</p>
+<p><strong>Topics</strong></p>
+<p><em>RV Solar Panels &#8211; Goals, Rationale</em></p>
+<p><a title="How Do Solar Panels Work" href="http://blimpyb.com/diy-solar/how-solar-panels-work/701/" target="_blank">How Do Solar Panels Work</a> &#8211; Power, AC &amp; DC</p>
+<p><a title="Solar Power Systems" href="http://blimpyb.com/diy-solar/solar-power-systems/720/" target="_blank">Solar Power System Sizing</a><em> &#8211; </em>How much power do you need?<em> </em></p>
+<p><a title="Best Solar Panels" href="http://blimpyb.com/diy-solar/best-solar-panels/919/" target="_blank">Best Solar Panels</a> &#8211; Selecting the best solar panels for you</p>
+<p><a title="Solar Batteries" href="http://blimpyb.com/diy-solar/solar-batteries/2296/" target="_blank">Solar Batteries</a> &#8211; Selecting the best solar batteries for you<em><br />
+</em></p>
+<p><a title="solar charge controller" href="http://blimpyb.com/diy-solar/mppt-charge-controller/3880/" target="_blank">Solar Charge Controller</a> &#8211; Choosing between MPPT and PWM</p>
+<p>Installation <em>(coming soon&#8230;)</em></p>
+<p>Maintenance <em>(coming soon&#8230;)</em></p>
+<p>The Solar Lifestyle <em>(coming soon&#8230;)</em></p>
+<div class="shr-publisher-685"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=685&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/diy-solar/rv-solar-panels/685/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Kal Tire: Truly Bad Service Since 1953</title>
+		<link>http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/</link>
+		<comments>http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/#comments</comments>
+		<pubDate>Thu, 29 Jul 2010 19:10:30 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[Mapped]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[Travel Stories]]></category>
+		<category><![CDATA[bad service]]></category>
+		<category><![CDATA[gasket]]></category>
+		<category><![CDATA[Kal Tire]]></category>
+		<category><![CDATA[mechanic]]></category>
+		<category><![CDATA[radiator]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=560</guid>
+		<description><![CDATA[Mechanics.  For anyone who’s had to maintain a car, it’s often a sore spot.  Either you don’t know what’s wrong and they take advantage and charge you up the wazoo, or you know exactly what you need done and they do a sloppy job.  Blimpy’s latest tirade falls into the second category, although they still [...]]]></description>
+			<content:encoded><![CDATA[<p>Mechanics.  For anyone who’s had to maintain a car, it’s often a sore spot.  Either you don’t know what’s wrong and they take advantage and charge you up the wazoo, or you know exactly what you need done and they do a sloppy job.  Blimpy’s latest tirade falls into the second category, although they still made attempts for it to fall in both.</p>
+<p>Bessie is an old RV.  Trudging up mountain passes fully loaded when it’s 30 Celsius outside is very hard on her.  At this point I’m not even sure any more, but it seemed to me like she was overheating as problems got worse the longer I drove.  So I took it into the Kal Tire in Penticton telling them I’m having cooling problems and they say “well, we’ll just do a full mechanical inspection!”  No thanks, I already got one at a Kal Tire in Calgary and you had that on file before you asked, just the cooling system please.  They take a look and find a tiny leak in the radiator, show me the corrosion and it not holding pressure, order me a new one to install in Kelowna at 9:30 Monday, no charge.  Their motto is True Service which I am ridiculing in the title, but at this point I’m a happy customer.</p>
+<p><div id="attachment_561" class="wp-caption alignright" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Kal-Tire-Coolant-Leak-1.jpg" rel="lightbox[560]"><img class="size-medium wp-image-561" title="Kal Tire Coolant Leak 1" src="http://blimpyb.com/wp-content/uploads/2010/07/Kal-Tire-Coolant-Leak-1-300x199.jpg" alt="" width="300" height="199" /></a><p class="wp-caption-text">Bessie never leaked a drop before &quot;True Service&quot;</p></div></p>
+<p>After calling Saturday to again confirm the time, I arrive first thing Monday morning to be told it’ll be just a bit.  In “True Service” speak this means they’ll get around to it at about 12:30.  At least they have free popcorn and coffee and I got to watch Lance Armstrong officially retire 100 times on the sports highlights.</p>
+<p>After they finish up around 3 o’clock, I catch the mechanic who worked on it and he says everything went fine, he just had a bit of trouble tightening the gaskets on the hoses.  OK, fair enough, he’s a mechanic, there were difficulties in his job and he overcame them.  I drive it back where I’m staying in Kelowna, crack a beer, watch some baseball and pack up to leave the next day.</p>
+<p>About 20 minutes into my drive, I can feel the heat from the engine on my legs and it’s overheating worse than before.  Bessie never leaked a drop before getting “True Service”.  10 more minutes and it’s dire enough I pull over and kill the engine, only to hear a sizzling sound that wasn’t there before and see coolant on the ground before I even pop the hood.  There are 4 gasket hoses to the radiator, there’s green steamy ooze coming out of three of them.</p>
+<p><div id="attachment_562" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Kal-Tire-Coolant-Leak-2.jpg" rel="lightbox[560]"><img class="size-medium wp-image-562" title="Kal Tire Coolant Leak 2" src="http://blimpyb.com/wp-content/uploads/2010/07/Kal-Tire-Coolant-Leak-2-300x200.jpg" alt="" width="300" height="200" /></a><p class="wp-caption-text">At least the sizzling coolant has a sweet aroma</p></div></p>
+<p>I pull into the Kal Tire in Merritt, let them know about the poor job from the day before, they say it will be 40 minutes, I go get a sandwich.  This time 40 minutes meant immediately and they say they’re finished when I get back.  The hood’s still up, the mechanic’s still there, I ask “did you tighten all three lose hoses, or just this one?”  “Oh, you wanted all three?”  It then takes him roughly 30 seconds with a gasket tightening tool&#8230;why didn’t they just do it right the first time?!?!</p>
+<p>In an even funnier coincidence, hours after this when I’d made it to the town of Hope, I got a random feedback call from Kal Tire where I got to rate my overall experience as 3/10.  They even asked if I wanted to leave a message for the Kelowna store manager&#8230;no thanks, I’m sure he hears enough swearing already working in the shop.</p>
+<p>I think the moral of the story is that I’ve had the best luck just breathing down the neck of mechanics making it seem like I know what’s going on to put the fear of God in them, otherwise they really just don’t care because they already got your money.</p>
+<div class="shr-publisher-560"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=560&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/rv-upgrade/kal-tire-truly-bad-service-since-1953/560/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<georss:point>49.9152374 -119.3918457</georss:point>	</item>
+		<item>
+		<title>The RV Graveyard</title>
+		<link>http://blimpyb.com/random/the-rv-graveyard/409/</link>
+		<comments>http://blimpyb.com/random/the-rv-graveyard/409/#comments</comments>
+		<pubDate>Fri, 23 Jul 2010 20:08:46 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[Mapped]]></category>
+		<category><![CDATA[Philosophy]]></category>
+		<category><![CDATA[Random Insanity]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[junk yard]]></category>
+		<category><![CDATA[recycle]]></category>
+		<category><![CDATA[scrap]]></category>
+		<category><![CDATA[steel]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=409</guid>
+		<description><![CDATA[Radiators, hub caps, mufflers, transmissions, all of these once belonged to Bessie’s fallen comrades. Out back of an RV shop can be a terrifying place.  This scrap metal once functioned, it had purpose.  But now? Perhaps it is because I know what is to become of it, having been there 5 years ago.  Steel is [...]]]></description>
+			<content:encoded><![CDATA[<p>Radiators, hub caps, mufflers, transmissions, all of these once belonged to Bessie’s fallen comrades.</p>
+<p><div id="attachment_410" class="wp-caption alignright" style="width: 250px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/RV-Graveyard.jpg" rel="lightbox[409]"><img class="size-medium wp-image-410 " title="RV Graveyard" src="http://blimpyb.com/wp-content/uploads/2010/07/RV-Graveyard-300x200.jpg" alt="" width="240" height="160" /></a><p class="wp-caption-text">Little scrap heap</p></div></p>
+<p>Out back of an RV shop can be a terrifying place.  This scrap metal once functioned, it had purpose.  But now?</p>
+<p>Perhaps it is because I know what is to become of it, having been there 5 years ago.  Steel is the most recycled material in the world, up to 97% of new steel is made with old steel.  It all dawned on me suddenly, gripping a walking bridge guard rail that it was made from Model T’s and confiscated handguns just like the ones I watched the cops throw in the furnace days earlier.</p>
+<p><div id="attachment_411" class="wp-caption alignleft" style="width: 250px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Steel-Scrap.jpg" rel="lightbox[409]"><img class="size-medium wp-image-411 " title="Steel Scrap" src="http://blimpyb.com/wp-content/uploads/2010/07/Steel-Scrap-300x225.jpg" alt="" width="240" height="180" /></a><p class="wp-caption-text">Big scrap heap</p></div></p>
+<p>Or instead the riser pipes on BP’s Horizon well.  Offshore grade stainless steel has very high Molybdenum and Nickel content and gives off a thick black polluting smoke that often doesn’t conform to environmental codes.  So how do they still make it?  At night so nobody can see.  It’s worth a lot of money.</p>
+<p><div id="attachment_416" class="wp-caption alignright" style="width: 188px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Steel-Heat.jpg" rel="lightbox[409]"><img class="size-medium wp-image-416 " title="Steel Heat" src="http://blimpyb.com/wp-content/uploads/2010/07/Steel-Heat-223x300.jpg" alt="" width="178" height="240" /></a><p class="wp-caption-text">The steel terminology for this is &quot;dropping a charge in the heat&quot;</p></div></p>
+<p>Bessie’s steel is not stainless, she rusts and degrades just like a person.  Me, I got a bad shoulder.  Bessie, she got a leaky radiator.  But it can be replaced with a new one made out of melted down old radiators.  It’s a beautiful, terrifying thing.  20 years from now, your shiny new refrigerator will be 0.01% Bessie, having travelled to the redwood forests, Mobile Alabama and the Florida Keys.  Some say each and every one of us has carbon atoms from Abraham Lincoln or Jesus.</p>
+<p>OK, enough screwing around, I just wanted to write myself up an excuse to post steel mill pictures.  But to finish off in the same failed philosophical vein I started in&#8230;without me, Bessie is nothing.  But without Bessie, I’m still Blimpy.</p>
+<p><div id="attachment_417" class="wp-caption alignleft" style="width: 250px"><a href="http://blimpyb.com/wp-content/uploads/2010/07/Melted-Steel.jpg" rel="lightbox[409]"><img class="size-medium wp-image-417 " title="Melted Steel" src="http://blimpyb.com/wp-content/uploads/2010/07/Melted-Steel-300x214.jpg" alt="" width="240" height="171" /></a><p class="wp-caption-text">Cooked to a delicious medium well</p></div></p>
+<div class="shr-publisher-409"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=409&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/random/the-rv-graveyard/409/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+	<georss:point>49.0266647 -119.4433212</georss:point>	</item>
+		<item>
+		<title>But this one goes to 11</title>
+		<link>http://blimpyb.com/music/but-this-one-goes-to-11/126/</link>
+		<comments>http://blimpyb.com/music/but-this-one-goes-to-11/126/#comments</comments>
+		<pubDate>Tue, 11 May 2010 04:45:24 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[Car PC]]></category>
+		<category><![CDATA[Music]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[baffle]]></category>
+		<category><![CDATA[cabinets]]></category>
+		<category><![CDATA[carpc]]></category>
+		<category><![CDATA[carputer]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[electronics]]></category>
+		<category><![CDATA[gadgets]]></category>
+		<category><![CDATA[laptop]]></category>
+		<category><![CDATA[lat-500]]></category>
+		<category><![CDATA[lcd]]></category>
+		<category><![CDATA[magnet]]></category>
+		<category><![CDATA[pc for car]]></category>
+		<category><![CDATA[reading]]></category>
+		<category><![CDATA[speakers]]></category>
+		<category><![CDATA[tang band]]></category>
+		<category><![CDATA[touchscreen]]></category>
+		<category><![CDATA[tymphany]]></category>
+		<category><![CDATA[usb]]></category>
+		<category><![CDATA[w6-1721]]></category>
+		<category><![CDATA[xp]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=126</guid>
+		<description><![CDATA[All the electronic &#38; speaker gadgets going into Bessie&#8230;]]></description>
+			<content:encoded><![CDATA[<p>All the electronic &amp; speaker gadgets going into Bessie&#8230;</p>
+<p><div id="attachment_127" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208237906872_116764945017868_220523_6206079_n.jpg" rel="lightbox[126]"><img class="size-medium wp-image-127" title="Gadgets" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208237906872_116764945017868_220523_6206079_n-300x225.jpg" alt="Gadgets" width="300" height="225" /></a><p class="wp-caption-text">Lots of gadgets, lots of them dirt cheap from China</p></div></p>
+<p><div id="attachment_128" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208241240205_116764945017868_220524_7574202_n.jpg" rel="lightbox[126]"><img class="size-medium wp-image-128" title="Reading material" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208241240205_116764945017868_220524_7574202_n-300x225.jpg" alt="Reading material" width="300" height="225" /></a><p class="wp-caption-text">Essential reading material</p></div></p>
+<p><div id="attachment_129" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208247906871_116764945017868_220525_1466588_n.jpg" rel="lightbox[126]"><img class="size-medium wp-image-129" title="LAT-500 subwoofer" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208247906871_116764945017868_220525_1466588_n-300x225.jpg" alt="LAT-500 subwoofer" width="300" height="225" /></a><p class="wp-caption-text">My Tymphany LAT-500 transducer subwoofer. It&#39;s a lot bigger than it looks in the picture.</p></div></p>
+<p><div id="attachment_130" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208254573537_116764945017868_220526_4718431_n.jpg" rel="lightbox[126]"><img class="size-medium wp-image-130" title="Tang Band W6-1721" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208254573537_116764945017868_220526_4718431_n-300x225.jpg" alt="Tang Band W6-1721" width="300" height="225" /></a><p class="wp-caption-text">My Tang Band W6-1721. It weighs about 15 lbs, that magnet ain&#39;t no joke.</p></div></p>
+<p><div id="attachment_131" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208261240203_116764945017868_220527_5843503_n.jpg" rel="lightbox[126]"><img class="size-medium wp-image-131" title="Speaker set" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121208261240203_116764945017868_220527_5843503_n-300x225.jpg" alt="Speaker set" width="300" height="225" /></a><p class="wp-caption-text">The complete set. Trying to decide which of the crappy speakers go in the front door panels</p></div></p>
+<p><div id="attachment_132" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209337906762_116764945017868_220536_40307_n.jpg" rel="lightbox[126]"><img class="size-medium wp-image-132" title="Beautiful sound" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209337906762_116764945017868_220536_40307_n-300x225.jpg" alt="Beautiful sound" width="300" height="225" /></a><p class="wp-caption-text">Beautiful, beautiful sound.  Can't wait to install it and fire it up...yeehaw.</p></div></p>
+<p><div id="attachment_133" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209347906761_116764945017868_220537_3635993_n.jpg" rel="lightbox[126]"><img class="size-medium wp-image-133" title="Car PC" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209347906761_116764945017868_220537_3635993_n-300x225.jpg" alt="Car PC" width="300" height="225" /></a><p class="wp-caption-text">My Car PC. It has no hard drive. Running XP off a USB key is a bitch and a half, but worth it...once I figure out how to make a backup.</p></div></p>
+<p><div id="attachment_134" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209357906760_116764945017868_220538_6910208_n.jpg" rel="lightbox[126]"><img class="size-medium wp-image-134" title="Touchscreen" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209357906760_116764945017868_220538_6910208_n-300x225.jpg" alt="Touchscreen" width="300" height="225" /></a><p class="wp-caption-text">Touchscreen, again from China, again dirt cheap. Slightly frightened to tear the casing off the LCD on the laptop, but oh well.</p></div></p>
+<p><div id="attachment_135" class="wp-caption alignleft" style="width: 310px"><a href="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209367906759_116764945017868_220539_3081935_n.jpg" rel="lightbox[126]"><img class="size-medium wp-image-135" title="Badass speakers" src="http://blimpyb.com/wp-content/uploads/2010/06/29655_121209367906759_116764945017868_220539_3081935_n-300x225.jpg" alt="Badass speakers" width="300" height="225" /></a><p class="wp-caption-text">Not my picture, just hypothesizing about using open baffle speakers instead of cabinets and mounting them in the bed cab up top. Hell of a big and fun canvas to paint something on though.</p></div></p>
+<div class="shr-publisher-126"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=126&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/music/but-this-one-goes-to-11/126/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Crazy speakers</title>
+		<link>http://blimpyb.com/music/crazy-speakers/113/</link>
+		<comments>http://blimpyb.com/music/crazy-speakers/113/#comments</comments>
+		<pubDate>Tue, 04 May 2010 04:35:21 +0000</pubDate>
+		<dc:creator>Blimpy</dc:creator>
+				<category><![CDATA[Music]]></category>
+		<category><![CDATA[RV Upgrade]]></category>
+		<category><![CDATA[aes]]></category>
+		<category><![CDATA[speakers]]></category>
+
+		<guid isPermaLink="false">http://blimpyb.com/?p=113</guid>
+		<description><![CDATA[In case anyone is wondering what I mean when I say the speakers are going to be crazy&#8230; http://www.aes.org/aeshc/pdf/how.the.aes.began/olson_direct-radiator-loudspeaker-enclosures.pdf]]></description>
+			<content:encoded><![CDATA[<p>In case anyone is wondering what I mean when I say the speakers are going to be crazy&#8230;</p>
+<h3><a rel="nofollow" href="http://www.aes.org/aeshc/pdf/how.the.aes.began/olson_direct-radiator-loudspeaker-enclosures.pdf" target="_blank">http://www.aes.org/aeshc/pdf/how.the.aes.began/olson_direct-radiator-loudspeaker-enclosures.pdf</a></h3>
+<div class="shr-publisher-113"></div><img src="http://blimpyb.com/?ak_action=api_record_view&id=113&type=feed" alt="" />]]></content:encoded>
+			<wfw:commentRss>http://blimpyb.com/music/crazy-speakers/113/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
